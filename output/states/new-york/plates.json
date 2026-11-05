@@ -1,0 +1,477 @@
+[
+ {
+  "series": "sample",
+  "serial": "A-36",
+  "file": "new-york-sample-a36"
+ },
+ {
+  "series": "vanity",
+  "serial": "1NF1-LL",
+  "file": "new-york-vanity-1nf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS3-TS",
+  "file": "new-york-vanity-3ds3ts"
+ },
+ {
+  "series": "vanity",
+  "serial": "51HH-MD",
+  "file": "new-york-vanity-51hhmd"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN-3T",
+  "file": "new-york-vanity-h0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5-0N",
+  "file": "new-york-vanity-hud50n"
+ },
+ {
+  "series": "vanity",
+  "serial": "N45C-4R",
+  "file": "new-york-vanity-n45c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4C1-NG",
+  "file": "new-york-vanity-r4c1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PL-3R",
+  "file": "new-york-vanity-d0pl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELIM-8R",
+  "file": "new-york-vanity-elim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUDS-0N",
+  "file": "new-york-vanity-huds0n"
+ },
+ {
+  "series": "vanity",
+  "serial": "INF1-LL",
+  "file": "new-york-vanity-inf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "NASC-4R",
+  "file": "new-york-vanity-nasc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RAC1-NG",
+  "file": "new-york-vanity-rac1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "100I-NF",
+  "file": "new-york-vanity-100inf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LIM-8R",
+  "file": "new-york-vanity-3lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5-ON",
+  "file": "new-york-vanity-hud5on"
+ },
+ {
+  "series": "vanity",
+  "serial": "DPPL-3R",
+  "file": "new-york-vanity-dppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "INF1-00",
+  "file": "new-york-vanity-inf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HHRN-3T",
+  "file": "new-york-vanity-hhrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "PLA2-15",
+  "file": "new-york-vanity-pla215"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL42-10",
+  "file": "new-york-vanity-pl4210"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELMN-8R",
+  "file": "new-york-vanity-elmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D53-T5",
+  "file": "new-york-vanity-3d53t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS3-7S",
+  "file": "new-york-vanity-3ds37s"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN-37",
+  "file": "new-york-vanity-h0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4C1-N6",
+  "file": "new-york-vanity-r4c1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL1M-8R",
+  "file": "new-york-vanity-el1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "N4SC-4R",
+  "file": "new-york-vanity-n4sc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "NA5C-4R",
+  "file": "new-york-vanity-na5c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RAC1-N6",
+  "file": "new-york-vanity-rac1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "1001-NF",
+  "file": "new-york-vanity-1001nf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L1M-8R",
+  "file": "new-york-vanity-3l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "1NF1-00",
+  "file": "new-york-vanity-1nf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HHRN-37",
+  "file": "new-york-vanity-hhrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL42-15",
+  "file": "new-york-vanity-pl4215"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LMN-8R",
+  "file": "new-york-vanity-3lmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PL-ER",
+  "file": "new-york-vanity-d0pler"
+ },
+ {
+  "series": "vanity",
+  "serial": "DOPL-3R",
+  "file": "new-york-vanity-dopl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN-ET",
+  "file": "new-york-vanity-h0rnet"
+ },
+ {
+  "series": "vanity",
+  "serial": "HORN-3T",
+  "file": "new-york-vanity-horn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HORN-E7",
+  "file": "new-york-vanity-horne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D53-75",
+  "file": "new-york-vanity-3d5375"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN-E7",
+  "file": "new-york-vanity-h0rne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HORN-37",
+  "file": "new-york-vanity-horn37"
+ },
+ {
+  "series": "random",
+  "serial": "KM84-09",
+  "file": "new-york-random-km8409"
+ },
+ {
+  "series": "random",
+  "serial": "TG28-63",
+  "file": "new-york-random-tg2863"
+ },
+ {
+  "series": "random",
+  "serial": "EA99-15",
+  "file": "new-york-random-ea9915"
+ },
+ {
+  "series": "random",
+  "serial": "ZD29-06",
+  "file": "new-york-random-zd2906"
+ },
+ {
+  "series": "random",
+  "serial": "YM82-67",
+  "file": "new-york-random-ym8267"
+ },
+ {
+  "series": "random",
+  "serial": "UN57-96",
+  "file": "new-york-random-un5796"
+ },
+ {
+  "series": "random",
+  "serial": "VV31-09",
+  "file": "new-york-random-vv3109"
+ },
+ {
+  "series": "random",
+  "serial": "KJ84-35",
+  "file": "new-york-random-kj8435"
+ },
+ {
+  "series": "random",
+  "serial": "EM98-35",
+  "file": "new-york-random-em9835"
+ },
+ {
+  "series": "random",
+  "serial": "AZ58-10",
+  "file": "new-york-random-az5810"
+ },
+ {
+  "series": "random",
+  "serial": "UN20-20",
+  "file": "new-york-random-un2020"
+ },
+ {
+  "series": "random",
+  "serial": "EV06-47",
+  "file": "new-york-random-ev0647"
+ },
+ {
+  "series": "random",
+  "serial": "ZK78-55",
+  "file": "new-york-random-zk7855"
+ },
+ {
+  "series": "random",
+  "serial": "HB61-44",
+  "file": "new-york-random-hb6144"
+ },
+ {
+  "series": "random",
+  "serial": "SR73-94",
+  "file": "new-york-random-sr7394"
+ },
+ {
+  "series": "random",
+  "serial": "PB36-47",
+  "file": "new-york-random-pb3647"
+ },
+ {
+  "series": "random",
+  "serial": "LZ00-23",
+  "file": "new-york-random-lz0023"
+ },
+ {
+  "series": "random",
+  "serial": "ZM79-03",
+  "file": "new-york-random-zm7903"
+ },
+ {
+  "series": "random",
+  "serial": "ZG23-40",
+  "file": "new-york-random-zg2340"
+ },
+ {
+  "series": "random",
+  "serial": "TY58-36",
+  "file": "new-york-random-ty5836"
+ },
+ {
+  "series": "random",
+  "serial": "ET65-15",
+  "file": "new-york-random-et6515"
+ },
+ {
+  "series": "random",
+  "serial": "YB02-91",
+  "file": "new-york-random-yb0291"
+ },
+ {
+  "series": "random",
+  "serial": "CW43-43",
+  "file": "new-york-random-cw4343"
+ },
+ {
+  "series": "random",
+  "serial": "VM63-38",
+  "file": "new-york-random-vm6338"
+ },
+ {
+  "series": "random",
+  "serial": "FC62-43",
+  "file": "new-york-random-fc6243"
+ },
+ {
+  "series": "random",
+  "serial": "ZD76-97",
+  "file": "new-york-random-zd7697"
+ },
+ {
+  "series": "random",
+  "serial": "VN58-74",
+  "file": "new-york-random-vn5874"
+ },
+ {
+  "series": "random",
+  "serial": "RT46-34",
+  "file": "new-york-random-rt4634"
+ },
+ {
+  "series": "random",
+  "serial": "XB46-49",
+  "file": "new-york-random-xb4649"
+ },
+ {
+  "series": "random",
+  "serial": "GE96-86",
+  "file": "new-york-random-ge9686"
+ },
+ {
+  "series": "random",
+  "serial": "DA60-95",
+  "file": "new-york-random-da6095"
+ },
+ {
+  "series": "random",
+  "serial": "LF96-71",
+  "file": "new-york-random-lf9671"
+ },
+ {
+  "series": "random",
+  "serial": "KU15-69",
+  "file": "new-york-random-ku1569"
+ },
+ {
+  "series": "random",
+  "serial": "CB78-35",
+  "file": "new-york-random-cb7835"
+ },
+ {
+  "series": "random",
+  "serial": "WF09-86",
+  "file": "new-york-random-wf0986"
+ },
+ {
+  "series": "random",
+  "serial": "TF40-17",
+  "file": "new-york-random-tf4017"
+ },
+ {
+  "series": "random",
+  "serial": "XU95-51",
+  "file": "new-york-random-xu9551"
+ },
+ {
+  "series": "random",
+  "serial": "CS99-69",
+  "file": "new-york-random-cs9969"
+ },
+ {
+  "series": "random",
+  "serial": "PB68-48",
+  "file": "new-york-random-pb6848"
+ },
+ {
+  "series": "random",
+  "serial": "EY70-36",
+  "file": "new-york-random-ey7036"
+ },
+ {
+  "series": "random",
+  "serial": "UJ23-32",
+  "file": "new-york-random-uj2332"
+ },
+ {
+  "series": "random",
+  "serial": "RH32-75",
+  "file": "new-york-random-rh3275"
+ },
+ {
+  "series": "random",
+  "serial": "DW72-38",
+  "file": "new-york-random-dw7238"
+ },
+ {
+  "series": "random",
+  "serial": "ZM88-65",
+  "file": "new-york-random-zm8865"
+ },
+ {
+  "series": "random",
+  "serial": "JD66-91",
+  "file": "new-york-random-jd6691"
+ },
+ {
+  "series": "random",
+  "serial": "UF53-95",
+  "file": "new-york-random-uf5395"
+ },
+ {
+  "series": "random",
+  "serial": "CJ81-12",
+  "file": "new-york-random-cj8112"
+ },
+ {
+  "series": "random",
+  "serial": "VF49-75",
+  "file": "new-york-random-vf4975"
+ },
+ {
+  "series": "random",
+  "serial": "TT93-63",
+  "file": "new-york-random-tt9363"
+ },
+ {
+  "series": "random",
+  "serial": "ZW07-73",
+  "file": "new-york-random-zw0773"
+ }
+]

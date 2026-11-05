@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 _to_delete/
+output/vanity/
+output/random/
+output/states/*/stl/
+output/states/*/3mf/

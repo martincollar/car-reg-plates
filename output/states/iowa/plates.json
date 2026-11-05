@@ -1,0 +1,422 @@
+[
+ {
+  "series": "sample",
+  "serial": "77-80076",
+  "file": "iowa-sample-7780076"
+ },
+ {
+  "series": "custom",
+  "serial": "H0R-N3T",
+  "file": "iowa-custom-h0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0-PPL3R",
+  "file": "iowa-vanity-d0ppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL-IMN8R",
+  "file": "iowa-vanity-elimn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "SH-1FT3D",
+  "file": "iowa-vanity-sh1ft3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-DHRN7",
+  "file": "iowa-vanity-hudhrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HH-0RN3T",
+  "file": "iowa-vanity-hh0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0-RN3T5",
+  "file": "iowa-vanity-h0rn3t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0-PPLR5",
+  "file": "iowa-vanity-d0pplr5"
+ },
+ {
+  "series": "vanity",
+  "serial": "HR-N3T51",
+  "file": "iowa-vanity-hrn3t51"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L-1MN8R",
+  "file": "iowa-vanity-3l1mn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HR-N3T54",
+  "file": "iowa-vanity-hrn3t54"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-DH0RN",
+  "file": "iowa-vanity-hudh0rn"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-DSN51",
+  "file": "iowa-vanity-hudsn51"
+ },
+ {
+  "series": "vanity",
+  "serial": "51-HRN3T",
+  "file": "iowa-vanity-51hrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-DSN54",
+  "file": "iowa-vanity-hudsn54"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL-AHRN7",
+  "file": "iowa-vanity-plahrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "51-HUDSN",
+  "file": "iowa-vanity-51hudsn"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L-IMN8R",
+  "file": "iowa-vanity-3limn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "5H-1FT3D",
+  "file": "iowa-vanity-5h1ft3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL-1MN8R",
+  "file": "iowa-vanity-el1mn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "SH-1F73D",
+  "file": "iowa-vanity-sh1f73d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HH-0RN37",
+  "file": "iowa-vanity-hh0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0-RN375",
+  "file": "iowa-vanity-h0rn375"
+ },
+ {
+  "series": "vanity",
+  "serial": "HR-N3751",
+  "file": "iowa-vanity-hrn3751"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0-PPLER",
+  "file": "iowa-vanity-d0ppler"
+ },
+ {
+  "series": "vanity",
+  "serial": "DO-PPL3R",
+  "file": "iowa-vanity-doppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HR-N3754",
+  "file": "iowa-vanity-hrn3754"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-D5N51",
+  "file": "iowa-vanity-hud5n51"
+ },
+ {
+  "series": "vanity",
+  "serial": "51-HRN37",
+  "file": "iowa-vanity-51hrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-D5N54",
+  "file": "iowa-vanity-hud5n54"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL-4HRN7",
+  "file": "iowa-vanity-pl4hrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "51-HUD5N",
+  "file": "iowa-vanity-51hud5n"
+ },
+ {
+  "series": "vanity",
+  "serial": "5H-1F73D",
+  "file": "iowa-vanity-5h1f73d"
+ },
+ {
+  "series": "random",
+  "serial": "90-72073",
+  "file": "iowa-random-9072073"
+ },
+ {
+  "series": "random",
+  "serial": "87-62901",
+  "file": "iowa-random-8762901"
+ },
+ {
+  "series": "random",
+  "serial": "01-74094",
+  "file": "iowa-random-0174094"
+ },
+ {
+  "series": "random",
+  "serial": "63-92251",
+  "file": "iowa-random-6392251"
+ },
+ {
+  "series": "random",
+  "serial": "81-86522",
+  "file": "iowa-random-8186522"
+ },
+ {
+  "series": "random",
+  "serial": "87-69390",
+  "file": "iowa-random-8769390"
+ },
+ {
+  "series": "random",
+  "serial": "63-88444",
+  "file": "iowa-random-6388444"
+ },
+ {
+  "series": "random",
+  "serial": "84-25183",
+  "file": "iowa-random-8425183"
+ },
+ {
+  "series": "random",
+  "serial": "80-24273",
+  "file": "iowa-random-8024273"
+ },
+ {
+  "series": "random",
+  "serial": "99-53457",
+  "file": "iowa-random-9953457"
+ },
+ {
+  "series": "random",
+  "serial": "50-50589",
+  "file": "iowa-random-5050589"
+ },
+ {
+  "series": "random",
+  "serial": "64-58534",
+  "file": "iowa-random-6458534"
+ },
+ {
+  "series": "random",
+  "serial": "36-06887",
+  "file": "iowa-random-3606887"
+ },
+ {
+  "series": "random",
+  "serial": "38-85300",
+  "file": "iowa-random-3885300"
+ },
+ {
+  "series": "random",
+  "serial": "21-44741",
+  "file": "iowa-random-2144741"
+ },
+ {
+  "series": "random",
+  "serial": "27-94590",
+  "file": "iowa-random-2794590"
+ },
+ {
+  "series": "random",
+  "serial": "00-25766",
+  "file": "iowa-random-0025766"
+ },
+ {
+  "series": "random",
+  "serial": "10-62347",
+  "file": "iowa-random-1062347"
+ },
+ {
+  "series": "random",
+  "serial": "98-61202",
+  "file": "iowa-random-9861202"
+ },
+ {
+  "series": "random",
+  "serial": "20-28320",
+  "file": "iowa-random-2028320"
+ },
+ {
+  "series": "random",
+  "serial": "96-06287",
+  "file": "iowa-random-9606287"
+ },
+ {
+  "series": "random",
+  "serial": "38-48092",
+  "file": "iowa-random-3848092"
+ },
+ {
+  "series": "random",
+  "serial": "95-76929",
+  "file": "iowa-random-9576929"
+ },
+ {
+  "series": "random",
+  "serial": "17-24842",
+  "file": "iowa-random-1724842"
+ },
+ {
+  "series": "random",
+  "serial": "91-58747",
+  "file": "iowa-random-9158747"
+ },
+ {
+  "series": "random",
+  "serial": "23-79661",
+  "file": "iowa-random-2379661"
+ },
+ {
+  "series": "random",
+  "serial": "43-11974",
+  "file": "iowa-random-4311974"
+ },
+ {
+  "series": "random",
+  "serial": "08-58198",
+  "file": "iowa-random-0858198"
+ },
+ {
+  "series": "random",
+  "serial": "95-78423",
+  "file": "iowa-random-9578423"
+ },
+ {
+  "series": "random",
+  "serial": "31-97159",
+  "file": "iowa-random-3197159"
+ },
+ {
+  "series": "random",
+  "serial": "16-40698",
+  "file": "iowa-random-1640698"
+ },
+ {
+  "series": "random",
+  "serial": "74-82478",
+  "file": "iowa-random-7482478"
+ },
+ {
+  "series": "random",
+  "serial": "33-35142",
+  "file": "iowa-random-3335142"
+ },
+ {
+  "series": "random",
+  "serial": "71-71425",
+  "file": "iowa-random-7171425"
+ },
+ {
+  "series": "random",
+  "serial": "79-67126",
+  "file": "iowa-random-7967126"
+ },
+ {
+  "series": "random",
+  "serial": "69-08870",
+  "file": "iowa-random-6908870"
+ },
+ {
+  "series": "random",
+  "serial": "62-94688",
+  "file": "iowa-random-6294688"
+ },
+ {
+  "series": "random",
+  "serial": "81-48903",
+  "file": "iowa-random-8148903"
+ },
+ {
+  "series": "random",
+  "serial": "84-48048",
+  "file": "iowa-random-8448048"
+ },
+ {
+  "series": "random",
+  "serial": "22-70596",
+  "file": "iowa-random-2270596"
+ },
+ {
+  "series": "random",
+  "serial": "01-71802",
+  "file": "iowa-random-0171802"
+ },
+ {
+  "series": "random",
+  "serial": "06-35715",
+  "file": "iowa-random-0635715"
+ },
+ {
+  "series": "random",
+  "serial": "35-60520",
+  "file": "iowa-random-3560520"
+ },
+ {
+  "series": "random",
+  "serial": "52-10376",
+  "file": "iowa-random-5210376"
+ },
+ {
+  "series": "random",
+  "serial": "95-52640",
+  "file": "iowa-random-9552640"
+ },
+ {
+  "series": "random",
+  "serial": "59-71609",
+  "file": "iowa-random-5971609"
+ },
+ {
+  "series": "random",
+  "serial": "74-79284",
+  "file": "iowa-random-7479284"
+ },
+ {
+  "series": "random",
+  "serial": "61-82418",
+  "file": "iowa-random-6182418"
+ },
+ {
+  "series": "random",
+  "serial": "94-28479",
+  "file": "iowa-random-9428479"
+ },
+ {
+  "series": "random",
+  "serial": "95-70090",
+  "file": "iowa-random-9570090"
+ }
+]

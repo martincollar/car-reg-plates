@@ -1,0 +1,372 @@
+[
+ {
+  "series": "sample",
+  "serial": "330FP",
+  "file": "pennsylvania-sample-330fp"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS3T",
+  "file": "pennsylvania-vanity-3ds3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3T",
+  "file": "pennsylvania-vanity-hrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "PLA3D",
+  "file": "pennsylvania-vanity-pla3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DPLA",
+  "file": "pennsylvania-vanity-3dpla"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PLR",
+  "file": "pennsylvania-vanity-d0plr"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELIM8",
+  "file": "pennsylvania-vanity-elim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD51",
+  "file": "pennsylvania-vanity-hud51"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL43D",
+  "file": "pennsylvania-vanity-pl43d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD54",
+  "file": "pennsylvania-vanity-hud54"
+ },
+ {
+  "series": "vanity",
+  "serial": "LIM8R",
+  "file": "pennsylvania-vanity-lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RNT",
+  "file": "pennsylvania-vanity-h0rnt"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D53T",
+  "file": "pennsylvania-vanity-3d53t"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS37",
+  "file": "pennsylvania-vanity-3ds37"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN37",
+  "file": "pennsylvania-vanity-hrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DPL4",
+  "file": "pennsylvania-vanity-3dpl4"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LIM8",
+  "file": "pennsylvania-vanity-3lim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL1M8",
+  "file": "pennsylvania-vanity-el1m8"
+ },
+ {
+  "series": "vanity",
+  "serial": "L1M8R",
+  "file": "pennsylvania-vanity-l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN7",
+  "file": "pennsylvania-vanity-h0rn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRNE7",
+  "file": "pennsylvania-vanity-hrne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5N",
+  "file": "pennsylvania-vanity-hud5n"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D537",
+  "file": "pennsylvania-vanity-3d537"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L1M8",
+  "file": "pennsylvania-vanity-3l1m8"
+ },
+ {
+  "series": "random",
+  "serial": "358BF",
+  "file": "pennsylvania-random-358bf"
+ },
+ {
+  "series": "random",
+  "serial": "435GG",
+  "file": "pennsylvania-random-435gg"
+ },
+ {
+  "series": "random",
+  "serial": "507JC",
+  "file": "pennsylvania-random-507jc"
+ },
+ {
+  "series": "random",
+  "serial": "446CU",
+  "file": "pennsylvania-random-446cu"
+ },
+ {
+  "series": "random",
+  "serial": "196PU",
+  "file": "pennsylvania-random-196pu"
+ },
+ {
+  "series": "random",
+  "serial": "382SP",
+  "file": "pennsylvania-random-382sp"
+ },
+ {
+  "series": "random",
+  "serial": "786PU",
+  "file": "pennsylvania-random-786pu"
+ },
+ {
+  "series": "random",
+  "serial": "578JG",
+  "file": "pennsylvania-random-578jg"
+ },
+ {
+  "series": "random",
+  "serial": "522GG",
+  "file": "pennsylvania-random-522gg"
+ },
+ {
+  "series": "random",
+  "serial": "872YD",
+  "file": "pennsylvania-random-872yd"
+ },
+ {
+  "series": "random",
+  "serial": "978UW",
+  "file": "pennsylvania-random-978uw"
+ },
+ {
+  "series": "random",
+  "serial": "363JM",
+  "file": "pennsylvania-random-363jm"
+ },
+ {
+  "series": "random",
+  "serial": "684UW",
+  "file": "pennsylvania-random-684uw"
+ },
+ {
+  "series": "random",
+  "serial": "092FH",
+  "file": "pennsylvania-random-092fh"
+ },
+ {
+  "series": "random",
+  "serial": "322XU",
+  "file": "pennsylvania-random-322xu"
+ },
+ {
+  "series": "random",
+  "serial": "629CU",
+  "file": "pennsylvania-random-629cu"
+ },
+ {
+  "series": "random",
+  "serial": "446AD",
+  "file": "pennsylvania-random-446ad"
+ },
+ {
+  "series": "random",
+  "serial": "550KV",
+  "file": "pennsylvania-random-550kv"
+ },
+ {
+  "series": "random",
+  "serial": "328NA",
+  "file": "pennsylvania-random-328na"
+ },
+ {
+  "series": "random",
+  "serial": "331SC",
+  "file": "pennsylvania-random-331sc"
+ },
+ {
+  "series": "random",
+  "serial": "024AR",
+  "file": "pennsylvania-random-024ar"
+ },
+ {
+  "series": "random",
+  "serial": "206KM",
+  "file": "pennsylvania-random-206km"
+ },
+ {
+  "series": "random",
+  "serial": "366MJ",
+  "file": "pennsylvania-random-366mj"
+ },
+ {
+  "series": "random",
+  "serial": "776US",
+  "file": "pennsylvania-random-776us"
+ },
+ {
+  "series": "random",
+  "serial": "193RZ",
+  "file": "pennsylvania-random-193rz"
+ },
+ {
+  "series": "random",
+  "serial": "814BC",
+  "file": "pennsylvania-random-814bc"
+ },
+ {
+  "series": "random",
+  "serial": "842CG",
+  "file": "pennsylvania-random-842cg"
+ },
+ {
+  "series": "random",
+  "serial": "688KX",
+  "file": "pennsylvania-random-688kx"
+ },
+ {
+  "series": "random",
+  "serial": "011MV",
+  "file": "pennsylvania-random-011mv"
+ },
+ {
+  "series": "random",
+  "serial": "043GV",
+  "file": "pennsylvania-random-043gv"
+ },
+ {
+  "series": "random",
+  "serial": "286ZG",
+  "file": "pennsylvania-random-286zg"
+ },
+ {
+  "series": "random",
+  "serial": "692BJ",
+  "file": "pennsylvania-random-692bj"
+ },
+ {
+  "series": "random",
+  "serial": "588HU",
+  "file": "pennsylvania-random-588hu"
+ },
+ {
+  "series": "random",
+  "serial": "151LV",
+  "file": "pennsylvania-random-151lv"
+ },
+ {
+  "series": "random",
+  "serial": "221MB",
+  "file": "pennsylvania-random-221mb"
+ },
+ {
+  "series": "random",
+  "serial": "520WH",
+  "file": "pennsylvania-random-520wh"
+ },
+ {
+  "series": "random",
+  "serial": "908YG",
+  "file": "pennsylvania-random-908yg"
+ },
+ {
+  "series": "random",
+  "serial": "052FP",
+  "file": "pennsylvania-random-052fp"
+ },
+ {
+  "series": "random",
+  "serial": "087AN",
+  "file": "pennsylvania-random-087an"
+ },
+ {
+  "series": "random",
+  "serial": "907MG",
+  "file": "pennsylvania-random-907mg"
+ },
+ {
+  "series": "random",
+  "serial": "913ET",
+  "file": "pennsylvania-random-913et"
+ },
+ {
+  "series": "random",
+  "serial": "653HS",
+  "file": "pennsylvania-random-653hs"
+ },
+ {
+  "series": "random",
+  "serial": "153DS",
+  "file": "pennsylvania-random-153ds"
+ },
+ {
+  "series": "random",
+  "serial": "968EA",
+  "file": "pennsylvania-random-968ea"
+ },
+ {
+  "series": "random",
+  "serial": "620LU",
+  "file": "pennsylvania-random-620lu"
+ },
+ {
+  "series": "random",
+  "serial": "246DH",
+  "file": "pennsylvania-random-246dh"
+ },
+ {
+  "series": "random",
+  "serial": "954VL",
+  "file": "pennsylvania-random-954vl"
+ },
+ {
+  "series": "random",
+  "serial": "624VL",
+  "file": "pennsylvania-random-624vl"
+ },
+ {
+  "series": "random",
+  "serial": "667WW",
+  "file": "pennsylvania-random-667ww"
+ },
+ {
+  "series": "random",
+  "serial": "929ZY",
+  "file": "pennsylvania-random-929zy"
+ }
+]

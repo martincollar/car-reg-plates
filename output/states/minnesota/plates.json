@@ -1,0 +1,477 @@
+[
+ {
+  "series": "sample",
+  "serial": "550-314",
+  "file": "minnesota-sample-550314"
+ },
+ {
+  "series": "vanity",
+  "serial": "1NF-1LL",
+  "file": "minnesota-vanity-1nf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS-3TS",
+  "file": "minnesota-vanity-3ds3ts"
+ },
+ {
+  "series": "vanity",
+  "serial": "51H-HMD",
+  "file": "minnesota-vanity-51hhmd"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-N3T",
+  "file": "minnesota-vanity-h0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-50N",
+  "file": "minnesota-vanity-hud50n"
+ },
+ {
+  "series": "vanity",
+  "serial": "N45-C4R",
+  "file": "minnesota-vanity-n45c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4C-1NG",
+  "file": "minnesota-vanity-r4c1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0P-L3R",
+  "file": "minnesota-vanity-d0pl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELI-M8R",
+  "file": "minnesota-vanity-elim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-S0N",
+  "file": "minnesota-vanity-huds0n"
+ },
+ {
+  "series": "vanity",
+  "serial": "INF-1LL",
+  "file": "minnesota-vanity-inf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "NAS-C4R",
+  "file": "minnesota-vanity-nasc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RAC-1NG",
+  "file": "minnesota-vanity-rac1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "100-INF",
+  "file": "minnesota-vanity-100inf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LI-M8R",
+  "file": "minnesota-vanity-3lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-5ON",
+  "file": "minnesota-vanity-hud5on"
+ },
+ {
+  "series": "vanity",
+  "serial": "DPP-L3R",
+  "file": "minnesota-vanity-dppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "INF-100",
+  "file": "minnesota-vanity-inf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HHR-N3T",
+  "file": "minnesota-vanity-hhrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "PLA-215",
+  "file": "minnesota-vanity-pla215"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL4-210",
+  "file": "minnesota-vanity-pl4210"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELM-N8R",
+  "file": "minnesota-vanity-elmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D5-3T5",
+  "file": "minnesota-vanity-3d53t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS-37S",
+  "file": "minnesota-vanity-3ds37s"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-N37",
+  "file": "minnesota-vanity-h0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4C-1N6",
+  "file": "minnesota-vanity-r4c1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL1-M8R",
+  "file": "minnesota-vanity-el1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "N4S-C4R",
+  "file": "minnesota-vanity-n4sc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "NA5-C4R",
+  "file": "minnesota-vanity-na5c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RAC-1N6",
+  "file": "minnesota-vanity-rac1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "100-1NF",
+  "file": "minnesota-vanity-1001nf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L1-M8R",
+  "file": "minnesota-vanity-3l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "1NF-100",
+  "file": "minnesota-vanity-1nf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HHR-N37",
+  "file": "minnesota-vanity-hhrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL4-215",
+  "file": "minnesota-vanity-pl4215"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LM-N8R",
+  "file": "minnesota-vanity-3lmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0P-LER",
+  "file": "minnesota-vanity-d0pler"
+ },
+ {
+  "series": "vanity",
+  "serial": "DOP-L3R",
+  "file": "minnesota-vanity-dopl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-NET",
+  "file": "minnesota-vanity-h0rnet"
+ },
+ {
+  "series": "vanity",
+  "serial": "HOR-N3T",
+  "file": "minnesota-vanity-horn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HOR-NE7",
+  "file": "minnesota-vanity-horne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D5-375",
+  "file": "minnesota-vanity-3d5375"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-NE7",
+  "file": "minnesota-vanity-h0rne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HOR-N37",
+  "file": "minnesota-vanity-horn37"
+ },
+ {
+  "series": "random",
+  "serial": "244-776",
+  "file": "minnesota-random-244776"
+ },
+ {
+  "series": "random",
+  "serial": "557-752",
+  "file": "minnesota-random-557752"
+ },
+ {
+  "series": "random",
+  "serial": "294-843",
+  "file": "minnesota-random-294843"
+ },
+ {
+  "series": "random",
+  "serial": "415-857",
+  "file": "minnesota-random-415857"
+ },
+ {
+  "series": "random",
+  "serial": "519-918",
+  "file": "minnesota-random-519918"
+ },
+ {
+  "series": "random",
+  "serial": "446-744",
+  "file": "minnesota-random-446744"
+ },
+ {
+  "series": "random",
+  "serial": "317-567",
+  "file": "minnesota-random-317567"
+ },
+ {
+  "series": "random",
+  "serial": "607-089",
+  "file": "minnesota-random-607089"
+ },
+ {
+  "series": "random",
+  "serial": "917-131",
+  "file": "minnesota-random-917131"
+ },
+ {
+  "series": "random",
+  "serial": "846-962",
+  "file": "minnesota-random-846962"
+ },
+ {
+  "series": "random",
+  "serial": "905-739",
+  "file": "minnesota-random-905739"
+ },
+ {
+  "series": "random",
+  "serial": "639-729",
+  "file": "minnesota-random-639729"
+ },
+ {
+  "series": "random",
+  "serial": "748-717",
+  "file": "minnesota-random-748717"
+ },
+ {
+  "series": "random",
+  "serial": "138-121",
+  "file": "minnesota-random-138121"
+ },
+ {
+  "series": "random",
+  "serial": "299-409",
+  "file": "minnesota-random-299409"
+ },
+ {
+  "series": "random",
+  "serial": "906-979",
+  "file": "minnesota-random-906979"
+ },
+ {
+  "series": "random",
+  "serial": "916-170",
+  "file": "minnesota-random-916170"
+ },
+ {
+  "series": "random",
+  "serial": "126-462",
+  "file": "minnesota-random-126462"
+ },
+ {
+  "series": "random",
+  "serial": "959-005",
+  "file": "minnesota-random-959005"
+ },
+ {
+  "series": "random",
+  "serial": "766-812",
+  "file": "minnesota-random-766812"
+ },
+ {
+  "series": "random",
+  "serial": "924-757",
+  "file": "minnesota-random-924757"
+ },
+ {
+  "series": "random",
+  "serial": "140-707",
+  "file": "minnesota-random-140707"
+ },
+ {
+  "series": "random",
+  "serial": "444-395",
+  "file": "minnesota-random-444395"
+ },
+ {
+  "series": "random",
+  "serial": "873-815",
+  "file": "minnesota-random-873815"
+ },
+ {
+  "series": "random",
+  "serial": "103-345",
+  "file": "minnesota-random-103345"
+ },
+ {
+  "series": "random",
+  "serial": "378-081",
+  "file": "minnesota-random-378081"
+ },
+ {
+  "series": "random",
+  "serial": "025-802",
+  "file": "minnesota-random-025802"
+ },
+ {
+  "series": "random",
+  "serial": "669-298",
+  "file": "minnesota-random-669298"
+ },
+ {
+  "series": "random",
+  "serial": "828-415",
+  "file": "minnesota-random-828415"
+ },
+ {
+  "series": "random",
+  "serial": "526-262",
+  "file": "minnesota-random-526262"
+ },
+ {
+  "series": "random",
+  "serial": "661-812",
+  "file": "minnesota-random-661812"
+ },
+ {
+  "series": "random",
+  "serial": "945-266",
+  "file": "minnesota-random-945266"
+ },
+ {
+  "series": "random",
+  "serial": "020-683",
+  "file": "minnesota-random-020683"
+ },
+ {
+  "series": "random",
+  "serial": "538-129",
+  "file": "minnesota-random-538129"
+ },
+ {
+  "series": "random",
+  "serial": "147-908",
+  "file": "minnesota-random-147908"
+ },
+ {
+  "series": "random",
+  "serial": "362-450",
+  "file": "minnesota-random-362450"
+ },
+ {
+  "series": "random",
+  "serial": "242-171",
+  "file": "minnesota-random-242171"
+ },
+ {
+  "series": "random",
+  "serial": "618-434",
+  "file": "minnesota-random-618434"
+ },
+ {
+  "series": "random",
+  "serial": "581-197",
+  "file": "minnesota-random-581197"
+ },
+ {
+  "series": "random",
+  "serial": "850-544",
+  "file": "minnesota-random-850544"
+ },
+ {
+  "series": "random",
+  "serial": "280-187",
+  "file": "minnesota-random-280187"
+ },
+ {
+  "series": "random",
+  "serial": "883-656",
+  "file": "minnesota-random-883656"
+ },
+ {
+  "series": "random",
+  "serial": "562-927",
+  "file": "minnesota-random-562927"
+ },
+ {
+  "series": "random",
+  "serial": "683-491",
+  "file": "minnesota-random-683491"
+ },
+ {
+  "series": "random",
+  "serial": "536-397",
+  "file": "minnesota-random-536397"
+ },
+ {
+  "series": "random",
+  "serial": "529-496",
+  "file": "minnesota-random-529496"
+ },
+ {
+  "series": "random",
+  "serial": "320-940",
+  "file": "minnesota-random-320940"
+ },
+ {
+  "series": "random",
+  "serial": "732-587",
+  "file": "minnesota-random-732587"
+ },
+ {
+  "series": "random",
+  "serial": "028-595",
+  "file": "minnesota-random-028595"
+ },
+ {
+  "series": "random",
+  "serial": "599-082",
+  "file": "minnesota-random-599082"
+ }
+]

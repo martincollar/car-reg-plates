@@ -1,0 +1,9 @@
+{
+  "name": "kentucky-stpdwn",
+  "template": "kentucky",
+  "series": "custom",
+  "serial": "STP-DWN",
+  "text": {
+    "county": "MCCRACKEN"
+  }
+}

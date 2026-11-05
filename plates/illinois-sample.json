@@ -1,5 +1,6 @@
 {
   "name": "illinois-sample",
   "template": "illinois",
+  "series": "sample",
   "serial": null
 }

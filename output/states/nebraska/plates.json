@@ -1,0 +1,477 @@
+[
+ {
+  "series": "sample",
+  "serial": "25-1416",
+  "file": "nebraska-sample-251416"
+ },
+ {
+  "series": "vanity",
+  "serial": "1N-F1LL",
+  "file": "nebraska-vanity-1nf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D-S3TS",
+  "file": "nebraska-vanity-3ds3ts"
+ },
+ {
+  "series": "vanity",
+  "serial": "51-HHMD",
+  "file": "nebraska-vanity-51hhmd"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0-RN3T",
+  "file": "nebraska-vanity-h0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-D50N",
+  "file": "nebraska-vanity-hud50n"
+ },
+ {
+  "series": "vanity",
+  "serial": "N4-5C4R",
+  "file": "nebraska-vanity-n45c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4-C1NG",
+  "file": "nebraska-vanity-r4c1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0-PL3R",
+  "file": "nebraska-vanity-d0pl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL-IM8R",
+  "file": "nebraska-vanity-elim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-DS0N",
+  "file": "nebraska-vanity-huds0n"
+ },
+ {
+  "series": "vanity",
+  "serial": "IN-F1LL",
+  "file": "nebraska-vanity-inf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "NA-SC4R",
+  "file": "nebraska-vanity-nasc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RA-C1NG",
+  "file": "nebraska-vanity-rac1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "10-0INF",
+  "file": "nebraska-vanity-100inf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L-IM8R",
+  "file": "nebraska-vanity-3lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-D5ON",
+  "file": "nebraska-vanity-hud5on"
+ },
+ {
+  "series": "vanity",
+  "serial": "DP-PL3R",
+  "file": "nebraska-vanity-dppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "IN-F100",
+  "file": "nebraska-vanity-inf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HH-RN3T",
+  "file": "nebraska-vanity-hhrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL-A215",
+  "file": "nebraska-vanity-pla215"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL-4210",
+  "file": "nebraska-vanity-pl4210"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL-MN8R",
+  "file": "nebraska-vanity-elmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D-53T5",
+  "file": "nebraska-vanity-3d53t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D-S37S",
+  "file": "nebraska-vanity-3ds37s"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0-RN37",
+  "file": "nebraska-vanity-h0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4-C1N6",
+  "file": "nebraska-vanity-r4c1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL-1M8R",
+  "file": "nebraska-vanity-el1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "N4-SC4R",
+  "file": "nebraska-vanity-n4sc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "NA-5C4R",
+  "file": "nebraska-vanity-na5c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RA-C1N6",
+  "file": "nebraska-vanity-rac1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "10-01NF",
+  "file": "nebraska-vanity-1001nf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L-1M8R",
+  "file": "nebraska-vanity-3l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "1N-F100",
+  "file": "nebraska-vanity-1nf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HH-RN37",
+  "file": "nebraska-vanity-hhrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL-4215",
+  "file": "nebraska-vanity-pl4215"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L-MN8R",
+  "file": "nebraska-vanity-3lmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0-PLER",
+  "file": "nebraska-vanity-d0pler"
+ },
+ {
+  "series": "vanity",
+  "serial": "DO-PL3R",
+  "file": "nebraska-vanity-dopl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0-RNET",
+  "file": "nebraska-vanity-h0rnet"
+ },
+ {
+  "series": "vanity",
+  "serial": "HO-RN3T",
+  "file": "nebraska-vanity-horn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HO-RNE7",
+  "file": "nebraska-vanity-horne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D-5375",
+  "file": "nebraska-vanity-3d5375"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0-RNE7",
+  "file": "nebraska-vanity-h0rne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HO-RN37",
+  "file": "nebraska-vanity-horn37"
+ },
+ {
+  "series": "random",
+  "serial": "34-7766",
+  "file": "nebraska-random-347766"
+ },
+ {
+  "series": "random",
+  "serial": "43-6744",
+  "file": "nebraska-random-436744"
+ },
+ {
+  "series": "random",
+  "serial": "57-1334",
+  "file": "nebraska-random-571334"
+ },
+ {
+  "series": "random",
+  "serial": "89-0560",
+  "file": "nebraska-random-890560"
+ },
+ {
+  "series": "random",
+  "serial": "95-0338",
+  "file": "nebraska-random-950338"
+ },
+ {
+  "series": "random",
+  "serial": "21-7953",
+  "file": "nebraska-random-217953"
+ },
+ {
+  "series": "random",
+  "serial": "34-5691",
+  "file": "nebraska-random-345691"
+ },
+ {
+  "series": "random",
+  "serial": "51-4464",
+  "file": "nebraska-random-514464"
+ },
+ {
+  "series": "random",
+  "serial": "09-7650",
+  "file": "nebraska-random-097650"
+ },
+ {
+  "series": "random",
+  "serial": "52-2055",
+  "file": "nebraska-random-522055"
+ },
+ {
+  "series": "random",
+  "serial": "61-9660",
+  "file": "nebraska-random-619660"
+ },
+ {
+  "series": "random",
+  "serial": "19-6145",
+  "file": "nebraska-random-196145"
+ },
+ {
+  "series": "random",
+  "serial": "72-9407",
+  "file": "nebraska-random-729407"
+ },
+ {
+  "series": "random",
+  "serial": "88-0104",
+  "file": "nebraska-random-880104"
+ },
+ {
+  "series": "random",
+  "serial": "84-9415",
+  "file": "nebraska-random-849415"
+ },
+ {
+  "series": "random",
+  "serial": "70-4765",
+  "file": "nebraska-random-704765"
+ },
+ {
+  "series": "random",
+  "serial": "99-9885",
+  "file": "nebraska-random-999885"
+ },
+ {
+  "series": "random",
+  "serial": "89-1334",
+  "file": "nebraska-random-891334"
+ },
+ {
+  "series": "random",
+  "serial": "15-8046",
+  "file": "nebraska-random-158046"
+ },
+ {
+  "series": "random",
+  "serial": "46-0408",
+  "file": "nebraska-random-460408"
+ },
+ {
+  "series": "random",
+  "serial": "97-2478",
+  "file": "nebraska-random-972478"
+ },
+ {
+  "series": "random",
+  "serial": "36-2845",
+  "file": "nebraska-random-362845"
+ },
+ {
+  "series": "random",
+  "serial": "69-9144",
+  "file": "nebraska-random-699144"
+ },
+ {
+  "series": "random",
+  "serial": "36-6731",
+  "file": "nebraska-random-366731"
+ },
+ {
+  "series": "random",
+  "serial": "03-0792",
+  "file": "nebraska-random-030792"
+ },
+ {
+  "series": "random",
+  "serial": "24-7696",
+  "file": "nebraska-random-247696"
+ },
+ {
+  "series": "random",
+  "serial": "76-5623",
+  "file": "nebraska-random-765623"
+ },
+ {
+  "series": "random",
+  "serial": "94-0544",
+  "file": "nebraska-random-940544"
+ },
+ {
+  "series": "random",
+  "serial": "00-0631",
+  "file": "nebraska-random-000631"
+ },
+ {
+  "series": "random",
+  "serial": "66-9518",
+  "file": "nebraska-random-669518"
+ },
+ {
+  "series": "random",
+  "serial": "00-1385",
+  "file": "nebraska-random-001385"
+ },
+ {
+  "series": "random",
+  "serial": "84-2860",
+  "file": "nebraska-random-842860"
+ },
+ {
+  "series": "random",
+  "serial": "50-0760",
+  "file": "nebraska-random-500760"
+ },
+ {
+  "series": "random",
+  "serial": "51-5061",
+  "file": "nebraska-random-515061"
+ },
+ {
+  "series": "random",
+  "serial": "88-2265",
+  "file": "nebraska-random-882265"
+ },
+ {
+  "series": "random",
+  "serial": "97-1666",
+  "file": "nebraska-random-971666"
+ },
+ {
+  "series": "random",
+  "serial": "69-7469",
+  "file": "nebraska-random-697469"
+ },
+ {
+  "series": "random",
+  "serial": "55-2028",
+  "file": "nebraska-random-552028"
+ },
+ {
+  "series": "random",
+  "serial": "49-7495",
+  "file": "nebraska-random-497495"
+ },
+ {
+  "series": "random",
+  "serial": "29-0542",
+  "file": "nebraska-random-290542"
+ },
+ {
+  "series": "random",
+  "serial": "97-1080",
+  "file": "nebraska-random-971080"
+ },
+ {
+  "series": "random",
+  "serial": "48-1390",
+  "file": "nebraska-random-481390"
+ },
+ {
+  "series": "random",
+  "serial": "46-0676",
+  "file": "nebraska-random-460676"
+ },
+ {
+  "series": "random",
+  "serial": "69-7775",
+  "file": "nebraska-random-697775"
+ },
+ {
+  "series": "random",
+  "serial": "86-9235",
+  "file": "nebraska-random-869235"
+ },
+ {
+  "series": "random",
+  "serial": "67-2294",
+  "file": "nebraska-random-672294"
+ },
+ {
+  "series": "random",
+  "serial": "11-6862",
+  "file": "nebraska-random-116862"
+ },
+ {
+  "series": "random",
+  "serial": "84-4819",
+  "file": "nebraska-random-844819"
+ },
+ {
+  "series": "random",
+  "serial": "57-8115",
+  "file": "nebraska-random-578115"
+ },
+ {
+  "series": "random",
+  "serial": "24-7949",
+  "file": "nebraska-random-247949"
+ }
+]

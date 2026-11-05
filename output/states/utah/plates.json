@@ -1,0 +1,377 @@
+[
+ {
+  "series": "sample",
+  "serial": "B/H 980",
+  "file": "utah-sample-bh980"
+ },
+ {
+  "series": "custom",
+  "serial": "H0R N3T",
+  "file": "utah-custom-h0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "3/D S3T",
+  "file": "utah-vanity-3ds3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/R N3T",
+  "file": "utah-vanity-hrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "P/L A3D",
+  "file": "utah-vanity-pla3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "3/D PLA",
+  "file": "utah-vanity-3dpla"
+ },
+ {
+  "series": "vanity",
+  "serial": "D/0 PLR",
+  "file": "utah-vanity-d0plr"
+ },
+ {
+  "series": "vanity",
+  "serial": "E/L IM8",
+  "file": "utah-vanity-elim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/U D51",
+  "file": "utah-vanity-hud51"
+ },
+ {
+  "series": "vanity",
+  "serial": "P/L 43D",
+  "file": "utah-vanity-pl43d"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/U D54",
+  "file": "utah-vanity-hud54"
+ },
+ {
+  "series": "vanity",
+  "serial": "L/I M8R",
+  "file": "utah-vanity-lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/0 RNT",
+  "file": "utah-vanity-h0rnt"
+ },
+ {
+  "series": "vanity",
+  "serial": "3/D 53T",
+  "file": "utah-vanity-3d53t"
+ },
+ {
+  "series": "vanity",
+  "serial": "3/D S37",
+  "file": "utah-vanity-3ds37"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/R N37",
+  "file": "utah-vanity-hrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "3/D PL4",
+  "file": "utah-vanity-3dpl4"
+ },
+ {
+  "series": "vanity",
+  "serial": "3/L IM8",
+  "file": "utah-vanity-3lim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "E/L 1M8",
+  "file": "utah-vanity-el1m8"
+ },
+ {
+  "series": "vanity",
+  "serial": "L/1 M8R",
+  "file": "utah-vanity-l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/0 RN7",
+  "file": "utah-vanity-h0rn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/R NE7",
+  "file": "utah-vanity-hrne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/U D5N",
+  "file": "utah-vanity-hud5n"
+ },
+ {
+  "series": "vanity",
+  "serial": "3/D 537",
+  "file": "utah-vanity-3d537"
+ },
+ {
+  "series": "vanity",
+  "serial": "3/L 1M8",
+  "file": "utah-vanity-3l1m8"
+ },
+ {
+  "series": "random",
+  "serial": "Z/F 015",
+  "file": "utah-random-zf015"
+ },
+ {
+  "series": "random",
+  "serial": "U/K 032",
+  "file": "utah-random-uk032"
+ },
+ {
+  "series": "random",
+  "serial": "E/V 242",
+  "file": "utah-random-ev242"
+ },
+ {
+  "series": "random",
+  "serial": "L/H 368",
+  "file": "utah-random-lh368"
+ },
+ {
+  "series": "random",
+  "serial": "D/M 652",
+  "file": "utah-random-dm652"
+ },
+ {
+  "series": "random",
+  "serial": "K/X 462",
+  "file": "utah-random-kx462"
+ },
+ {
+  "series": "random",
+  "serial": "J/E 891",
+  "file": "utah-random-je891"
+ },
+ {
+  "series": "random",
+  "serial": "D/J 882",
+  "file": "utah-random-dj882"
+ },
+ {
+  "series": "random",
+  "serial": "H/H 033",
+  "file": "utah-random-hh033"
+ },
+ {
+  "series": "random",
+  "serial": "P/A 620",
+  "file": "utah-random-pa620"
+ },
+ {
+  "series": "random",
+  "serial": "H/W 825",
+  "file": "utah-random-hw825"
+ },
+ {
+  "series": "random",
+  "serial": "W/P 360",
+  "file": "utah-random-wp360"
+ },
+ {
+  "series": "random",
+  "serial": "J/T 323",
+  "file": "utah-random-jt323"
+ },
+ {
+  "series": "random",
+  "serial": "T/Z 642",
+  "file": "utah-random-tz642"
+ },
+ {
+  "series": "random",
+  "serial": "W/M 394",
+  "file": "utah-random-wm394"
+ },
+ {
+  "series": "random",
+  "serial": "A/X 244",
+  "file": "utah-random-ax244"
+ },
+ {
+  "series": "random",
+  "serial": "D/D 799",
+  "file": "utah-random-dd799"
+ },
+ {
+  "series": "random",
+  "serial": "G/H 239",
+  "file": "utah-random-gh239"
+ },
+ {
+  "series": "random",
+  "serial": "A/A 573",
+  "file": "utah-random-aa573"
+ },
+ {
+  "series": "random",
+  "serial": "V/X 751",
+  "file": "utah-random-vx751"
+ },
+ {
+  "series": "random",
+  "serial": "G/T 182",
+  "file": "utah-random-gt182"
+ },
+ {
+  "series": "random",
+  "serial": "C/F 699",
+  "file": "utah-random-cf699"
+ },
+ {
+  "series": "random",
+  "serial": "K/S 415",
+  "file": "utah-random-ks415"
+ },
+ {
+  "series": "random",
+  "serial": "F/Y 615",
+  "file": "utah-random-fy615"
+ },
+ {
+  "series": "random",
+  "serial": "E/E 187",
+  "file": "utah-random-ee187"
+ },
+ {
+  "series": "random",
+  "serial": "K/E 517",
+  "file": "utah-random-ke517"
+ },
+ {
+  "series": "random",
+  "serial": "F/S 496",
+  "file": "utah-random-fs496"
+ },
+ {
+  "series": "random",
+  "serial": "F/H 868",
+  "file": "utah-random-fh868"
+ },
+ {
+  "series": "random",
+  "serial": "R/B 272",
+  "file": "utah-random-rb272"
+ },
+ {
+  "series": "random",
+  "serial": "X/G 108",
+  "file": "utah-random-xg108"
+ },
+ {
+  "series": "random",
+  "serial": "L/Y 703",
+  "file": "utah-random-ly703"
+ },
+ {
+  "series": "random",
+  "serial": "H/L 803",
+  "file": "utah-random-hl803"
+ },
+ {
+  "series": "random",
+  "serial": "Z/R 754",
+  "file": "utah-random-zr754"
+ },
+ {
+  "series": "random",
+  "serial": "T/E 842",
+  "file": "utah-random-te842"
+ },
+ {
+  "series": "random",
+  "serial": "U/G 171",
+  "file": "utah-random-ug171"
+ },
+ {
+  "series": "random",
+  "serial": "X/J 318",
+  "file": "utah-random-xj318"
+ },
+ {
+  "series": "random",
+  "serial": "W/F 075",
+  "file": "utah-random-wf075"
+ },
+ {
+  "series": "random",
+  "serial": "T/M 671",
+  "file": "utah-random-tm671"
+ },
+ {
+  "series": "random",
+  "serial": "T/F 769",
+  "file": "utah-random-tf769"
+ },
+ {
+  "series": "random",
+  "serial": "U/Y 803",
+  "file": "utah-random-uy803"
+ },
+ {
+  "series": "random",
+  "serial": "A/U 103",
+  "file": "utah-random-au103"
+ },
+ {
+  "series": "random",
+  "serial": "H/U 869",
+  "file": "utah-random-hu869"
+ },
+ {
+  "series": "random",
+  "serial": "T/H 982",
+  "file": "utah-random-th982"
+ },
+ {
+  "series": "random",
+  "serial": "D/N 629",
+  "file": "utah-random-dn629"
+ },
+ {
+  "series": "random",
+  "serial": "K/V 120",
+  "file": "utah-random-kv120"
+ },
+ {
+  "series": "random",
+  "serial": "G/C 173",
+  "file": "utah-random-gc173"
+ },
+ {
+  "series": "random",
+  "serial": "X/S 560",
+  "file": "utah-random-xs560"
+ },
+ {
+  "series": "random",
+  "serial": "X/P 909",
+  "file": "utah-random-xp909"
+ },
+ {
+  "series": "random",
+  "serial": "W/Z 531",
+  "file": "utah-random-wz531"
+ },
+ {
+  "series": "random",
+  "serial": "A/G 382",
+  "file": "utah-random-ag382"
+ }
+]

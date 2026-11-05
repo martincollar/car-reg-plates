@@ -15,6 +15,9 @@ Element types
   serial  {"font", "cap", "baseline", "x0", "x1", "sep": dot|rdot|dash|cross|none,
            "track", "skew", "stem", "min_sx", "max_sx"}
           The plate's serial string uses "-" for the state's separator and " " for a gap.
+          A prefix written "1/A " is stacked (1 over A) in a column left of the serial, as on
+          Idaho and Utah plates; place it with "stack": {"x", "cap", "baselines": [top, bottom],
+          "font", "sx", "stem"} and give "x0_plain" for where the serial starts without one.
   box     {"x0", "y0", "x1", "y1", "stroke" (mm), "radius" (mm)}   raised outline (year tabs)
   shape   {"shape": "alaska_flag" | "pa_border", ...}               simplified state artwork
 
@@ -22,6 +25,7 @@ Every raised element is written as an SVG path with class="relief"; make_stl.py 
 """
 import json
 import math
+import re
 from pathlib import Path
 
 from fontTools.pens.boundsPen import BoundsPen
@@ -183,7 +187,37 @@ def render_text(el, W, H):
     return d, stroke
 
 
+def split_stack(serial):
+    """'1/A 28 588' -> (('1', 'A'), '28 588'); serials without '/' -> (None, serial)."""
+    m = re.match(r"^([^ /-]+)/([^ -]+)[ -]?(.*)$", serial)
+    if not m:
+        return None, serial
+    return (m.group(1), m.group(2)), m.group(3)
+
+
+def render_stack(el, rows, W, H):
+    """Small characters stacked in a column (county code / letter prefix)."""
+    st = el["stack"]
+    font = Font.get(st.get("font", el["font"]))
+    cap = st["cap"] * H
+    stroke = emboldening(font, cap, st.get("stem", el.get("stem")))
+    glyph_cap = cap - stroke
+    track = st.get("track", 0.03) * font.upm
+    sx = st.get("sx", 1.0)
+    widths = [ink_width(font, r, glyph_cap, sx, track) for r in rows]
+    col = max(widths)
+    d = ""
+    for r, w, bl in zip(rows, widths, st["baselines"]):
+        left = st["x"] * W + (col - w) / 2
+        dd, _ = draw_run(font, r, glyph_cap, bl * H - stroke / 2, left + stroke / 2, sx, track, el.get("skew", 0))
+        d += dd
+    return d, stroke
+
+
 def render_serial(el, serial, W, H):
+    stack, serial = split_stack(serial)
+    if not stack and "x0_plain" in el:
+        el = dict(el, x0=el["x0_plain"])
     font = Font.get(el["font"])
     cap = el["cap"] * H
     base = el["baseline"] * H
@@ -249,7 +283,8 @@ def render_serial(el, serial, W, H):
                 shift = math.tan(math.radians(skew)) * 0.48 * cap
                 d_sep += separator(sep, x + jw / 2 + shift, base, cap)
             x += jw
-    return d_text, stroke, d_sep
+    stacked = render_stack(el, stack, W, H) if stack and "stack" in el else None
+    return d_text, stroke, d_sep, stacked
 
 
 def render_box(el, W, H):
@@ -324,10 +359,12 @@ def build_svg(plate, template, blank):
                 d, stroke = r
                 parts.append((d, stroke))
         elif kind == "serial":
-            d, stroke, d_sep = render_serial(el, serial, W, H)
+            d, stroke, d_sep, stacked = render_serial(el, serial, W, H)
             parts.append((d, stroke))
             if d_sep:
                 parts.append((d_sep, 0))
+            if stacked:
+                parts.append(stacked)
         elif kind == "box":
             parts.append((render_box(el, W, H), 0))
         elif kind == "shape":

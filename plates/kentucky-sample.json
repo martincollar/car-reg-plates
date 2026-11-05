@@ -1,5 +1,6 @@
 {
   "name": "kentucky-sample",
   "template": "kentucky",
+  "series": "sample",
   "serial": null
 }

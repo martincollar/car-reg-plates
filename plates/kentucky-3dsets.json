@@ -1,0 +1,9 @@
+{
+  "name": "kentucky-3dsets",
+  "template": "kentucky",
+  "series": "custom",
+  "serial": "3DS-ETS",
+  "text": {
+    "county": "MADISON"
+  }
+}

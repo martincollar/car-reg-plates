@@ -1,0 +1,417 @@
+[
+ {
+  "series": "sample",
+  "serial": "7W12558",
+  "file": "florida-sample-7w12558"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PPL3R",
+  "file": "florida-vanity-d0ppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELIMN8R",
+  "file": "florida-vanity-elimn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "SH1FT3D",
+  "file": "florida-vanity-sh1ft3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUDHRN7",
+  "file": "florida-vanity-hudhrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HH0RN3T",
+  "file": "florida-vanity-hh0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN3T5",
+  "file": "florida-vanity-h0rn3t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PPLR5",
+  "file": "florida-vanity-d0pplr5"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3T51",
+  "file": "florida-vanity-hrn3t51"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L1MN8R",
+  "file": "florida-vanity-3l1mn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3T54",
+  "file": "florida-vanity-hrn3t54"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUDH0RN",
+  "file": "florida-vanity-hudh0rn"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUDSN51",
+  "file": "florida-vanity-hudsn51"
+ },
+ {
+  "series": "vanity",
+  "serial": "51HRN3T",
+  "file": "florida-vanity-51hrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUDSN54",
+  "file": "florida-vanity-hudsn54"
+ },
+ {
+  "series": "vanity",
+  "serial": "PLAHRN7",
+  "file": "florida-vanity-plahrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "51HUDSN",
+  "file": "florida-vanity-51hudsn"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LIMN8R",
+  "file": "florida-vanity-3limn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "5H1FT3D",
+  "file": "florida-vanity-5h1ft3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL1MN8R",
+  "file": "florida-vanity-el1mn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "SH1F73D",
+  "file": "florida-vanity-sh1f73d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HH0RN37",
+  "file": "florida-vanity-hh0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN375",
+  "file": "florida-vanity-h0rn375"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3751",
+  "file": "florida-vanity-hrn3751"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PPLER",
+  "file": "florida-vanity-d0ppler"
+ },
+ {
+  "series": "vanity",
+  "serial": "DOPPL3R",
+  "file": "florida-vanity-doppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3754",
+  "file": "florida-vanity-hrn3754"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5N51",
+  "file": "florida-vanity-hud5n51"
+ },
+ {
+  "series": "vanity",
+  "serial": "51HRN37",
+  "file": "florida-vanity-51hrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5N54",
+  "file": "florida-vanity-hud5n54"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL4HRN7",
+  "file": "florida-vanity-pl4hrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "51HUD5N",
+  "file": "florida-vanity-51hud5n"
+ },
+ {
+  "series": "vanity",
+  "serial": "5H1F73D",
+  "file": "florida-vanity-5h1f73d"
+ },
+ {
+  "series": "random",
+  "serial": "6H66102",
+  "file": "florida-random-6h66102"
+ },
+ {
+  "series": "random",
+  "serial": "3Y40623",
+  "file": "florida-random-3y40623"
+ },
+ {
+  "series": "random",
+  "serial": "3A11145",
+  "file": "florida-random-3a11145"
+ },
+ {
+  "series": "random",
+  "serial": "0L83702",
+  "file": "florida-random-0l83702"
+ },
+ {
+  "series": "random",
+  "serial": "4W83936",
+  "file": "florida-random-4w83936"
+ },
+ {
+  "series": "random",
+  "serial": "3Y83946",
+  "file": "florida-random-3y83946"
+ },
+ {
+  "series": "random",
+  "serial": "6T85344",
+  "file": "florida-random-6t85344"
+ },
+ {
+  "series": "random",
+  "serial": "1F37912",
+  "file": "florida-random-1f37912"
+ },
+ {
+  "series": "random",
+  "serial": "6W03802",
+  "file": "florida-random-6w03802"
+ },
+ {
+  "series": "random",
+  "serial": "0E33738",
+  "file": "florida-random-0e33738"
+ },
+ {
+  "series": "random",
+  "serial": "3A16049",
+  "file": "florida-random-3a16049"
+ },
+ {
+  "series": "random",
+  "serial": "9U19553",
+  "file": "florida-random-9u19553"
+ },
+ {
+  "series": "random",
+  "serial": "0H71350",
+  "file": "florida-random-0h71350"
+ },
+ {
+  "series": "random",
+  "serial": "2Z85223",
+  "file": "florida-random-2z85223"
+ },
+ {
+  "series": "random",
+  "serial": "9X99231",
+  "file": "florida-random-9x99231"
+ },
+ {
+  "series": "random",
+  "serial": "5U39621",
+  "file": "florida-random-5u39621"
+ },
+ {
+  "series": "random",
+  "serial": "1H14573",
+  "file": "florida-random-1h14573"
+ },
+ {
+  "series": "random",
+  "serial": "0E39870",
+  "file": "florida-random-0e39870"
+ },
+ {
+  "series": "random",
+  "serial": "8W30809",
+  "file": "florida-random-8w30809"
+ },
+ {
+  "series": "random",
+  "serial": "1X97241",
+  "file": "florida-random-1x97241"
+ },
+ {
+  "series": "random",
+  "serial": "5A33976",
+  "file": "florida-random-5a33976"
+ },
+ {
+  "series": "random",
+  "serial": "0S42685",
+  "file": "florida-random-0s42685"
+ },
+ {
+  "series": "random",
+  "serial": "2A49360",
+  "file": "florida-random-2a49360"
+ },
+ {
+  "series": "random",
+  "serial": "7V18044",
+  "file": "florida-random-7v18044"
+ },
+ {
+  "series": "random",
+  "serial": "7V71987",
+  "file": "florida-random-7v71987"
+ },
+ {
+  "series": "random",
+  "serial": "4H59446",
+  "file": "florida-random-4h59446"
+ },
+ {
+  "series": "random",
+  "serial": "3U29213",
+  "file": "florida-random-3u29213"
+ },
+ {
+  "series": "random",
+  "serial": "2U78740",
+  "file": "florida-random-2u78740"
+ },
+ {
+  "series": "random",
+  "serial": "1Z38587",
+  "file": "florida-random-1z38587"
+ },
+ {
+  "series": "random",
+  "serial": "2W05794",
+  "file": "florida-random-2w05794"
+ },
+ {
+  "series": "random",
+  "serial": "1N11074",
+  "file": "florida-random-1n11074"
+ },
+ {
+  "series": "random",
+  "serial": "7U47212",
+  "file": "florida-random-7u47212"
+ },
+ {
+  "series": "random",
+  "serial": "0X32346",
+  "file": "florida-random-0x32346"
+ },
+ {
+  "series": "random",
+  "serial": "2E23788",
+  "file": "florida-random-2e23788"
+ },
+ {
+  "series": "random",
+  "serial": "0F93575",
+  "file": "florida-random-0f93575"
+ },
+ {
+  "series": "random",
+  "serial": "6S61878",
+  "file": "florida-random-6s61878"
+ },
+ {
+  "series": "random",
+  "serial": "9P76922",
+  "file": "florida-random-9p76922"
+ },
+ {
+  "series": "random",
+  "serial": "7L90509",
+  "file": "florida-random-7l90509"
+ },
+ {
+  "series": "random",
+  "serial": "3G59845",
+  "file": "florida-random-3g59845"
+ },
+ {
+  "series": "random",
+  "serial": "0D62291",
+  "file": "florida-random-0d62291"
+ },
+ {
+  "series": "random",
+  "serial": "8P18401",
+  "file": "florida-random-8p18401"
+ },
+ {
+  "series": "random",
+  "serial": "6D19692",
+  "file": "florida-random-6d19692"
+ },
+ {
+  "series": "random",
+  "serial": "8U91419",
+  "file": "florida-random-8u91419"
+ },
+ {
+  "series": "random",
+  "serial": "9L58344",
+  "file": "florida-random-9l58344"
+ },
+ {
+  "series": "random",
+  "serial": "0F68361",
+  "file": "florida-random-0f68361"
+ },
+ {
+  "series": "random",
+  "serial": "3C80122",
+  "file": "florida-random-3c80122"
+ },
+ {
+  "series": "random",
+  "serial": "2F92180",
+  "file": "florida-random-2f92180"
+ },
+ {
+  "series": "random",
+  "serial": "7V47691",
+  "file": "florida-random-7v47691"
+ },
+ {
+  "series": "random",
+  "serial": "4U67717",
+  "file": "florida-random-4u67717"
+ },
+ {
+  "series": "random",
+  "serial": "4R63110",
+  "file": "florida-random-4r63110"
+ }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "wisconsin-g28xyz",
+  "template": "wisconsin",
+  "series": "custom",
+  "serial": "G28-XYZ"
+}

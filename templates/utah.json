@@ -1,0 +1,60 @@
+{
+  "state": "Utah",
+  "year": 1953,
+  "photo": "https://commons.wikimedia.org/wiki/File:Utah_1953_license_plate.jpg",
+  "colors": {
+    "background": "#141414",
+    "ink": "#EBC23A"
+  },
+  "serial_format": "L/L 999",
+  "serial_example": "B/H 980",
+  "elements": [
+    {
+      "type": "text",
+      "id": "state",
+      "text": "UTAH",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.17,
+      "baseline": 0.215,
+      "x": 0.265,
+      "anchor": "start",
+      "width": 0.3
+    },
+    {
+      "type": "text",
+      "id": "year_right",
+      "text": "1953",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.17,
+      "baseline": 0.215,
+      "x": 0.955,
+      "anchor": "end",
+      "width": 0.25
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.65,
+      "baseline": 0.935,
+      "x0": 0.23,
+      "x0_plain": 0.04,
+      "x1": 0.96,
+      "sep": "none",
+      "gap": 0.45,
+      "stem": 0.16,
+      "max_sx": 1.25,
+      "stack": {
+        "x": 0.035,
+        "cap": 0.38,
+        "baselines": [
+          0.47,
+          0.935
+        ],
+        "font": "HighwayGothic-E.ttf",
+        "sx": 1.1,
+        "stem": 0.17
+      }
+    }
+  ]
+}

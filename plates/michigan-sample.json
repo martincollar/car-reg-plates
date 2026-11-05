@@ -1,5 +1,6 @@
 {
   "name": "michigan-sample",
   "template": "michigan",
+  "series": "sample",
   "serial": null
 }

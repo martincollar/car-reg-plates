@@ -1,0 +1,372 @@
+[
+ {
+  "series": "sample",
+  "serial": "579-BL",
+  "file": "ohio-sample-579bl"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS-3T",
+  "file": "ohio-vanity-3ds3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN-3T",
+  "file": "ohio-vanity-hrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "PLA-3D",
+  "file": "ohio-vanity-pla3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DP-LA",
+  "file": "ohio-vanity-3dpla"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0P-LR",
+  "file": "ohio-vanity-d0plr"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELI-M8",
+  "file": "ohio-vanity-elim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-51",
+  "file": "ohio-vanity-hud51"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL4-3D",
+  "file": "ohio-vanity-pl43d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-54",
+  "file": "ohio-vanity-hud54"
+ },
+ {
+  "series": "vanity",
+  "serial": "LIM-8R",
+  "file": "ohio-vanity-lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-NT",
+  "file": "ohio-vanity-h0rnt"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D5-3T",
+  "file": "ohio-vanity-3d53t"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS-37",
+  "file": "ohio-vanity-3ds37"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN-37",
+  "file": "ohio-vanity-hrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DP-L4",
+  "file": "ohio-vanity-3dpl4"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LI-M8",
+  "file": "ohio-vanity-3lim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL1-M8",
+  "file": "ohio-vanity-el1m8"
+ },
+ {
+  "series": "vanity",
+  "serial": "L1M-8R",
+  "file": "ohio-vanity-l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-N7",
+  "file": "ohio-vanity-h0rn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN-E7",
+  "file": "ohio-vanity-hrne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-5N",
+  "file": "ohio-vanity-hud5n"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D5-37",
+  "file": "ohio-vanity-3d537"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L1-M8",
+  "file": "ohio-vanity-3l1m8"
+ },
+ {
+  "series": "random",
+  "serial": "965-CE",
+  "file": "ohio-random-965ce"
+ },
+ {
+  "series": "random",
+  "serial": "250-JB",
+  "file": "ohio-random-250jb"
+ },
+ {
+  "series": "random",
+  "serial": "403-FB",
+  "file": "ohio-random-403fb"
+ },
+ {
+  "series": "random",
+  "serial": "178-AR",
+  "file": "ohio-random-178ar"
+ },
+ {
+  "series": "random",
+  "serial": "393-KL",
+  "file": "ohio-random-393kl"
+ },
+ {
+  "series": "random",
+  "serial": "748-VR",
+  "file": "ohio-random-748vr"
+ },
+ {
+  "series": "random",
+  "serial": "482-XH",
+  "file": "ohio-random-482xh"
+ },
+ {
+  "series": "random",
+  "serial": "320-XJ",
+  "file": "ohio-random-320xj"
+ },
+ {
+  "series": "random",
+  "serial": "694-YY",
+  "file": "ohio-random-694yy"
+ },
+ {
+  "series": "random",
+  "serial": "729-UU",
+  "file": "ohio-random-729uu"
+ },
+ {
+  "series": "random",
+  "serial": "209-MN",
+  "file": "ohio-random-209mn"
+ },
+ {
+  "series": "random",
+  "serial": "108-NG",
+  "file": "ohio-random-108ng"
+ },
+ {
+  "series": "random",
+  "serial": "586-WD",
+  "file": "ohio-random-586wd"
+ },
+ {
+  "series": "random",
+  "serial": "337-XF",
+  "file": "ohio-random-337xf"
+ },
+ {
+  "series": "random",
+  "serial": "364-UZ",
+  "file": "ohio-random-364uz"
+ },
+ {
+  "series": "random",
+  "serial": "162-TE",
+  "file": "ohio-random-162te"
+ },
+ {
+  "series": "random",
+  "serial": "284-UJ",
+  "file": "ohio-random-284uj"
+ },
+ {
+  "series": "random",
+  "serial": "256-NK",
+  "file": "ohio-random-256nk"
+ },
+ {
+  "series": "random",
+  "serial": "359-UY",
+  "file": "ohio-random-359uy"
+ },
+ {
+  "series": "random",
+  "serial": "382-DB",
+  "file": "ohio-random-382db"
+ },
+ {
+  "series": "random",
+  "serial": "156-TE",
+  "file": "ohio-random-156te"
+ },
+ {
+  "series": "random",
+  "serial": "979-DM",
+  "file": "ohio-random-979dm"
+ },
+ {
+  "series": "random",
+  "serial": "364-JA",
+  "file": "ohio-random-364ja"
+ },
+ {
+  "series": "random",
+  "serial": "686-TL",
+  "file": "ohio-random-686tl"
+ },
+ {
+  "series": "random",
+  "serial": "186-YB",
+  "file": "ohio-random-186yb"
+ },
+ {
+  "series": "random",
+  "serial": "490-NU",
+  "file": "ohio-random-490nu"
+ },
+ {
+  "series": "random",
+  "serial": "908-KS",
+  "file": "ohio-random-908ks"
+ },
+ {
+  "series": "random",
+  "serial": "132-HJ",
+  "file": "ohio-random-132hj"
+ },
+ {
+  "series": "random",
+  "serial": "786-ZJ",
+  "file": "ohio-random-786zj"
+ },
+ {
+  "series": "random",
+  "serial": "485-YZ",
+  "file": "ohio-random-485yz"
+ },
+ {
+  "series": "random",
+  "serial": "466-RA",
+  "file": "ohio-random-466ra"
+ },
+ {
+  "series": "random",
+  "serial": "872-ZU",
+  "file": "ohio-random-872zu"
+ },
+ {
+  "series": "random",
+  "serial": "070-XF",
+  "file": "ohio-random-070xf"
+ },
+ {
+  "series": "random",
+  "serial": "590-DE",
+  "file": "ohio-random-590de"
+ },
+ {
+  "series": "random",
+  "serial": "553-DY",
+  "file": "ohio-random-553dy"
+ },
+ {
+  "series": "random",
+  "serial": "901-YR",
+  "file": "ohio-random-901yr"
+ },
+ {
+  "series": "random",
+  "serial": "781-HG",
+  "file": "ohio-random-781hg"
+ },
+ {
+  "series": "random",
+  "serial": "769-UT",
+  "file": "ohio-random-769ut"
+ },
+ {
+  "series": "random",
+  "serial": "960-XM",
+  "file": "ohio-random-960xm"
+ },
+ {
+  "series": "random",
+  "serial": "051-LA",
+  "file": "ohio-random-051la"
+ },
+ {
+  "series": "random",
+  "serial": "187-VR",
+  "file": "ohio-random-187vr"
+ },
+ {
+  "series": "random",
+  "serial": "028-LC",
+  "file": "ohio-random-028lc"
+ },
+ {
+  "series": "random",
+  "serial": "785-WL",
+  "file": "ohio-random-785wl"
+ },
+ {
+  "series": "random",
+  "serial": "824-ST",
+  "file": "ohio-random-824st"
+ },
+ {
+  "series": "random",
+  "serial": "325-ZB",
+  "file": "ohio-random-325zb"
+ },
+ {
+  "series": "random",
+  "serial": "963-LK",
+  "file": "ohio-random-963lk"
+ },
+ {
+  "series": "random",
+  "serial": "465-NL",
+  "file": "ohio-random-465nl"
+ },
+ {
+  "series": "random",
+  "serial": "396-LB",
+  "file": "ohio-random-396lb"
+ },
+ {
+  "series": "random",
+  "serial": "950-JR",
+  "file": "ohio-random-950jr"
+ },
+ {
+  "series": "random",
+  "serial": "854-ZS",
+  "file": "ohio-random-854zs"
+ }
+]

@@ -1,5 +1,6 @@
 {
   "name": "michigan-huds0n",
   "template": "michigan",
-  "serial": "HUD-S0N"
+  "series": "custom",
+  "serial": "HU-DS-0N"
 }

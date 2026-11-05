@@ -1,0 +1,422 @@
+[
+ {
+  "series": "sample",
+  "serial": "1/A 28 588",
+  "file": "idaho-sample-1a28588"
+ },
+ {
+  "series": "custom",
+  "serial": "H0R N3T",
+  "file": "idaho-custom-h0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "D/0 PP L3R",
+  "file": "idaho-vanity-d0ppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "E/L IM N8R",
+  "file": "idaho-vanity-elimn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "S/H 1F T3D",
+  "file": "idaho-vanity-sh1ft3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/U DH RN7",
+  "file": "idaho-vanity-hudhrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/H 0R N3T",
+  "file": "idaho-vanity-hh0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/0 RN 3T5",
+  "file": "idaho-vanity-h0rn3t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "D/0 PP LR5",
+  "file": "idaho-vanity-d0pplr5"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/R N3 T51",
+  "file": "idaho-vanity-hrn3t51"
+ },
+ {
+  "series": "vanity",
+  "serial": "3/L 1M N8R",
+  "file": "idaho-vanity-3l1mn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/R N3 T54",
+  "file": "idaho-vanity-hrn3t54"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/U DH 0RN",
+  "file": "idaho-vanity-hudh0rn"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/U DS N51",
+  "file": "idaho-vanity-hudsn51"
+ },
+ {
+  "series": "vanity",
+  "serial": "5/1 HR N3T",
+  "file": "idaho-vanity-51hrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/U DS N54",
+  "file": "idaho-vanity-hudsn54"
+ },
+ {
+  "series": "vanity",
+  "serial": "P/L AH RN7",
+  "file": "idaho-vanity-plahrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "5/1 HU DSN",
+  "file": "idaho-vanity-51hudsn"
+ },
+ {
+  "series": "vanity",
+  "serial": "3/L IM N8R",
+  "file": "idaho-vanity-3limn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "5/H 1F T3D",
+  "file": "idaho-vanity-5h1ft3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "E/L 1M N8R",
+  "file": "idaho-vanity-el1mn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "S/H 1F 73D",
+  "file": "idaho-vanity-sh1f73d"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/H 0R N37",
+  "file": "idaho-vanity-hh0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/0 RN 375",
+  "file": "idaho-vanity-h0rn375"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/R N3 751",
+  "file": "idaho-vanity-hrn3751"
+ },
+ {
+  "series": "vanity",
+  "serial": "D/0 PP LER",
+  "file": "idaho-vanity-d0ppler"
+ },
+ {
+  "series": "vanity",
+  "serial": "D/O PP L3R",
+  "file": "idaho-vanity-doppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/R N3 754",
+  "file": "idaho-vanity-hrn3754"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/U D5 N51",
+  "file": "idaho-vanity-hud5n51"
+ },
+ {
+  "series": "vanity",
+  "serial": "5/1 HR N37",
+  "file": "idaho-vanity-51hrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "H/U D5 N54",
+  "file": "idaho-vanity-hud5n54"
+ },
+ {
+  "series": "vanity",
+  "serial": "P/L 4H RN7",
+  "file": "idaho-vanity-pl4hrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "5/1 HU D5N",
+  "file": "idaho-vanity-51hud5n"
+ },
+ {
+  "series": "vanity",
+  "serial": "5/H 1F 73D",
+  "file": "idaho-vanity-5h1f73d"
+ },
+ {
+  "series": "random",
+  "serial": "5/V 03 801",
+  "file": "idaho-random-5v03801"
+ },
+ {
+  "series": "random",
+  "serial": "5/Y 14 042",
+  "file": "idaho-random-5y14042"
+ },
+ {
+  "series": "random",
+  "serial": "4/M 37 883",
+  "file": "idaho-random-4m37883"
+ },
+ {
+  "series": "random",
+  "serial": "4/F 33 787",
+  "file": "idaho-random-4f33787"
+ },
+ {
+  "series": "random",
+  "serial": "0/T 10 099",
+  "file": "idaho-random-0t10099"
+ },
+ {
+  "series": "random",
+  "serial": "5/D 84 976",
+  "file": "idaho-random-5d84976"
+ },
+ {
+  "series": "random",
+  "serial": "4/C 73 777",
+  "file": "idaho-random-4c73777"
+ },
+ {
+  "series": "random",
+  "serial": "0/C 38 977",
+  "file": "idaho-random-0c38977"
+ },
+ {
+  "series": "random",
+  "serial": "4/V 06 791",
+  "file": "idaho-random-4v06791"
+ },
+ {
+  "series": "random",
+  "serial": "3/G 01 326",
+  "file": "idaho-random-3g01326"
+ },
+ {
+  "series": "random",
+  "serial": "8/H 64 670",
+  "file": "idaho-random-8h64670"
+ },
+ {
+  "series": "random",
+  "serial": "8/U 71 948",
+  "file": "idaho-random-8u71948"
+ },
+ {
+  "series": "random",
+  "serial": "3/W 86 658",
+  "file": "idaho-random-3w86658"
+ },
+ {
+  "series": "random",
+  "serial": "5/G 89 254",
+  "file": "idaho-random-5g89254"
+ },
+ {
+  "series": "random",
+  "serial": "7/A 24 317",
+  "file": "idaho-random-7a24317"
+ },
+ {
+  "series": "random",
+  "serial": "1/H 59 540",
+  "file": "idaho-random-1h59540"
+ },
+ {
+  "series": "random",
+  "serial": "6/E 11 856",
+  "file": "idaho-random-6e11856"
+ },
+ {
+  "series": "random",
+  "serial": "1/W 72 720",
+  "file": "idaho-random-1w72720"
+ },
+ {
+  "series": "random",
+  "serial": "5/J 26 926",
+  "file": "idaho-random-5j26926"
+ },
+ {
+  "series": "random",
+  "serial": "9/L 05 613",
+  "file": "idaho-random-9l05613"
+ },
+ {
+  "series": "random",
+  "serial": "0/A 74 423",
+  "file": "idaho-random-0a74423"
+ },
+ {
+  "series": "random",
+  "serial": "3/N 97 459",
+  "file": "idaho-random-3n97459"
+ },
+ {
+  "series": "random",
+  "serial": "2/B 05 497",
+  "file": "idaho-random-2b05497"
+ },
+ {
+  "series": "random",
+  "serial": "7/F 56 122",
+  "file": "idaho-random-7f56122"
+ },
+ {
+  "series": "random",
+  "serial": "3/P 45 058",
+  "file": "idaho-random-3p45058"
+ },
+ {
+  "series": "random",
+  "serial": "4/F 87 927",
+  "file": "idaho-random-4f87927"
+ },
+ {
+  "series": "random",
+  "serial": "0/X 99 399",
+  "file": "idaho-random-0x99399"
+ },
+ {
+  "series": "random",
+  "serial": "5/X 41 174",
+  "file": "idaho-random-5x41174"
+ },
+ {
+  "series": "random",
+  "serial": "9/R 62 629",
+  "file": "idaho-random-9r62629"
+ },
+ {
+  "series": "random",
+  "serial": "1/R 62 200",
+  "file": "idaho-random-1r62200"
+ },
+ {
+  "series": "random",
+  "serial": "0/T 33 536",
+  "file": "idaho-random-0t33536"
+ },
+ {
+  "series": "random",
+  "serial": "0/Y 94 056",
+  "file": "idaho-random-0y94056"
+ },
+ {
+  "series": "random",
+  "serial": "6/D 71 479",
+  "file": "idaho-random-6d71479"
+ },
+ {
+  "series": "random",
+  "serial": "6/R 83 915",
+  "file": "idaho-random-6r83915"
+ },
+ {
+  "series": "random",
+  "serial": "9/C 69 664",
+  "file": "idaho-random-9c69664"
+ },
+ {
+  "series": "random",
+  "serial": "5/W 55 542",
+  "file": "idaho-random-5w55542"
+ },
+ {
+  "series": "random",
+  "serial": "1/Y 30 252",
+  "file": "idaho-random-1y30252"
+ },
+ {
+  "series": "random",
+  "serial": "7/N 96 014",
+  "file": "idaho-random-7n96014"
+ },
+ {
+  "series": "random",
+  "serial": "9/G 85 554",
+  "file": "idaho-random-9g85554"
+ },
+ {
+  "series": "random",
+  "serial": "2/L 36 376",
+  "file": "idaho-random-2l36376"
+ },
+ {
+  "series": "random",
+  "serial": "6/B 42 332",
+  "file": "idaho-random-6b42332"
+ },
+ {
+  "series": "random",
+  "serial": "6/K 61 084",
+  "file": "idaho-random-6k61084"
+ },
+ {
+  "series": "random",
+  "serial": "6/D 84 659",
+  "file": "idaho-random-6d84659"
+ },
+ {
+  "series": "random",
+  "serial": "1/U 48 018",
+  "file": "idaho-random-1u48018"
+ },
+ {
+  "series": "random",
+  "serial": "2/Y 65 838",
+  "file": "idaho-random-2y65838"
+ },
+ {
+  "series": "random",
+  "serial": "7/V 02 738",
+  "file": "idaho-random-7v02738"
+ },
+ {
+  "series": "random",
+  "serial": "3/K 73 906",
+  "file": "idaho-random-3k73906"
+ },
+ {
+  "series": "random",
+  "serial": "8/P 90 040",
+  "file": "idaho-random-8p90040"
+ },
+ {
+  "series": "random",
+  "serial": "3/C 92 119",
+  "file": "idaho-random-3c92119"
+ },
+ {
+  "series": "random",
+  "serial": "3/J 10 916",
+  "file": "idaho-random-3j10916"
+ }
+]

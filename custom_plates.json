@@ -1,0 +1,127 @@
+{
+  "_about": "Custom (vanity) serials per state, shaped to each state's own grouping: '-' is the state's separator, a space is a gap. Build with: python src/generate.py --list custom_plates.json",
+  "iowa": [
+    "3D-PRINT",
+    "51-HUDSN",
+    "54-HRNET",
+    "DO-PPLER",
+    "SH-IFTED",
+    "20-INFIL"
+  ],
+  "michigan": [
+    "HU-DS-0N",
+    "H0-RN-3T",
+    "3D-SE-TS",
+    "IN-FI-LL",
+    "DO-PP-LR",
+    "ST-EP-DN",
+    "PE-TG-24"
+  ],
+  "nebraska": [
+    "HU-DSON",
+    "HO-RNET",
+    "3D-SETS",
+    "IN-FILL",
+    "51-HRNT",
+    "54-PETG"
+  ],
+  "pennsylvania": [
+    "HUDSN",
+    "HRNET",
+    "3DSET",
+    "SHIFT",
+    "DOPLR",
+    "INFIL",
+    "308HH"
+  ],
+  "florida": [
+    "DOPPLER",
+    "SHIFTED",
+    "ELIMN8R",
+    "HUDSN51",
+    "3DSETS7",
+    "7R4C1NG"
+  ],
+  "illinois": [
+    "HRNT 308",
+    "PETG 245",
+    "DOPP LER",
+    "SHIF TED",
+    "INFL 020"
+  ],
+  "new-york": [
+    "HUDS-0N",
+    "HORN-3T",
+    "SETS-3D",
+    "DOPP-LR",
+    "SHFT-ED",
+    "INFI-LL"
+  ],
+  "minnesota": [
+    "HUD-S0N",
+    "INF-ILL",
+    "PLA-215",
+    "3DS-ETS",
+    "ELI-M8R",
+    "DOP-PLR"
+  ],
+  "georgia": [
+    "H-ORNET",
+    "3-DSETS",
+    "I-NFILL",
+    "E-LIM8R",
+    "S-HIFTD"
+  ],
+  "ohio": [
+    "308-HH",
+    "PLA-3D",
+    "FAB-54",
+    "HRN-51",
+    "DOP-LR",
+    "SHF-TD"
+  ],
+  "wisconsin": [
+    "H0R-N3T",
+    "SHF-TED",
+    "PTG-245",
+    "G28-XYZ",
+    "TWN-H51"
+  ],
+  "kentucky": [
+    "FAB-HRN",
+    "STP-DWN",
+    "3DS-ETS",
+    "LYR-020",
+    "NZL-040"
+  ],
+  "alaska": [
+    "ELIM8",
+    "HUD51",
+    "3DSET",
+    "FDM54",
+    "HRNT6"
+  ],
+  "idaho": [
+    "3/D PR INT",
+    "5/1 HR NET",
+    "D/O PP LER",
+    "S/H IF TED"
+  ],
+  "utah": [
+    "H/H 308",
+    "3/D SET",
+    "F/D M54",
+    "D/O PLR"
+  ],
+  "personal": {
+    "iowa": [
+      "H0R-N3T"
+    ],
+    "idaho": [
+      "H0R N3T"
+    ],
+    "utah": [
+      "H0R N3T"
+    ]
+  }
+}

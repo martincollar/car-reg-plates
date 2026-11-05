@@ -1,0 +1,372 @@
+[
+ {
+  "series": "sample",
+  "serial": "45357",
+  "file": "alaska-sample-45357"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS3T",
+  "file": "alaska-vanity-3ds3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3T",
+  "file": "alaska-vanity-hrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "PLA3D",
+  "file": "alaska-vanity-pla3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DPLA",
+  "file": "alaska-vanity-3dpla"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PLR",
+  "file": "alaska-vanity-d0plr"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELIM8",
+  "file": "alaska-vanity-elim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD51",
+  "file": "alaska-vanity-hud51"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL43D",
+  "file": "alaska-vanity-pl43d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD54",
+  "file": "alaska-vanity-hud54"
+ },
+ {
+  "series": "vanity",
+  "serial": "LIM8R",
+  "file": "alaska-vanity-lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RNT",
+  "file": "alaska-vanity-h0rnt"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D53T",
+  "file": "alaska-vanity-3d53t"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS37",
+  "file": "alaska-vanity-3ds37"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN37",
+  "file": "alaska-vanity-hrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DPL4",
+  "file": "alaska-vanity-3dpl4"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LIM8",
+  "file": "alaska-vanity-3lim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL1M8",
+  "file": "alaska-vanity-el1m8"
+ },
+ {
+  "series": "vanity",
+  "serial": "L1M8R",
+  "file": "alaska-vanity-l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN7",
+  "file": "alaska-vanity-h0rn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRNE7",
+  "file": "alaska-vanity-hrne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5N",
+  "file": "alaska-vanity-hud5n"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D537",
+  "file": "alaska-vanity-3d537"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L1M8",
+  "file": "alaska-vanity-3l1m8"
+ },
+ {
+  "series": "random",
+  "serial": "74977",
+  "file": "alaska-random-74977"
+ },
+ {
+  "series": "random",
+  "serial": "83631",
+  "file": "alaska-random-83631"
+ },
+ {
+  "series": "random",
+  "serial": "29368",
+  "file": "alaska-random-29368"
+ },
+ {
+  "series": "random",
+  "serial": "47374",
+  "file": "alaska-random-47374"
+ },
+ {
+  "series": "random",
+  "serial": "91508",
+  "file": "alaska-random-91508"
+ },
+ {
+  "series": "random",
+  "serial": "58896",
+  "file": "alaska-random-58896"
+ },
+ {
+  "series": "random",
+  "serial": "25092",
+  "file": "alaska-random-25092"
+ },
+ {
+  "series": "random",
+  "serial": "19275",
+  "file": "alaska-random-19275"
+ },
+ {
+  "series": "random",
+  "serial": "25340",
+  "file": "alaska-random-25340"
+ },
+ {
+  "series": "random",
+  "serial": "36167",
+  "file": "alaska-random-36167"
+ },
+ {
+  "series": "random",
+  "serial": "15915",
+  "file": "alaska-random-15915"
+ },
+ {
+  "series": "random",
+  "serial": "47743",
+  "file": "alaska-random-47743"
+ },
+ {
+  "series": "random",
+  "serial": "37913",
+  "file": "alaska-random-37913"
+ },
+ {
+  "series": "random",
+  "serial": "82930",
+  "file": "alaska-random-82930"
+ },
+ {
+  "series": "random",
+  "serial": "46289",
+  "file": "alaska-random-46289"
+ },
+ {
+  "series": "random",
+  "serial": "43871",
+  "file": "alaska-random-43871"
+ },
+ {
+  "series": "random",
+  "serial": "44881",
+  "file": "alaska-random-44881"
+ },
+ {
+  "series": "random",
+  "serial": "41480",
+  "file": "alaska-random-41480"
+ },
+ {
+  "series": "random",
+  "serial": "54167",
+  "file": "alaska-random-54167"
+ },
+ {
+  "series": "random",
+  "serial": "11988",
+  "file": "alaska-random-11988"
+ },
+ {
+  "series": "random",
+  "serial": "29289",
+  "file": "alaska-random-29289"
+ },
+ {
+  "series": "random",
+  "serial": "74330",
+  "file": "alaska-random-74330"
+ },
+ {
+  "series": "random",
+  "serial": "87683",
+  "file": "alaska-random-87683"
+ },
+ {
+  "series": "random",
+  "serial": "57295",
+  "file": "alaska-random-57295"
+ },
+ {
+  "series": "random",
+  "serial": "30929",
+  "file": "alaska-random-30929"
+ },
+ {
+  "series": "random",
+  "serial": "65650",
+  "file": "alaska-random-65650"
+ },
+ {
+  "series": "random",
+  "serial": "64878",
+  "file": "alaska-random-64878"
+ },
+ {
+  "series": "random",
+  "serial": "04994",
+  "file": "alaska-random-04994"
+ },
+ {
+  "series": "random",
+  "serial": "96450",
+  "file": "alaska-random-96450"
+ },
+ {
+  "series": "random",
+  "serial": "58265",
+  "file": "alaska-random-58265"
+ },
+ {
+  "series": "random",
+  "serial": "81512",
+  "file": "alaska-random-81512"
+ },
+ {
+  "series": "random",
+  "serial": "43302",
+  "file": "alaska-random-43302"
+ },
+ {
+  "series": "random",
+  "serial": "32124",
+  "file": "alaska-random-32124"
+ },
+ {
+  "series": "random",
+  "serial": "40270",
+  "file": "alaska-random-40270"
+ },
+ {
+  "series": "random",
+  "serial": "53107",
+  "file": "alaska-random-53107"
+ },
+ {
+  "series": "random",
+  "serial": "53137",
+  "file": "alaska-random-53137"
+ },
+ {
+  "series": "random",
+  "serial": "27179",
+  "file": "alaska-random-27179"
+ },
+ {
+  "series": "random",
+  "serial": "46473",
+  "file": "alaska-random-46473"
+ },
+ {
+  "series": "random",
+  "serial": "93529",
+  "file": "alaska-random-93529"
+ },
+ {
+  "series": "random",
+  "serial": "28980",
+  "file": "alaska-random-28980"
+ },
+ {
+  "series": "random",
+  "serial": "23898",
+  "file": "alaska-random-23898"
+ },
+ {
+  "series": "random",
+  "serial": "12282",
+  "file": "alaska-random-12282"
+ },
+ {
+  "series": "random",
+  "serial": "42332",
+  "file": "alaska-random-42332"
+ },
+ {
+  "series": "random",
+  "serial": "48449",
+  "file": "alaska-random-48449"
+ },
+ {
+  "series": "random",
+  "serial": "80378",
+  "file": "alaska-random-80378"
+ },
+ {
+  "series": "random",
+  "serial": "84550",
+  "file": "alaska-random-84550"
+ },
+ {
+  "series": "random",
+  "serial": "01055",
+  "file": "alaska-random-01055"
+ },
+ {
+  "series": "random",
+  "serial": "09068",
+  "file": "alaska-random-09068"
+ },
+ {
+  "series": "random",
+  "serial": "05555",
+  "file": "alaska-random-05555"
+ },
+ {
+  "series": "random",
+  "serial": "47329",
+  "file": "alaska-random-47329"
+ }
+]

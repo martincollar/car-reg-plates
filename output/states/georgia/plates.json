@@ -1,0 +1,477 @@
+[
+ {
+  "series": "sample",
+  "serial": "C-26833",
+  "file": "georgia-sample-c26833"
+ },
+ {
+  "series": "vanity",
+  "serial": "1-NF1LL",
+  "file": "georgia-vanity-1nf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "3-DS3TS",
+  "file": "georgia-vanity-3ds3ts"
+ },
+ {
+  "series": "vanity",
+  "serial": "5-1HHMD",
+  "file": "georgia-vanity-51hhmd"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-0RN3T",
+  "file": "georgia-vanity-h0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-UD50N",
+  "file": "georgia-vanity-hud50n"
+ },
+ {
+  "series": "vanity",
+  "serial": "N-45C4R",
+  "file": "georgia-vanity-n45c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "R-4C1NG",
+  "file": "georgia-vanity-r4c1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "D-0PL3R",
+  "file": "georgia-vanity-d0pl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "E-LIM8R",
+  "file": "georgia-vanity-elim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-UDS0N",
+  "file": "georgia-vanity-huds0n"
+ },
+ {
+  "series": "vanity",
+  "serial": "I-NF1LL",
+  "file": "georgia-vanity-inf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "N-ASC4R",
+  "file": "georgia-vanity-nasc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "R-AC1NG",
+  "file": "georgia-vanity-rac1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "1-00INF",
+  "file": "georgia-vanity-100inf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3-LIM8R",
+  "file": "georgia-vanity-3lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-UD5ON",
+  "file": "georgia-vanity-hud5on"
+ },
+ {
+  "series": "vanity",
+  "serial": "D-PPL3R",
+  "file": "georgia-vanity-dppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "I-NF100",
+  "file": "georgia-vanity-inf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-HRN3T",
+  "file": "georgia-vanity-hhrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "P-LA215",
+  "file": "georgia-vanity-pla215"
+ },
+ {
+  "series": "vanity",
+  "serial": "P-L4210",
+  "file": "georgia-vanity-pl4210"
+ },
+ {
+  "series": "vanity",
+  "serial": "E-LMN8R",
+  "file": "georgia-vanity-elmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "3-D53T5",
+  "file": "georgia-vanity-3d53t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "3-DS37S",
+  "file": "georgia-vanity-3ds37s"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-0RN37",
+  "file": "georgia-vanity-h0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "R-4C1N6",
+  "file": "georgia-vanity-r4c1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "E-L1M8R",
+  "file": "georgia-vanity-el1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "N-4SC4R",
+  "file": "georgia-vanity-n4sc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "N-A5C4R",
+  "file": "georgia-vanity-na5c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "R-AC1N6",
+  "file": "georgia-vanity-rac1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "1-001NF",
+  "file": "georgia-vanity-1001nf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3-L1M8R",
+  "file": "georgia-vanity-3l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "1-NF100",
+  "file": "georgia-vanity-1nf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-HRN37",
+  "file": "georgia-vanity-hhrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "P-L4215",
+  "file": "georgia-vanity-pl4215"
+ },
+ {
+  "series": "vanity",
+  "serial": "3-LMN8R",
+  "file": "georgia-vanity-3lmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "D-0PLER",
+  "file": "georgia-vanity-d0pler"
+ },
+ {
+  "series": "vanity",
+  "serial": "D-OPL3R",
+  "file": "georgia-vanity-dopl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-0RNET",
+  "file": "georgia-vanity-h0rnet"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-ORN3T",
+  "file": "georgia-vanity-horn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-ORNE7",
+  "file": "georgia-vanity-horne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "3-D5375",
+  "file": "georgia-vanity-3d5375"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-0RNE7",
+  "file": "georgia-vanity-h0rne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "H-ORN37",
+  "file": "georgia-vanity-horn37"
+ },
+ {
+  "series": "random",
+  "serial": "J-93226",
+  "file": "georgia-random-j93226"
+ },
+ {
+  "series": "random",
+  "serial": "K-93842",
+  "file": "georgia-random-k93842"
+ },
+ {
+  "series": "random",
+  "serial": "H-50240",
+  "file": "georgia-random-h50240"
+ },
+ {
+  "series": "random",
+  "serial": "X-91113",
+  "file": "georgia-random-x91113"
+ },
+ {
+  "series": "random",
+  "serial": "M-31914",
+  "file": "georgia-random-m31914"
+ },
+ {
+  "series": "random",
+  "serial": "V-93739",
+  "file": "georgia-random-v93739"
+ },
+ {
+  "series": "random",
+  "serial": "D-24705",
+  "file": "georgia-random-d24705"
+ },
+ {
+  "series": "random",
+  "serial": "V-31822",
+  "file": "georgia-random-v31822"
+ },
+ {
+  "series": "random",
+  "serial": "W-20074",
+  "file": "georgia-random-w20074"
+ },
+ {
+  "series": "random",
+  "serial": "M-21048",
+  "file": "georgia-random-m21048"
+ },
+ {
+  "series": "random",
+  "serial": "T-34506",
+  "file": "georgia-random-t34506"
+ },
+ {
+  "series": "random",
+  "serial": "L-67673",
+  "file": "georgia-random-l67673"
+ },
+ {
+  "series": "random",
+  "serial": "X-67575",
+  "file": "georgia-random-x67575"
+ },
+ {
+  "series": "random",
+  "serial": "V-40847",
+  "file": "georgia-random-v40847"
+ },
+ {
+  "series": "random",
+  "serial": "N-00057",
+  "file": "georgia-random-n00057"
+ },
+ {
+  "series": "random",
+  "serial": "S-65545",
+  "file": "georgia-random-s65545"
+ },
+ {
+  "series": "random",
+  "serial": "V-89604",
+  "file": "georgia-random-v89604"
+ },
+ {
+  "series": "random",
+  "serial": "N-74333",
+  "file": "georgia-random-n74333"
+ },
+ {
+  "series": "random",
+  "serial": "G-02896",
+  "file": "georgia-random-g02896"
+ },
+ {
+  "series": "random",
+  "serial": "C-50662",
+  "file": "georgia-random-c50662"
+ },
+ {
+  "series": "random",
+  "serial": "C-06493",
+  "file": "georgia-random-c06493"
+ },
+ {
+  "series": "random",
+  "serial": "Y-86033",
+  "file": "georgia-random-y86033"
+ },
+ {
+  "series": "random",
+  "serial": "E-27418",
+  "file": "georgia-random-e27418"
+ },
+ {
+  "series": "random",
+  "serial": "Z-52994",
+  "file": "georgia-random-z52994"
+ },
+ {
+  "series": "random",
+  "serial": "M-34384",
+  "file": "georgia-random-m34384"
+ },
+ {
+  "series": "random",
+  "serial": "J-42129",
+  "file": "georgia-random-j42129"
+ },
+ {
+  "series": "random",
+  "serial": "P-33980",
+  "file": "georgia-random-p33980"
+ },
+ {
+  "series": "random",
+  "serial": "Y-77246",
+  "file": "georgia-random-y77246"
+ },
+ {
+  "series": "random",
+  "serial": "C-41781",
+  "file": "georgia-random-c41781"
+ },
+ {
+  "series": "random",
+  "serial": "G-15391",
+  "file": "georgia-random-g15391"
+ },
+ {
+  "series": "random",
+  "serial": "Z-99166",
+  "file": "georgia-random-z99166"
+ },
+ {
+  "series": "random",
+  "serial": "C-53298",
+  "file": "georgia-random-c53298"
+ },
+ {
+  "series": "random",
+  "serial": "V-40088",
+  "file": "georgia-random-v40088"
+ },
+ {
+  "series": "random",
+  "serial": "B-02068",
+  "file": "georgia-random-b02068"
+ },
+ {
+  "series": "random",
+  "serial": "N-65662",
+  "file": "georgia-random-n65662"
+ },
+ {
+  "series": "random",
+  "serial": "L-58754",
+  "file": "georgia-random-l58754"
+ },
+ {
+  "series": "random",
+  "serial": "R-39391",
+  "file": "georgia-random-r39391"
+ },
+ {
+  "series": "random",
+  "serial": "P-77015",
+  "file": "georgia-random-p77015"
+ },
+ {
+  "series": "random",
+  "serial": "W-68594",
+  "file": "georgia-random-w68594"
+ },
+ {
+  "series": "random",
+  "serial": "E-48384",
+  "file": "georgia-random-e48384"
+ },
+ {
+  "series": "random",
+  "serial": "F-30666",
+  "file": "georgia-random-f30666"
+ },
+ {
+  "series": "random",
+  "serial": "R-97785",
+  "file": "georgia-random-r97785"
+ },
+ {
+  "series": "random",
+  "serial": "T-59605",
+  "file": "georgia-random-t59605"
+ },
+ {
+  "series": "random",
+  "serial": "K-56546",
+  "file": "georgia-random-k56546"
+ },
+ {
+  "series": "random",
+  "serial": "T-18056",
+  "file": "georgia-random-t18056"
+ },
+ {
+  "series": "random",
+  "serial": "U-70626",
+  "file": "georgia-random-u70626"
+ },
+ {
+  "series": "random",
+  "serial": "E-72451",
+  "file": "georgia-random-e72451"
+ },
+ {
+  "series": "random",
+  "serial": "A-51223",
+  "file": "georgia-random-a51223"
+ },
+ {
+  "series": "random",
+  "serial": "G-43946",
+  "file": "georgia-random-g43946"
+ },
+ {
+  "series": "random",
+  "serial": "H-99742",
+  "file": "georgia-random-h99742"
+ }
+]

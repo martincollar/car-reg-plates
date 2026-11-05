@@ -1,5 +1,6 @@
 {
   "name": "ohio-sample",
   "template": "ohio",
+  "series": "sample",
   "serial": null
 }

@@ -1,0 +1,477 @@
+[
+ {
+  "series": "sample",
+  "serial": "RN-23-01",
+  "file": "michigan-sample-rn2301"
+ },
+ {
+  "series": "vanity",
+  "serial": "1N-F1-LL",
+  "file": "michigan-vanity-1nf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D-S3-TS",
+  "file": "michigan-vanity-3ds3ts"
+ },
+ {
+  "series": "vanity",
+  "serial": "51-HH-MD",
+  "file": "michigan-vanity-51hhmd"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0-RN-3T",
+  "file": "michigan-vanity-h0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-D5-0N",
+  "file": "michigan-vanity-hud50n"
+ },
+ {
+  "series": "vanity",
+  "serial": "N4-5C-4R",
+  "file": "michigan-vanity-n45c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4-C1-NG",
+  "file": "michigan-vanity-r4c1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0-PL-3R",
+  "file": "michigan-vanity-d0pl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL-IM-8R",
+  "file": "michigan-vanity-elim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-DS-0N",
+  "file": "michigan-vanity-huds0n"
+ },
+ {
+  "series": "vanity",
+  "serial": "IN-F1-LL",
+  "file": "michigan-vanity-inf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "NA-SC-4R",
+  "file": "michigan-vanity-nasc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RA-C1-NG",
+  "file": "michigan-vanity-rac1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "10-0I-NF",
+  "file": "michigan-vanity-100inf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L-IM-8R",
+  "file": "michigan-vanity-3lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU-D5-ON",
+  "file": "michigan-vanity-hud5on"
+ },
+ {
+  "series": "vanity",
+  "serial": "DP-PL-3R",
+  "file": "michigan-vanity-dppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "IN-F1-00",
+  "file": "michigan-vanity-inf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HH-RN-3T",
+  "file": "michigan-vanity-hhrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL-A2-15",
+  "file": "michigan-vanity-pla215"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL-42-10",
+  "file": "michigan-vanity-pl4210"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL-MN-8R",
+  "file": "michigan-vanity-elmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D-53-T5",
+  "file": "michigan-vanity-3d53t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D-S3-7S",
+  "file": "michigan-vanity-3ds37s"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0-RN-37",
+  "file": "michigan-vanity-h0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4-C1-N6",
+  "file": "michigan-vanity-r4c1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL-1M-8R",
+  "file": "michigan-vanity-el1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "N4-SC-4R",
+  "file": "michigan-vanity-n4sc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "NA-5C-4R",
+  "file": "michigan-vanity-na5c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RA-C1-N6",
+  "file": "michigan-vanity-rac1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "10-01-NF",
+  "file": "michigan-vanity-1001nf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L-1M-8R",
+  "file": "michigan-vanity-3l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "1N-F1-00",
+  "file": "michigan-vanity-1nf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HH-RN-37",
+  "file": "michigan-vanity-hhrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL-42-15",
+  "file": "michigan-vanity-pl4215"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L-MN-8R",
+  "file": "michigan-vanity-3lmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0-PL-ER",
+  "file": "michigan-vanity-d0pler"
+ },
+ {
+  "series": "vanity",
+  "serial": "DO-PL-3R",
+  "file": "michigan-vanity-dopl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0-RN-ET",
+  "file": "michigan-vanity-h0rnet"
+ },
+ {
+  "series": "vanity",
+  "serial": "HO-RN-3T",
+  "file": "michigan-vanity-horn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HO-RN-E7",
+  "file": "michigan-vanity-horne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D-53-75",
+  "file": "michigan-vanity-3d5375"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0-RN-E7",
+  "file": "michigan-vanity-h0rne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HO-RN-37",
+  "file": "michigan-vanity-horn37"
+ },
+ {
+  "series": "random",
+  "serial": "PT-22-83",
+  "file": "michigan-random-pt2283"
+ },
+ {
+  "series": "random",
+  "serial": "TL-35-91",
+  "file": "michigan-random-tl3591"
+ },
+ {
+  "series": "random",
+  "serial": "VX-02-62",
+  "file": "michigan-random-vx0262"
+ },
+ {
+  "series": "random",
+  "serial": "XS-83-10",
+  "file": "michigan-random-xs8310"
+ },
+ {
+  "series": "random",
+  "serial": "ZN-27-98",
+  "file": "michigan-random-zn2798"
+ },
+ {
+  "series": "random",
+  "serial": "UR-57-54",
+  "file": "michigan-random-ur5754"
+ },
+ {
+  "series": "random",
+  "serial": "BJ-21-82",
+  "file": "michigan-random-bj2182"
+ },
+ {
+  "series": "random",
+  "serial": "GK-85-90",
+  "file": "michigan-random-gk8590"
+ },
+ {
+  "series": "random",
+  "serial": "HT-02-29",
+  "file": "michigan-random-ht0229"
+ },
+ {
+  "series": "random",
+  "serial": "JU-99-76",
+  "file": "michigan-random-ju9976"
+ },
+ {
+  "series": "random",
+  "serial": "ZB-24-61",
+  "file": "michigan-random-zb2461"
+ },
+ {
+  "series": "random",
+  "serial": "VK-37-25",
+  "file": "michigan-random-vk3725"
+ },
+ {
+  "series": "random",
+  "serial": "DK-84-04",
+  "file": "michigan-random-dk8404"
+ },
+ {
+  "series": "random",
+  "serial": "PG-30-22",
+  "file": "michigan-random-pg3022"
+ },
+ {
+  "series": "random",
+  "serial": "SR-56-80",
+  "file": "michigan-random-sr5680"
+ },
+ {
+  "series": "random",
+  "serial": "KY-32-41",
+  "file": "michigan-random-ky3241"
+ },
+ {
+  "series": "random",
+  "serial": "LA-69-41",
+  "file": "michigan-random-la6941"
+ },
+ {
+  "series": "random",
+  "serial": "VT-43-12",
+  "file": "michigan-random-vt4312"
+ },
+ {
+  "series": "random",
+  "serial": "SA-29-93",
+  "file": "michigan-random-sa2993"
+ },
+ {
+  "series": "random",
+  "serial": "JV-75-65",
+  "file": "michigan-random-jv7565"
+ },
+ {
+  "series": "random",
+  "serial": "MB-00-14",
+  "file": "michigan-random-mb0014"
+ },
+ {
+  "series": "random",
+  "serial": "RL-86-90",
+  "file": "michigan-random-rl8690"
+ },
+ {
+  "series": "random",
+  "serial": "XK-26-65",
+  "file": "michigan-random-xk2665"
+ },
+ {
+  "series": "random",
+  "serial": "TC-30-09",
+  "file": "michigan-random-tc3009"
+ },
+ {
+  "series": "random",
+  "serial": "LY-38-24",
+  "file": "michigan-random-ly3824"
+ },
+ {
+  "series": "random",
+  "serial": "BD-79-53",
+  "file": "michigan-random-bd7953"
+ },
+ {
+  "series": "random",
+  "serial": "VR-07-65",
+  "file": "michigan-random-vr0765"
+ },
+ {
+  "series": "random",
+  "serial": "EX-13-90",
+  "file": "michigan-random-ex1390"
+ },
+ {
+  "series": "random",
+  "serial": "PP-11-43",
+  "file": "michigan-random-pp1143"
+ },
+ {
+  "series": "random",
+  "serial": "CT-44-05",
+  "file": "michigan-random-ct4405"
+ },
+ {
+  "series": "random",
+  "serial": "DK-00-21",
+  "file": "michigan-random-dk0021"
+ },
+ {
+  "series": "random",
+  "serial": "SY-42-25",
+  "file": "michigan-random-sy4225"
+ },
+ {
+  "series": "random",
+  "serial": "VZ-85-62",
+  "file": "michigan-random-vz8562"
+ },
+ {
+  "series": "random",
+  "serial": "NG-85-40",
+  "file": "michigan-random-ng8540"
+ },
+ {
+  "series": "random",
+  "serial": "BP-96-69",
+  "file": "michigan-random-bp9669"
+ },
+ {
+  "series": "random",
+  "serial": "ZD-77-09",
+  "file": "michigan-random-zd7709"
+ },
+ {
+  "series": "random",
+  "serial": "HZ-10-37",
+  "file": "michigan-random-hz1037"
+ },
+ {
+  "series": "random",
+  "serial": "UB-56-07",
+  "file": "michigan-random-ub5607"
+ },
+ {
+  "series": "random",
+  "serial": "PE-14-79",
+  "file": "michigan-random-pe1479"
+ },
+ {
+  "series": "random",
+  "serial": "UL-86-08",
+  "file": "michigan-random-ul8608"
+ },
+ {
+  "series": "random",
+  "serial": "RM-03-50",
+  "file": "michigan-random-rm0350"
+ },
+ {
+  "series": "random",
+  "serial": "KX-66-23",
+  "file": "michigan-random-kx6623"
+ },
+ {
+  "series": "random",
+  "serial": "JX-25-09",
+  "file": "michigan-random-jx2509"
+ },
+ {
+  "series": "random",
+  "serial": "KY-59-65",
+  "file": "michigan-random-ky5965"
+ },
+ {
+  "series": "random",
+  "serial": "ZF-42-50",
+  "file": "michigan-random-zf4250"
+ },
+ {
+  "series": "random",
+  "serial": "KC-49-01",
+  "file": "michigan-random-kc4901"
+ },
+ {
+  "series": "random",
+  "serial": "YC-42-72",
+  "file": "michigan-random-yc4272"
+ },
+ {
+  "series": "random",
+  "serial": "CZ-83-59",
+  "file": "michigan-random-cz8359"
+ },
+ {
+  "series": "random",
+  "serial": "KE-76-62",
+  "file": "michigan-random-ke7662"
+ },
+ {
+  "series": "random",
+  "serial": "BV-43-79",
+  "file": "michigan-random-bv4379"
+ }
+]

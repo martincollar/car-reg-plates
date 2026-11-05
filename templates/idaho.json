@@ -1,0 +1,59 @@
+{
+  "state": "Idaho",
+  "year": 1951,
+  "photo": "https://commons.wikimedia.org/wiki/File:Idaho_1951_license_plate.JPG",
+  "colors": {
+    "background": "#5E1C22",
+    "ink": "#ECE8DE"
+  },
+  "serial_format": "9/L 99 999",
+  "serial_example": "1/A 28 588",
+  "elements": [
+    {
+      "type": "text",
+      "id": "state",
+      "text": "IDAHO",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.15,
+      "baseline": 0.205,
+      "x": 0.205,
+      "anchor": "start",
+      "width": 0.33
+    },
+    {
+      "type": "text",
+      "id": "year_right",
+      "text": "51",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.15,
+      "baseline": 0.205,
+      "x": 0.665,
+      "anchor": "start",
+      "width": 0.11
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "HighwayGothic-C.ttf",
+      "cap": 0.65,
+      "baseline": 0.93,
+      "x0": 0.165,
+      "x0_plain": 0.04,
+      "x1": 0.96,
+      "sep": "none",
+      "gap": 0.4,
+      "stem": 0.15,
+      "max_sx": 1.15,
+      "stack": {
+        "x": 0.035,
+        "cap": 0.29,
+        "baselines": [
+          0.565,
+          0.93
+        ],
+        "font": "HighwayGothic-C.ttf",
+        "stem": 0.15
+      }
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+[
+ {
+  "series": "sample",
+  "serial": "2236 213",
+  "file": "illinois-sample-2236213"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PP L3R",
+  "file": "illinois-vanity-d0ppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELIM N8R",
+  "file": "illinois-vanity-elimn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "SH1F T3D",
+  "file": "illinois-vanity-sh1ft3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUDH RN7",
+  "file": "illinois-vanity-hudhrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HH0R N3T",
+  "file": "illinois-vanity-hh0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN 3T5",
+  "file": "illinois-vanity-h0rn3t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PP LR5",
+  "file": "illinois-vanity-d0pplr5"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3 T51",
+  "file": "illinois-vanity-hrn3t51"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L1M N8R",
+  "file": "illinois-vanity-3l1mn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3 T54",
+  "file": "illinois-vanity-hrn3t54"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUDH 0RN",
+  "file": "illinois-vanity-hudh0rn"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUDS N51",
+  "file": "illinois-vanity-hudsn51"
+ },
+ {
+  "series": "vanity",
+  "serial": "51HR N3T",
+  "file": "illinois-vanity-51hrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUDS N54",
+  "file": "illinois-vanity-hudsn54"
+ },
+ {
+  "series": "vanity",
+  "serial": "PLAH RN7",
+  "file": "illinois-vanity-plahrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "51HU DSN",
+  "file": "illinois-vanity-51hudsn"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LIM N8R",
+  "file": "illinois-vanity-3limn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "5H1F T3D",
+  "file": "illinois-vanity-5h1ft3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL1M N8R",
+  "file": "illinois-vanity-el1mn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "SH1F 73D",
+  "file": "illinois-vanity-sh1f73d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HH0R N37",
+  "file": "illinois-vanity-hh0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN 375",
+  "file": "illinois-vanity-h0rn375"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3 751",
+  "file": "illinois-vanity-hrn3751"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PP LER",
+  "file": "illinois-vanity-d0ppler"
+ },
+ {
+  "series": "vanity",
+  "serial": "DOPP L3R",
+  "file": "illinois-vanity-doppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3 754",
+  "file": "illinois-vanity-hrn3754"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5 N51",
+  "file": "illinois-vanity-hud5n51"
+ },
+ {
+  "series": "vanity",
+  "serial": "51HR N37",
+  "file": "illinois-vanity-51hrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5 N54",
+  "file": "illinois-vanity-hud5n54"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL4H RN7",
+  "file": "illinois-vanity-pl4hrn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "51HU D5N",
+  "file": "illinois-vanity-51hud5n"
+ },
+ {
+  "series": "vanity",
+  "serial": "5H1F 73D",
+  "file": "illinois-vanity-5h1f73d"
+ },
+ {
+  "series": "random",
+  "serial": "6954 691",
+  "file": "illinois-random-6954691"
+ },
+ {
+  "series": "random",
+  "serial": "0507 181",
+  "file": "illinois-random-0507181"
+ },
+ {
+  "series": "random",
+  "serial": "4840 359",
+  "file": "illinois-random-4840359"
+ },
+ {
+  "series": "random",
+  "serial": "5094 717",
+  "file": "illinois-random-5094717"
+ },
+ {
+  "series": "random",
+  "serial": "7316 631",
+  "file": "illinois-random-7316631"
+ },
+ {
+  "series": "random",
+  "serial": "5664 447",
+  "file": "illinois-random-5664447"
+ },
+ {
+  "series": "random",
+  "serial": "8402 827",
+  "file": "illinois-random-8402827"
+ },
+ {
+  "series": "random",
+  "serial": "7865 694",
+  "file": "illinois-random-7865694"
+ },
+ {
+  "series": "random",
+  "serial": "9074 346",
+  "file": "illinois-random-9074346"
+ },
+ {
+  "series": "random",
+  "serial": "2912 840",
+  "file": "illinois-random-2912840"
+ },
+ {
+  "series": "random",
+  "serial": "8099 991",
+  "file": "illinois-random-8099991"
+ },
+ {
+  "series": "random",
+  "serial": "5273 558",
+  "file": "illinois-random-5273558"
+ },
+ {
+  "series": "random",
+  "serial": "3451 014",
+  "file": "illinois-random-3451014"
+ },
+ {
+  "series": "random",
+  "serial": "4041 435",
+  "file": "illinois-random-4041435"
+ },
+ {
+  "series": "random",
+  "serial": "2190 354",
+  "file": "illinois-random-2190354"
+ },
+ {
+  "series": "random",
+  "serial": "6692 107",
+  "file": "illinois-random-6692107"
+ },
+ {
+  "series": "random",
+  "serial": "7155 189",
+  "file": "illinois-random-7155189"
+ },
+ {
+  "series": "random",
+  "serial": "6339 233",
+  "file": "illinois-random-6339233"
+ },
+ {
+  "series": "random",
+  "serial": "4059 744",
+  "file": "illinois-random-4059744"
+ },
+ {
+  "series": "random",
+  "serial": "9304 828",
+  "file": "illinois-random-9304828"
+ },
+ {
+  "series": "random",
+  "serial": "4547 030",
+  "file": "illinois-random-4547030"
+ },
+ {
+  "series": "random",
+  "serial": "0654 887",
+  "file": "illinois-random-0654887"
+ },
+ {
+  "series": "random",
+  "serial": "0365 967",
+  "file": "illinois-random-0365967"
+ },
+ {
+  "series": "random",
+  "serial": "8996 871",
+  "file": "illinois-random-8996871"
+ },
+ {
+  "series": "random",
+  "serial": "1582 355",
+  "file": "illinois-random-1582355"
+ },
+ {
+  "series": "random",
+  "serial": "3388 150",
+  "file": "illinois-random-3388150"
+ },
+ {
+  "series": "random",
+  "serial": "3965 374",
+  "file": "illinois-random-3965374"
+ },
+ {
+  "series": "random",
+  "serial": "3358 007",
+  "file": "illinois-random-3358007"
+ },
+ {
+  "series": "random",
+  "serial": "4620 518",
+  "file": "illinois-random-4620518"
+ },
+ {
+  "series": "random",
+  "serial": "2511 948",
+  "file": "illinois-random-2511948"
+ },
+ {
+  "series": "random",
+  "serial": "7860 832",
+  "file": "illinois-random-7860832"
+ },
+ {
+  "series": "random",
+  "serial": "0508 206",
+  "file": "illinois-random-0508206"
+ },
+ {
+  "series": "random",
+  "serial": "0579 890",
+  "file": "illinois-random-0579890"
+ },
+ {
+  "series": "random",
+  "serial": "7779 644",
+  "file": "illinois-random-7779644"
+ },
+ {
+  "series": "random",
+  "serial": "6455 880",
+  "file": "illinois-random-6455880"
+ },
+ {
+  "series": "random",
+  "serial": "5506 342",
+  "file": "illinois-random-5506342"
+ },
+ {
+  "series": "random",
+  "serial": "7357 850",
+  "file": "illinois-random-7357850"
+ },
+ {
+  "series": "random",
+  "serial": "4253 845",
+  "file": "illinois-random-4253845"
+ },
+ {
+  "series": "random",
+  "serial": "3610 023",
+  "file": "illinois-random-3610023"
+ },
+ {
+  "series": "random",
+  "serial": "8363 554",
+  "file": "illinois-random-8363554"
+ },
+ {
+  "series": "random",
+  "serial": "0525 408",
+  "file": "illinois-random-0525408"
+ },
+ {
+  "series": "random",
+  "serial": "2876 506",
+  "file": "illinois-random-2876506"
+ },
+ {
+  "series": "random",
+  "serial": "9938 271",
+  "file": "illinois-random-9938271"
+ },
+ {
+  "series": "random",
+  "serial": "8603 896",
+  "file": "illinois-random-8603896"
+ },
+ {
+  "series": "random",
+  "serial": "4874 130",
+  "file": "illinois-random-4874130"
+ },
+ {
+  "series": "random",
+  "serial": "2229 670",
+  "file": "illinois-random-2229670"
+ },
+ {
+  "series": "random",
+  "serial": "8018 512",
+  "file": "illinois-random-8018512"
+ },
+ {
+  "series": "random",
+  "serial": "8089 264",
+  "file": "illinois-random-8089264"
+ },
+ {
+  "series": "random",
+  "serial": "6284 231",
+  "file": "illinois-random-6284231"
+ },
+ {
+  "series": "random",
+  "serial": "6115 898",
+  "file": "illinois-random-6115898"
+ }
+]

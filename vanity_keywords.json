@@ -1,0 +1,86 @@
+{
+  "_about": "Keywords for src/vanity.py. Each keyword lists spellings: plain ones, shortened ones, and styled ones that already use number swaps (H0RN3T) or number puns (ELIM8R = 'eliminate-r', 8 = 'ate'). Styled spellings with digits are shown first on the sheets. On top of these, every combination of further swaps (O=0, E=3, A=4, I=1, S=5, T=7, G=6, B=8) is tried. Every plate must contain at least one digit. Numbers 51-54 are the Hornet's championship years, HH = Hudson Hornet.",
+  "keywords": {
+    "Hudson": [
+      "HUD50N",
+      "HUDS0N",
+      "HUD5ON",
+      "HUD51",
+      "HUD54",
+      "HUDSN51",
+      "HUDSN54",
+      "51HUDSN",
+      "HUDSON",
+      "HUDSN"
+    ],
+    "Hornet": [
+      "H0RN3T",
+      "HRN3T",
+      "HH0RN3T",
+      "H0RN3T5",
+      "HRN3T51",
+      "HRN3T54",
+      "51HRN3T",
+      "H0RNT",
+      "HORNET",
+      "HRNET"
+    ],
+    "Hudson Hornet": [
+      "51HHMD",
+      "HUDHRN7",
+      "HH51",
+      "HH54",
+      "HHRN3T",
+      "HUDH0RN"
+    ],
+    "Doppler": [
+      "D0PPL3R",
+      "D0PL3R",
+      "D0PLR",
+      "DPPL3R",
+      "D0PPLR5",
+      "DOPPLER",
+      "DOPLER",
+      "DOPLR"
+    ],
+    "3D Sets": [
+      "3DS3TS",
+      "3DS3T"
+    ],
+    "Eliminator": [
+      "ELIMN8R",
+      "ELIM8R",
+      "3LIM8R",
+      "ELIM8",
+      "LIM8R",
+      "3L1MN8R",
+      "ELMN8R"
+    ],
+    "Infill": [
+      "1NF1LL",
+      "INF1LL",
+      "100INF",
+      "INF100"
+    ],
+    "Shifted": [
+      "SH1FT3D"
+    ],
+    "Racing": [
+      "R4C1NG",
+      "RAC1NG"
+    ],
+    "NASCAR": [
+      "N45C4R",
+      "NASC4R"
+    ],
+    "PLA": [
+      "PL4",
+      "PLA3D",
+      "3DPLA",
+      "PL43D",
+      "PLA215",
+      "PL4210",
+      "PLAHRN7"
+    ]
+  }
+}

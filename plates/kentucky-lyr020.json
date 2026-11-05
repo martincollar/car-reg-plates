@@ -1,0 +1,9 @@
+{
+  "name": "kentucky-lyr020",
+  "template": "kentucky",
+  "series": "custom",
+  "serial": "LYR-020",
+  "text": {
+    "county": "CAMPBELL"
+  }
+}

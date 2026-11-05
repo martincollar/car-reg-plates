@@ -1,0 +1,477 @@
+[
+ {
+  "series": "sample",
+  "serial": "L23-787",
+  "file": "wisconsin-sample-l23787"
+ },
+ {
+  "series": "vanity",
+  "serial": "1NF-1LL",
+  "file": "wisconsin-vanity-1nf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS-3TS",
+  "file": "wisconsin-vanity-3ds3ts"
+ },
+ {
+  "series": "vanity",
+  "serial": "51H-HMD",
+  "file": "wisconsin-vanity-51hhmd"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-N3T",
+  "file": "wisconsin-vanity-h0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-50N",
+  "file": "wisconsin-vanity-hud50n"
+ },
+ {
+  "series": "vanity",
+  "serial": "N45-C4R",
+  "file": "wisconsin-vanity-n45c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4C-1NG",
+  "file": "wisconsin-vanity-r4c1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0P-L3R",
+  "file": "wisconsin-vanity-d0pl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELI-M8R",
+  "file": "wisconsin-vanity-elim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-S0N",
+  "file": "wisconsin-vanity-huds0n"
+ },
+ {
+  "series": "vanity",
+  "serial": "INF-1LL",
+  "file": "wisconsin-vanity-inf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "NAS-C4R",
+  "file": "wisconsin-vanity-nasc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RAC-1NG",
+  "file": "wisconsin-vanity-rac1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "100-INF",
+  "file": "wisconsin-vanity-100inf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LI-M8R",
+  "file": "wisconsin-vanity-3lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-5ON",
+  "file": "wisconsin-vanity-hud5on"
+ },
+ {
+  "series": "vanity",
+  "serial": "DPP-L3R",
+  "file": "wisconsin-vanity-dppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "INF-100",
+  "file": "wisconsin-vanity-inf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HHR-N3T",
+  "file": "wisconsin-vanity-hhrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "PLA-215",
+  "file": "wisconsin-vanity-pla215"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL4-210",
+  "file": "wisconsin-vanity-pl4210"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELM-N8R",
+  "file": "wisconsin-vanity-elmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D5-3T5",
+  "file": "wisconsin-vanity-3d53t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS-37S",
+  "file": "wisconsin-vanity-3ds37s"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-N37",
+  "file": "wisconsin-vanity-h0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4C-1N6",
+  "file": "wisconsin-vanity-r4c1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL1-M8R",
+  "file": "wisconsin-vanity-el1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "N4S-C4R",
+  "file": "wisconsin-vanity-n4sc4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "NA5-C4R",
+  "file": "wisconsin-vanity-na5c4r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RAC-1N6",
+  "file": "wisconsin-vanity-rac1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "100-1NF",
+  "file": "wisconsin-vanity-1001nf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L1-M8R",
+  "file": "wisconsin-vanity-3l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "1NF-100",
+  "file": "wisconsin-vanity-1nf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HHR-N37",
+  "file": "wisconsin-vanity-hhrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL4-215",
+  "file": "wisconsin-vanity-pl4215"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LM-N8R",
+  "file": "wisconsin-vanity-3lmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0P-LER",
+  "file": "wisconsin-vanity-d0pler"
+ },
+ {
+  "series": "vanity",
+  "serial": "DOP-L3R",
+  "file": "wisconsin-vanity-dopl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-NET",
+  "file": "wisconsin-vanity-h0rnet"
+ },
+ {
+  "series": "vanity",
+  "serial": "HOR-N3T",
+  "file": "wisconsin-vanity-horn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HOR-NE7",
+  "file": "wisconsin-vanity-horne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D5-375",
+  "file": "wisconsin-vanity-3d5375"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-NE7",
+  "file": "wisconsin-vanity-h0rne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HOR-N37",
+  "file": "wisconsin-vanity-horn37"
+ },
+ {
+  "series": "random",
+  "serial": "W81-275",
+  "file": "wisconsin-random-w81275"
+ },
+ {
+  "series": "random",
+  "serial": "F29-530",
+  "file": "wisconsin-random-f29530"
+ },
+ {
+  "series": "random",
+  "serial": "Y74-182",
+  "file": "wisconsin-random-y74182"
+ },
+ {
+  "series": "random",
+  "serial": "S74-254",
+  "file": "wisconsin-random-s74254"
+ },
+ {
+  "series": "random",
+  "serial": "Y59-122",
+  "file": "wisconsin-random-y59122"
+ },
+ {
+  "series": "random",
+  "serial": "P23-294",
+  "file": "wisconsin-random-p23294"
+ },
+ {
+  "series": "random",
+  "serial": "E07-690",
+  "file": "wisconsin-random-e07690"
+ },
+ {
+  "series": "random",
+  "serial": "M98-625",
+  "file": "wisconsin-random-m98625"
+ },
+ {
+  "series": "random",
+  "serial": "T53-609",
+  "file": "wisconsin-random-t53609"
+ },
+ {
+  "series": "random",
+  "serial": "U70-145",
+  "file": "wisconsin-random-u70145"
+ },
+ {
+  "series": "random",
+  "serial": "Y19-369",
+  "file": "wisconsin-random-y19369"
+ },
+ {
+  "series": "random",
+  "serial": "J96-974",
+  "file": "wisconsin-random-j96974"
+ },
+ {
+  "series": "random",
+  "serial": "G13-180",
+  "file": "wisconsin-random-g13180"
+ },
+ {
+  "series": "random",
+  "serial": "S26-330",
+  "file": "wisconsin-random-s26330"
+ },
+ {
+  "series": "random",
+  "serial": "L19-979",
+  "file": "wisconsin-random-l19979"
+ },
+ {
+  "series": "random",
+  "serial": "W57-008",
+  "file": "wisconsin-random-w57008"
+ },
+ {
+  "series": "random",
+  "serial": "K46-748",
+  "file": "wisconsin-random-k46748"
+ },
+ {
+  "series": "random",
+  "serial": "M52-096",
+  "file": "wisconsin-random-m52096"
+ },
+ {
+  "series": "random",
+  "serial": "Y33-030",
+  "file": "wisconsin-random-y33030"
+ },
+ {
+  "series": "random",
+  "serial": "G82-044",
+  "file": "wisconsin-random-g82044"
+ },
+ {
+  "series": "random",
+  "serial": "C75-752",
+  "file": "wisconsin-random-c75752"
+ },
+ {
+  "series": "random",
+  "serial": "X07-046",
+  "file": "wisconsin-random-x07046"
+ },
+ {
+  "series": "random",
+  "serial": "N61-723",
+  "file": "wisconsin-random-n61723"
+ },
+ {
+  "series": "random",
+  "serial": "W12-413",
+  "file": "wisconsin-random-w12413"
+ },
+ {
+  "series": "random",
+  "serial": "K67-657",
+  "file": "wisconsin-random-k67657"
+ },
+ {
+  "series": "random",
+  "serial": "W60-527",
+  "file": "wisconsin-random-w60527"
+ },
+ {
+  "series": "random",
+  "serial": "A92-804",
+  "file": "wisconsin-random-a92804"
+ },
+ {
+  "series": "random",
+  "serial": "J32-503",
+  "file": "wisconsin-random-j32503"
+ },
+ {
+  "series": "random",
+  "serial": "P50-512",
+  "file": "wisconsin-random-p50512"
+ },
+ {
+  "series": "random",
+  "serial": "P62-432",
+  "file": "wisconsin-random-p62432"
+ },
+ {
+  "series": "random",
+  "serial": "L65-725",
+  "file": "wisconsin-random-l65725"
+ },
+ {
+  "series": "random",
+  "serial": "W93-101",
+  "file": "wisconsin-random-w93101"
+ },
+ {
+  "series": "random",
+  "serial": "B40-427",
+  "file": "wisconsin-random-b40427"
+ },
+ {
+  "series": "random",
+  "serial": "T25-633",
+  "file": "wisconsin-random-t25633"
+ },
+ {
+  "series": "random",
+  "serial": "D81-471",
+  "file": "wisconsin-random-d81471"
+ },
+ {
+  "series": "random",
+  "serial": "S75-024",
+  "file": "wisconsin-random-s75024"
+ },
+ {
+  "series": "random",
+  "serial": "Y55-518",
+  "file": "wisconsin-random-y55518"
+ },
+ {
+  "series": "random",
+  "serial": "R24-768",
+  "file": "wisconsin-random-r24768"
+ },
+ {
+  "series": "random",
+  "serial": "U26-556",
+  "file": "wisconsin-random-u26556"
+ },
+ {
+  "series": "random",
+  "serial": "C91-081",
+  "file": "wisconsin-random-c91081"
+ },
+ {
+  "series": "random",
+  "serial": "V86-231",
+  "file": "wisconsin-random-v86231"
+ },
+ {
+  "series": "random",
+  "serial": "S58-271",
+  "file": "wisconsin-random-s58271"
+ },
+ {
+  "series": "random",
+  "serial": "M45-080",
+  "file": "wisconsin-random-m45080"
+ },
+ {
+  "series": "random",
+  "serial": "U57-870",
+  "file": "wisconsin-random-u57870"
+ },
+ {
+  "series": "random",
+  "serial": "P99-155",
+  "file": "wisconsin-random-p99155"
+ },
+ {
+  "series": "random",
+  "serial": "N26-320",
+  "file": "wisconsin-random-n26320"
+ },
+ {
+  "series": "random",
+  "serial": "V88-965",
+  "file": "wisconsin-random-v88965"
+ },
+ {
+  "series": "random",
+  "serial": "H10-900",
+  "file": "wisconsin-random-h10900"
+ },
+ {
+  "series": "random",
+  "serial": "F18-093",
+  "file": "wisconsin-random-f18093"
+ },
+ {
+  "series": "random",
+  "serial": "S95-954",
+  "file": "wisconsin-random-s95954"
+ }
+]
