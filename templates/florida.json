@@ -1,0 +1,68 @@
+{
+  "state": "Florida",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:1954_Florida_license_plate_7W12558.jpg",
+  "colors": {
+    "background": "#1F2A55",
+    "ink": "#E89539"
+  },
+  "serial_format": "9L99999",
+  "serial_example": "7W12558",
+  "elements": [
+    {
+      "type": "text",
+      "id": "state",
+      "text": "FLORIDA",
+      "font": "HighwayGothic-EM.ttf",
+      "cap": 0.155,
+      "baseline": 0.185,
+      "x": 0.49,
+      "anchor": "middle",
+      "width": 0.65,
+      "sx": 1.3
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "HighwayGothic-C.ttf",
+      "cap": 0.515,
+      "baseline": 0.75,
+      "x0": 0.04,
+      "x1": 0.96,
+      "sep": "none",
+      "stem": 0.2,
+      "max_sx": 1.25
+    },
+    {
+      "type": "text",
+      "id": "year_left",
+      "text": "19",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.12,
+      "baseline": 0.935,
+      "x": 0.02,
+      "anchor": "start"
+    },
+    {
+      "type": "text",
+      "id": "slogan",
+      "text": "SUNSHINE STATE",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.12,
+      "baseline": 0.935,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.66
+    },
+    {
+      "type": "text",
+      "id": "year_right",
+      "text": "54",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.12,
+      "baseline": 0.935,
+      "x": 0.98,
+      "anchor": "end"
+    }
+  ]
+}

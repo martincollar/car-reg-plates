@@ -1,0 +1,7 @@
+fonttools>=4.40
+shapely>=2.0
+trimesh>=4.0
+mapbox_earcut
+svgelements>=1.9
+numpy
+Pillow

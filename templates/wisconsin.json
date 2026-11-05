@@ -1,0 +1,78 @@
+{
+  "state": "Wisconsin",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:1954_Wisconsin_license_plate.jpg",
+  "colors": {
+    "background": "#E4D03C",
+    "ink": "#141414"
+  },
+  "serial_format": "L99-999",
+  "serial_example": "L23-787",
+  "elements": [
+    {
+      "type": "text",
+      "id": "state",
+      "text": "WIS",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.135,
+      "baseline": 0.175,
+      "x": 0.07,
+      "anchor": "start",
+      "stem": 0.17
+    },
+    {
+      "type": "text",
+      "id": "month",
+      "text": "SEP",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.135,
+      "baseline": 0.175,
+      "x": 0.6,
+      "anchor": "middle",
+      "stem": 0.17
+    },
+    {
+      "type": "box",
+      "x0": 0.805,
+      "y0": 0.015,
+      "x1": 0.94,
+      "y1": 0.2,
+      "stroke": 0.3,
+      "radius": 0.3
+    },
+    {
+      "type": "text",
+      "id": "year_right",
+      "text": "54",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.12,
+      "baseline": 0.17,
+      "x": 0.8725,
+      "anchor": "middle",
+      "stem": 0.17
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "HighwayGothic-C.ttf",
+      "cap": 0.57,
+      "baseline": 0.78,
+      "x0": 0.035,
+      "x1": 0.965,
+      "sep": "dash",
+      "stem": 0.18,
+      "max_sx": 1.25
+    },
+    {
+      "type": "text",
+      "id": "slogan",
+      "text": "AMERICA'S DAIRYLAND",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.118,
+      "baseline": 0.95,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.76
+    }
+  ]
+}

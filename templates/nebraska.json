@@ -1,0 +1,49 @@
+{
+  "state": "Nebraska",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:1954_Nebraska_license_plate.JPG",
+  "colors": {
+    "background": "#151515",
+    "ink": "#F0C21C"
+  },
+  "serial_format": "99-9999",
+  "serial_example": "25-1416",
+  "elements": [
+    {
+      "type": "text",
+      "id": "state",
+      "text": "NEBRASKA",
+      "font": "SairaSemiCondensed-SemiBold.ttf",
+      "cap": 0.195,
+      "baseline": 0.27,
+      "x": 0.035,
+      "anchor": "start",
+      "width": 0.66,
+      "stem": 0.17,
+      "fit": "scale"
+    },
+    {
+      "type": "text",
+      "id": "year_right",
+      "text": "54",
+      "font": "SairaSemiCondensed-SemiBold.ttf",
+      "cap": 0.195,
+      "baseline": 0.27,
+      "x": 0.955,
+      "anchor": "end",
+      "stem": 0.17
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "SairaCondensed-SemiBold.ttf",
+      "cap": 0.55,
+      "baseline": 0.875,
+      "x0": 0.04,
+      "x1": 0.96,
+      "sep": "dot",
+      "stem": 0.17,
+      "max_sx": 1.2
+    }
+  ]
+}

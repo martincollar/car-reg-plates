@@ -1,0 +1,55 @@
+{
+  "state": "New York",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:1954_New_York_license_plate.jpg",
+  "colors": {
+    "background": "#1B1B1B",
+    "ink": "#D7A43E"
+  },
+  "serial_format": "LL99-99",
+  "serial_example": "A-36",
+  "elements": [
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "Oswald-SemiBold.ttf",
+      "cap": 0.57,
+      "baseline": 0.675,
+      "x0": 0.06,
+      "x1": 0.94,
+      "sep": "dot",
+      "stem": 0.16,
+      "max_sx": 1.0
+    },
+    {
+      "type": "text",
+      "id": "slogan",
+      "text": "NY-THE EMPIRE STATE",
+      "font": "Oswald-Medium.ttf",
+      "cap": 0.135,
+      "baseline": 0.895,
+      "x": 0.06,
+      "anchor": "start",
+      "width": 0.72
+    },
+    {
+      "type": "box",
+      "x0": 0.795,
+      "y0": 0.68,
+      "x1": 0.975,
+      "y1": 0.93,
+      "stroke": 0.3,
+      "radius": 0.3
+    },
+    {
+      "type": "text",
+      "id": "year_right",
+      "text": "54",
+      "font": "Oswald-Medium.ttf",
+      "cap": 0.13,
+      "baseline": 0.87,
+      "x": 0.885,
+      "anchor": "middle"
+    }
+  ]
+}

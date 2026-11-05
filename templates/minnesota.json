@@ -1,0 +1,67 @@
+{
+  "state": "Minnesota",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:1954_Minnesota_license_plate.JPG",
+  "colors": {
+    "background": "#ECE5CF",
+    "ink": "#2C2C96"
+  },
+  "serial_format": "999-999",
+  "serial_example": "550-314",
+  "elements": [
+    {
+      "type": "text",
+      "id": "slogan",
+      "text": "10,000 LAKES",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.108,
+      "baseline": 0.18,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.55
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "SairaCondensed-SemiBold.ttf",
+      "cap": 0.5,
+      "baseline": 0.745,
+      "x0": 0.05,
+      "x1": 0.95,
+      "sep": "dot",
+      "stem": 0.18,
+      "max_sx": 1.2
+    },
+    {
+      "type": "text",
+      "id": "year_left",
+      "text": "19",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.108,
+      "baseline": 0.925,
+      "x": 0.035,
+      "anchor": "start"
+    },
+    {
+      "type": "text",
+      "id": "state",
+      "text": "MINNESOTA",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.108,
+      "baseline": 0.925,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.54
+    },
+    {
+      "type": "text",
+      "id": "year_right",
+      "text": "54",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.108,
+      "baseline": 0.925,
+      "x": 0.965,
+      "anchor": "end"
+    }
+  ]
+}

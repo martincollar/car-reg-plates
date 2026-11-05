@@ -1,0 +1,64 @@
+{
+  "state": "Pennsylvania",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:1954_Pennsylvania_license_plate_330FP.jpg",
+  "colors": {
+    "background": "#1C2D58",
+    "ink": "#E6B22E"
+  },
+  "serial_format": "999LL",
+  "serial_example": "330FP",
+  "elements": [
+    {
+      "type": "shape",
+      "shape": "pa_border",
+      "inset": 0.0,
+      "stroke": 0.4
+    },
+    {
+      "type": "box",
+      "x0": 0.33,
+      "y0": 0.035,
+      "x1": 0.67,
+      "y1": 0.155,
+      "stroke": 0.3,
+      "radius": 0.4
+    },
+    {
+      "type": "text",
+      "id": "expires",
+      "text": "EXP. 3-31-55",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.075,
+      "baseline": 0.13,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.29
+    },
+    {
+      "type": "text",
+      "id": "top",
+      "text": "1954 PENNA",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.15,
+      "baseline": 0.33,
+      "x": 0.47,
+      "anchor": "middle",
+      "width": 0.6,
+      "stem": 0.18
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.52,
+      "baseline": 0.89,
+      "x0": 0.06,
+      "x1": 0.88,
+      "sep": "none",
+      "stem": 0.22,
+      "max_sx": 1.1,
+      "gap": 0.25
+    }
+  ]
+}

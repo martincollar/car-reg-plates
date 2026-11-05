@@ -1,0 +1,36 @@
+{
+  "state": "Ohio",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:1954_Ohio_license_plate.JPG",
+  "colors": {
+    "background": "#4A1519",
+    "ink": "#ECEAE5"
+  },
+  "serial_format": "999-LL",
+  "serial_example": "579-BL",
+  "elements": [
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.56,
+      "baseline": 0.64,
+      "x0": 0.07,
+      "x1": 0.93,
+      "sep": "rdot",
+      "stem": 0.21,
+      "max_sx": 1.2
+    },
+    {
+      "type": "text",
+      "id": "bottom",
+      "text": "OHIO - 1954",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.16,
+      "baseline": 0.91,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.6
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "state": "Michigan",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:1954_Michigan_License_Plate.JPG",
+  "colors": {
+    "background": "#1E2943",
+    "ink": "#E9B23C"
+  },
+  "serial_format": "LL-99-99",
+  "serial_example": "RN-23-01",
+  "elements": [
+    {
+      "type": "text",
+      "id": "year_left",
+      "text": "19",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.12,
+      "baseline": 0.152,
+      "x": 0.045,
+      "anchor": "start"
+    },
+    {
+      "type": "text",
+      "id": "state",
+      "text": "MICHIGAN",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.12,
+      "baseline": 0.152,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.48
+    },
+    {
+      "type": "text",
+      "id": "year_right",
+      "text": "54",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.12,
+      "baseline": 0.152,
+      "x": 0.965,
+      "anchor": "end"
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "Oswald-Medium.ttf",
+      "cap": 0.55,
+      "baseline": 0.745,
+      "x0": 0.03,
+      "x1": 0.97,
+      "sep": "cross",
+      "stem": 0.19,
+      "max_sx": 1.15,
+      "sep_pad": 0.03
+    },
+    {
+      "type": "text",
+      "id": "slogan",
+      "text": "WATER WONDERLAND",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.096,
+      "baseline": 0.885,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.93
+    }
+  ]
+}

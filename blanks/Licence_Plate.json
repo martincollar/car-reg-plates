@@ -1,0 +1,12 @@
+{
+  "stl": "blanks/Licence_Plate.stl",
+  "face_x0": 724.544,
+  "face_y_top": -158.337,
+  "face_width": 35.712,
+  "face_height": 16.976,
+  "face_z": 3.7,
+  "rim_margin": 0.858,
+  "rim_outer": 0.376,
+  "text_top_z": 4.0,
+  "embed": 0.1
+}

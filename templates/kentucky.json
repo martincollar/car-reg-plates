@@ -1,0 +1,63 @@
+{
+  "state": "Kentucky",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:1954_Kentucky_license_plate.JPG",
+  "colors": {
+    "background": "#EFE7CF",
+    "ink": "#24306A"
+  },
+  "serial_format": "999-999",
+  "serial_example": "510-719",
+  "counties": [
+    "JEFFERSON",
+    "FAYETTE",
+    "KENTON",
+    "DAVIESS",
+    "CAMPBELL",
+    "BOYD",
+    "WARREN",
+    "MCCRACKEN",
+    "HARDIN",
+    "PIKE",
+    "MADISON",
+    "CHRISTIAN"
+  ],
+  "elements": [
+    {
+      "type": "text",
+      "id": "top",
+      "text": "TOUR KENTUCKY \u00b754",
+      "font": "Oswald-Medium.ttf",
+      "cap": 0.15,
+      "baseline": 0.18,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.69
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "Oswald-Medium.ttf",
+      "cap": 0.54,
+      "baseline": 0.77,
+      "x0": 0.035,
+      "x1": 0.965,
+      "sep": "dot",
+      "stem": 0.15,
+      "max_sx": 1.2
+    },
+    {
+      "type": "text",
+      "id": "county",
+      "text": "JEFFERSON",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.1,
+      "baseline": 0.935,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.54,
+      "fit": "max",
+      "track": 0.18
+    }
+  ]
+}

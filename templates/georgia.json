@@ -1,0 +1,59 @@
+{
+  "state": "Georgia",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:1954_Georgia_license_plate.jpg",
+  "colors": {
+    "background": "#E8C23A",
+    "ink": "#141414"
+  },
+  "serial_format": "L-99999",
+  "serial_example": "C-26833",
+  "elements": [
+    {
+      "type": "text",
+      "id": "state",
+      "text": "GA",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.15,
+      "baseline": 0.18,
+      "x": 0.305,
+      "anchor": "middle",
+      "stem": 0.17
+    },
+    {
+      "type": "text",
+      "id": "year_right",
+      "text": "54",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.15,
+      "baseline": 0.18,
+      "x": 0.695,
+      "anchor": "middle",
+      "stem": 0.17
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.54,
+      "baseline": 0.775,
+      "x0": 0.025,
+      "x1": 0.975,
+      "sep": "dash",
+      "stem": 0.22,
+      "max_sx": 1.25
+    },
+    {
+      "type": "text",
+      "id": "slogan",
+      "text": "-PEACH STATE-",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.13,
+      "baseline": 0.95,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.8,
+      "stem": 0.17
+    }
+  ]
+}

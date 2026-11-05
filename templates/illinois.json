@@ -1,0 +1,49 @@
+{
+  "state": "Illinois",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:Illinois_1954_license_plate_-_Number_2236_213.jpg",
+  "colors": {
+    "background": "#141414",
+    "ink": "#E8E8E2"
+  },
+  "serial_format": "9999 999",
+  "serial_example": "2236 213",
+  "elements": [
+    {
+      "type": "text",
+      "id": "slogan",
+      "text": "Land of Lincoln",
+      "font": "Saira-Italic-Medium.ttf",
+      "cap": 0.1,
+      "baseline": 0.15,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.52,
+      "track": 0.1
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "HighwayGothic-C.ttf",
+      "cap": 0.58,
+      "baseline": 0.775,
+      "x0": 0.01,
+      "x1": 0.99,
+      "sep": "none",
+      "stem": 0.2,
+      "gap": 0.3,
+      "max_sx": 1.3
+    },
+    {
+      "type": "text",
+      "id": "bottom",
+      "text": "19 ILLINOIS 54",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.105,
+      "baseline": 0.93,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.62
+    }
+  ]
+}
