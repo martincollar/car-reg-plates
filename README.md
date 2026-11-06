@@ -1,6 +1,6 @@
 # Printed reg plates
 
-3D-printable 1950s US licence plates for model cars. Each state has a template copied from a real 1954 plate: its own layout, lettering, colours and serial format. You get random serials in the real format, or your own text, raised on a plate blank STL.
+3D-printable 1950s US licence plates for the **3D Sets Doppler Model 23** model car. Each state has a template copied from a real 1954 plate: its own layout, lettering, colours and serial format. You get random serials in the real format, or your own text, raised on a plate blank STL.
 
 **All plates are ready to download on Printables: <https://www.printables.com/model/1903176>.** Browse them first in the plate picker: <https://martincollar.github.io/car-reg-plates/>.
 
@@ -79,9 +79,9 @@ Both projects have two filaments: 1 is the state's background colour, 2 its ink 
 
 ### Web page
 
-All plates are ready to download on Printables: <https://www.printables.com/model/1903176>. The plate picker is online at <https://martincollar.github.io/car-reg-plates/>: dropdowns for state, type (original example, personal, vanity, random) and plate, a large preview, and a grid of all matching plates. Every plate has its own link (`#iowa/iowa-custom-h0rn3t`) and shows the name of its STL.
+All plates are ready to download on Printables: <https://www.printables.com/model/1903176>. The site is online at <https://martincollar.github.io/car-reg-plates/>. Its landing page has the sticker bomb in the background and two links: Browse the plates and Download on Printables. The picker (`browse.html`) has dropdowns for state, type (original example, vanity, random; personal plates are listed under vanity) and plate, a large preview, and a grid of all matching plates. Every plate has its own link (`browse.html#iowa/iowa-custom-h0rn3t`) and a **Download STL** button that gives the same STL as `build_states.py` makes.
 
-`src/build_site.py` writes it to `html/`: one SVG per plate in `html/plates/<state>/`, the list in `html/data.js`, and the lineup and sticker-bomb pictures in `html/img/`. `html/index.html` is written by hand and is not overwritten. Commit `html/` and push to `main`; `.github/workflows/pages.yml` publishes it.
+`src/build_site.py` writes it to `html/`: one SVG per plate in `html/plates/<state>/`, the list in `html/data.js`, the STLs in `html/stl/` (the shared blank once in `blank.gz`, and per plate only its raised text, gzipped: about 40 MB instead of 640 MB; the page joins the two on download), and the lineup and sticker-bomb pictures in `html/img/`. `html/index.html` (landing) and `html/browse.html` (picker) are written by hand and are not overwritten. Commit `html/` and push to `main`; `.github/workflows/pages.yml` publishes it.
 
 ## Build
 
