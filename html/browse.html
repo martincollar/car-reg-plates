@@ -40,6 +40,24 @@
   select:hover { border-color: #55555c; }
   select:focus-visible, button:focus-visible, .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
+  /* State picker: a listbox with each state's original plate; the hidden #state select keeps the value */
+  .state-field { position: relative; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+  .state-btn { display: flex; align-items: center; gap: 10px; width: 100%; min-width: 0; height: 46px; font: 500 16px system-ui, sans-serif; color: var(--text); text-align: left; text-transform: none; letter-spacing: 0; background: var(--panel) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23a3a29c' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 14px center; border: 1px solid var(--line); border-radius: 10px; padding: 0 38px 0 8px; cursor: pointer; }
+  .state-btn:hover { border-color: #55555c; }
+  .state-btn img { flex: none; width: 56px; height: 28px; object-fit: contain; }
+  .state-btn span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .state-list { position: absolute; top: calc(100% + 6px); left: 0; z-index: 10; display: grid; grid-template-columns: repeat(2, minmax(220px, 1fr)); gap: 4px; width: max-content; max-width: calc(100vw - 40px); max-height: min(70vh, 560px); overflow-y: auto; margin: 0; padding: 6px; list-style: none; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 24px 60px rgba(0,0,0,.55); text-transform: none; letter-spacing: 0; overscroll-behavior: contain; animation: pop .14s ease-out; transform-origin: top left; }
+  .state-list[hidden] { display: none; }
+  .state-list li { display: grid; grid-template-columns: 96px minmax(0, 1fr); align-items: center; gap: 12px; padding: 8px 10px; border: 1px solid transparent; border-radius: 10px; cursor: pointer; transition: background-color .12s, border-color .12s; }
+  .state-list li:hover, .state-list li.active { background: #2f2f34; }
+  .state-list li.active { border-color: #55555c; }
+  .state-list li[aria-selected="true"] { border-color: var(--accent); }
+  .state-list img { width: 96px; height: 48px; object-fit: contain; filter: drop-shadow(0 3px 5px rgba(0,0,0,.45)); }
+  .state-list .all img { object-fit: cover; border-radius: 4px; filter: none; }
+  .state-list b { display: block; font: 600 16px/1.2 system-ui, sans-serif; color: var(--text); }
+  .state-list small { display: block; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
   .stage { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(260px, 1fr); gap: 28px; align-items: center; padding: 32px 0; }
   .plate-big { position: relative; display: grid; place-items: center; min-height: 260px; padding: 28px; background: radial-gradient(120% 90% at 50% 40%, #34343a, #222225); border-radius: var(--radius); }
   .plate-big img { width: 100%; max-width: 640px; height: auto; filter: drop-shadow(0 14px 22px rgba(0,0,0,.55)); }
@@ -92,8 +110,13 @@
     .controls label:nth-of-type(2) { grid-column: 3 / 5; }
     .controls label:nth-of-type(3) { grid-column: 1 / 4; }
     .luck { padding: 11px 10px; }
+    .state-list { grid-template-columns: minmax(0, 1fr); width: calc(100vw - 40px); }
   }
-  @media (max-width: 520px) { .home { font-size: 17px; } .btn.slim { font-size: 14px; } }
+  @media (max-width: 520px) {
+    .home { font-size: 17px; } .btn.slim { font-size: 14px; }
+    .state-btn { gap: 7px; padding: 0 28px 0 6px; background-position: right 10px center; }
+    .state-btn img { width: 40px; height: 20px; }
+  }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
 </style>
 </head>
@@ -107,7 +130,13 @@
 
 <div class="picker">
   <div class="wrap controls">
-    <label>State <select id="state"></select></label>
+    <label class="state-field"><span id="state-label">State</span>
+      <button type="button" class="state-btn" id="state-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="state-list" aria-labelledby="state-label state-btn-text">
+        <img alt="" width="56" height="28"><span id="state-btn-text"></span>
+      </button>
+      <ul class="state-list" id="state-list" role="listbox" aria-labelledby="state-label" tabindex="-1" hidden></ul>
+      <select id="state" class="visually-hidden" tabindex="-1" aria-hidden="true"></select>
+    </label>
     <label>Type <select id="series"></select></label>
     <label>Plate <select id="plate"></select></label>
     <button class="btn luck" id="luck" title="Show a random plate">Try my luck</button>
@@ -169,6 +198,109 @@
   ui.state.append(option(ALL, `All states (${STATES.length})`), ...STATES.map((s) => option(s.id, `${s.name} ${s.year}`)));
   ui.series.append(option(ALL, "All types"), ...Object.entries(SERIES).map(([k, v]) => option(k, v)));
 
+  // State picker: a listbox showing each state's original example plate. It drives the hidden
+  // #state select, so the rest of the page only ever reads ui.state.value.
+  const picker = { btn: $("state-btn"), list: $("state-list") };
+  const sampleOf = (s) => s.plates.find((p) => p.series === "sample") ?? s.plates[0];
+  const previewOf = (id) => {
+    const s = STATES.find((st) => st.id === id);
+    return s ? src({ ...sampleOf(s), state: s }) : "img/all-states.jpg";
+  };
+  const stateEntries = [
+    { id: ALL, name: `All states (${STATES.length})`, detail: "Every plate of every state" },
+    ...STATES.map((s) => ({ id: s.id, name: `${s.name} ${s.year}`, detail: `${sampleOf(s).serial} · ${s.format}` })),
+  ];
+  picker.list.replaceChildren(...stateEntries.map((e) => {
+    const li = document.createElement("li");
+    li.id = `state-opt-${e.id}`;
+    li.role = "option";
+    li.dataset.id = e.id;
+    if (e.id === ALL) li.className = "all";
+    li.innerHTML = `<img alt="" width="96" height="48" decoding="async"><span><b></b><small></small></span>`;
+    li.querySelector("img").dataset.src = previewOf(e.id);
+    li.querySelector("b").textContent = e.name;
+    li.querySelector("small").textContent = e.detail;
+    return li;
+  }));
+  const options = [...picker.list.children];
+  let activeIndex = 0;
+
+  const syncStatePicker = () => {
+    const entry = stateEntries.find((e) => e.id === ui.state.value);
+    picker.btn.querySelector("img").src = previewOf(entry.id);
+    $("state-btn-text").textContent = entry.name;
+    options.forEach((li) => li.setAttribute("aria-selected", String(li.dataset.id === entry.id)));
+  };
+  const setActive = (i) => {
+    activeIndex = (i + options.length) % options.length;
+    options.forEach((li, j) => li.classList.toggle("active", j === activeIndex));
+    picker.list.setAttribute("aria-activedescendant", options[activeIndex].id);
+    options[activeIndex].scrollIntoView({ block: "nearest" });
+  };
+  const isOpen = () => !picker.list.hidden;
+  const openPicker = () => {
+    options.forEach((li) => { const img = li.querySelector("img"); if (!img.src) img.src = img.dataset.src; });
+    picker.list.hidden = false;
+    picker.btn.setAttribute("aria-expanded", "true");
+    setActive(Math.max(0, options.findIndex((li) => li.dataset.id === ui.state.value)));
+    picker.list.focus({ preventScroll: true });
+  };
+  const closePicker = ({ focus = true } = {}) => {
+    if (!isOpen()) return;
+    picker.list.hidden = true;
+    picker.btn.setAttribute("aria-expanded", "false");
+    if (focus) picker.btn.focus();
+  };
+  const choose = (i) => {
+    const id = options[i].dataset.id;
+    closePicker();
+    if (ui.state.value === id) return;
+    ui.state.value = id;
+    ui.state.dispatchEvent(new Event("change"));
+  };
+
+  picker.btn.addEventListener("click", () => (isOpen() ? closePicker() : openPicker()));
+  picker.btn.addEventListener("keydown", (e) => {
+    if (["ArrowDown", "ArrowUp"].includes(e.key)) { e.preventDefault(); openPicker(); }
+  });
+  picker.list.addEventListener("click", (e) => {
+    e.preventDefault(); // inside the <label>: don't let the click re-trigger the button
+    const li = e.target.closest("li");
+    if (li) choose(options.indexOf(li));
+  });
+  picker.list.addEventListener("mousemove", (e) => {
+    const li = e.target.closest("li");
+    if (li && options.indexOf(li) !== activeIndex) setActive(options.indexOf(li));
+  });
+  picker.list.addEventListener("keydown", (e) => {
+    const keys = {
+      ArrowDown: () => setActive(activeIndex + 1),
+      ArrowUp: () => setActive(activeIndex - 1),
+      Home: () => setActive(0),
+      End: () => setActive(options.length - 1),
+      Enter: () => choose(activeIndex),
+      " ": () => choose(activeIndex),
+      Escape: () => closePicker(),
+      Tab: () => closePicker(),
+    };
+    if (keys[e.key]) {
+      if (e.key !== "Tab") e.preventDefault();
+      keys[e.key]();
+      return;
+    }
+    // Type a letter to jump to the next state starting with it.
+    if (e.key.length === 1 && /\S/.test(e.key)) {
+      const ch = e.key.toLowerCase();
+      for (let k = 1; k <= options.length; k++) {
+        const j = (activeIndex + k) % options.length;
+        if (options[j].dataset.id !== ALL && stateEntries[j].name.toLowerCase().startsWith(ch)) { setActive(j); break; }
+      }
+    }
+  });
+  document.addEventListener("pointerdown", (e) => {
+    if (isOpen() && !e.target.closest(".state-field")) closePicker({ focus: false });
+  });
+
   let list = [];
   let current = null;
 
@@ -184,6 +316,7 @@
     const stateName = allStates ? "All states" : STATES.find((s) => s.id === ui.state.value).name;
     $("grid-title").textContent = ui.series.value === ALL ? stateName : `${stateName} · ${SERIES[ui.series.value]}`;
     $("count").textContent = `${list.length} plate${list.length === 1 ? "" : "s"}`;
+    syncStatePicker();
     renderGrid();
     show(list.includes(keep) ? keep : list[0], { replace });
   };
@@ -329,7 +462,7 @@
     if (window.scrollY > $("big").closest("section").offsetTop) window.scrollTo({ top: $("big").closest("section").offsetTop - 90, behavior: "smooth" });
   });
   document.addEventListener("keydown", (e) => {
-    if (e.target.closest("select")) return;
+    if (e.target.closest("select, .state-btn, .state-list")) return;
     if (e.key === "ArrowLeft") step(-1);
     if (e.key === "ArrowRight") step(1);
   });
