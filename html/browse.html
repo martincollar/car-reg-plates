@@ -56,7 +56,6 @@
   .state-list img { width: 96px; height: 48px; object-fit: contain; filter: drop-shadow(0 3px 5px rgba(0,0,0,.45)); }
   .state-list .all img { object-fit: cover; border-radius: 4px; filter: none; }
   .state-list b { display: block; font: 600 16px/1.2 system-ui, sans-serif; color: var(--text); }
-  .state-list small { display: block; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
   .stage { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(260px, 1fr); gap: 28px; align-items: center; padding: 32px 0; }
   .plate-big { position: relative; display: grid; place-items: center; min-height: 260px; padding: 28px; background: radial-gradient(120% 90% at 50% 40%, #34343a, #222225); border-radius: var(--radius); }
@@ -207,8 +206,8 @@
     return s ? src({ ...sampleOf(s), state: s }) : "img/all-states.jpg";
   };
   const stateEntries = [
-    { id: ALL, name: `All states (${STATES.length})`, detail: "Every plate of every state" },
-    ...STATES.map((s) => ({ id: s.id, name: `${s.name} ${s.year}`, detail: `${sampleOf(s).serial} · ${s.format}` })),
+    { id: ALL, name: `All states (${STATES.length})` },
+    ...STATES.map((s) => ({ id: s.id, name: s.name })),
   ];
   picker.list.replaceChildren(...stateEntries.map((e) => {
     const li = document.createElement("li");
@@ -216,10 +215,9 @@
     li.role = "option";
     li.dataset.id = e.id;
     if (e.id === ALL) li.className = "all";
-    li.innerHTML = `<img alt="" width="96" height="48" decoding="async"><span><b></b><small></small></span>`;
+    li.innerHTML = `<img alt="" width="96" height="48" decoding="async"><b></b>`;
     li.querySelector("img").dataset.src = previewOf(e.id);
     li.querySelector("b").textContent = e.name;
-    li.querySelector("small").textContent = e.detail;
     return li;
   }));
   const options = [...picker.list.children];
