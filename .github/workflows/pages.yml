@@ -31,4 +31,4 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
         with:
-          timeout: 1200000 # 20 min; the 10 min default timed out on run #16
+          timeout: 600000 # 10 min, the most deploy-pages allows
