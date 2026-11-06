@@ -22,6 +22,10 @@
   header { padding: 40px 0 8px; }
   h1 { font: 600 clamp(30px, 5vw, 52px)/1.05 "Saira", system-ui, sans-serif; letter-spacing: 0.01em; margin: 0 0 10px; text-wrap: balance; }
   .lede { color: var(--muted); max-width: 62ch; margin: 0; text-wrap: pretty; }
+  .download { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 24px; margin: 24px 0 0; padding: 18px 22px; background: color-mix(in srgb, var(--accent) 14%, var(--panel)); border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent); border-radius: var(--radius); }
+  .download p { margin: 0; max-width: 60ch; text-wrap: pretty; }
+  .download strong { font: 600 20px/1.2 "Saira", system-ui, sans-serif; display: block; margin-bottom: 2px; }
+  .btn.big { font-size: 17px; padding: 13px 22px; white-space: nowrap; }
   .lineup { display: block; width: 100%; height: auto; margin: 28px 0 8px; border-radius: var(--radius); background: #fff; }
 
   .picker { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); margin-top: 28px; }
@@ -78,6 +82,10 @@
 <header class="wrap">
   <h1>1950s US licence plates</h1>
   <p class="lede">3D-printable replicas from the Hudson Hornet years (1951–57). Pick a state, pick a type, and browse every plate: the real example from the period, vanity serials and random ones in each state's own format.</p>
+  <div class="download">
+    <p><strong>All plates are ready to download</strong>Every plate on this page, for all 15 states, is free to download and 3D print on Printables.</p>
+    <a class="btn big" href="https://www.printables.com/model/1903176">Download on Printables ↗</a>
+  </div>
   <img class="lineup" src="img/all-states.jpg" width="2000" height="975" alt="One plate from each of the 15 states side by side">
 </header>
 
@@ -101,7 +109,8 @@
       <p class="where" id="where"></p>
       <dl id="facts"></dl>
       <div class="actions">
-        <button class="btn" id="copy">Copy link</button>
+        <a class="btn" href="https://www.printables.com/model/1903176">Download on Printables ↗</a>
+        <button class="btn ghost" id="copy">Copy link</button>
         <a class="btn ghost" id="svg" download>Download SVG</a>
       </div>
     </div>
@@ -115,9 +124,8 @@
 </main>
 
 <footer class="wrap">
-  Made for 3D printing: Bambu Lab P1S (AMS) and Prusa MK4S (MMU3) projects, one per state, in the
-  <a href="https://github.com/martincollar/car-reg-plates">GitHub repository</a>.
-  Each plate's file name matches its STL. Original plate photos: Wikimedia Commons.
+  All plates are ready to download on <a href="https://www.printables.com/model/1903176">Printables</a>; each plate's STL has the file name shown above.
+  Source and generator: <a href="https://github.com/martincollar/car-reg-plates">GitHub</a>. Original plate photos: Wikimedia Commons.
 </footer>
 
 <script src="data.js"></script>
