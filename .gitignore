@@ -10,3 +10,4 @@ output/OrcaSlicer/
 output/PrusaPrinter/
 output/states/*.zip
 output/states/*.zip.tmp
+.claude/worktrees/
