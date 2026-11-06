@@ -21,6 +21,11 @@
  },
  {
   "series": "vanity",
+  "serial": "C4R-B8R",
+  "file": "minnesota-vanity-c4rb8r"
+ },
+ {
+  "series": "vanity",
   "serial": "H0R-N3T",
   "file": "minnesota-vanity-h0rn3t"
  },
@@ -31,13 +36,13 @@
  },
  {
   "series": "vanity",
-  "serial": "N45-C4R",
-  "file": "minnesota-vanity-n45c4r"
+  "serial": "R4C-1NG",
+  "file": "minnesota-vanity-r4c1ng"
  },
  {
   "series": "vanity",
-  "serial": "R4C-1NG",
-  "file": "minnesota-vanity-r4c1ng"
+  "serial": "TW1-NHP",
+  "file": "minnesota-vanity-tw1nhp"
  },
  {
   "series": "vanity",
@@ -58,11 +63,6 @@
   "series": "vanity",
   "serial": "INF-1LL",
   "file": "minnesota-vanity-inf1ll"
- },
- {
-  "series": "vanity",
-  "serial": "NAS-C4R",
-  "file": "minnesota-vanity-nasc4r"
  },
  {
   "series": "vanity",
@@ -91,13 +91,13 @@
  },
  {
   "series": "vanity",
-  "serial": "INF-100",
-  "file": "minnesota-vanity-inf100"
+  "serial": "HHR-N3T",
+  "file": "minnesota-vanity-hhrn3t"
  },
  {
   "series": "vanity",
-  "serial": "HHR-N3T",
-  "file": "minnesota-vanity-hhrn3t"
+  "serial": "INF-100",
+  "file": "minnesota-vanity-inf100"
  },
  {
   "series": "vanity",
@@ -138,16 +138,6 @@
   "series": "vanity",
   "serial": "EL1-M8R",
   "file": "minnesota-vanity-el1m8r"
- },
- {
-  "series": "vanity",
-  "serial": "N4S-C4R",
-  "file": "minnesota-vanity-n4sc4r"
- },
- {
-  "series": "vanity",
-  "serial": "NA5-C4R",
-  "file": "minnesota-vanity-na5c4r"
  },
  {
   "series": "vanity",

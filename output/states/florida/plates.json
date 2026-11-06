@@ -16,13 +16,23 @@
  },
  {
   "series": "vanity",
+  "serial": "HUDHRN7",
+  "file": "florida-vanity-hudhrn7"
+ },
+ {
+  "series": "vanity",
   "serial": "SH1FT3D",
   "file": "florida-vanity-sh1ft3d"
  },
  {
   "series": "vanity",
-  "serial": "HUDHRN7",
-  "file": "florida-vanity-hudhrn7"
+  "serial": "2HP0W3R",
+  "file": "florida-vanity-2hp0w3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "C4RBUR8",
+  "file": "florida-vanity-c4rbur8"
  },
  {
   "series": "vanity",
@@ -46,6 +56,11 @@
  },
  {
   "series": "vanity",
+  "serial": "HUDH0RN",
+  "file": "florida-vanity-hudh0rn"
+ },
+ {
+  "series": "vanity",
   "serial": "3L1MN8R",
   "file": "florida-vanity-3l1mn8r"
  },
@@ -53,11 +68,6 @@
   "series": "vanity",
   "serial": "HRN3T54",
   "file": "florida-vanity-hrn3t54"
- },
- {
-  "series": "vanity",
-  "serial": "HUDH0RN",
-  "file": "florida-vanity-hudh0rn"
  },
  {
   "series": "vanity",

@@ -6,4 +6,7 @@ _to_delete/
 output/vanity/
 output/random/
 output/states/*/stl/
-output/states/*/3mf/
+output/OrcaSlicer/
+output/PrusaPrinter/
+output/states/*.zip
+output/states/*.zip.tmp

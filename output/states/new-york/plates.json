@@ -21,6 +21,11 @@
  },
  {
   "series": "vanity",
+  "serial": "C4RB-8R",
+  "file": "new-york-vanity-c4rb8r"
+ },
+ {
+  "series": "vanity",
   "serial": "H0RN-3T",
   "file": "new-york-vanity-h0rn3t"
  },
@@ -31,13 +36,13 @@
  },
  {
   "series": "vanity",
-  "serial": "N45C-4R",
-  "file": "new-york-vanity-n45c4r"
+  "serial": "R4C1-NG",
+  "file": "new-york-vanity-r4c1ng"
  },
  {
   "series": "vanity",
-  "serial": "R4C1-NG",
-  "file": "new-york-vanity-r4c1ng"
+  "serial": "TW1N-HP",
+  "file": "new-york-vanity-tw1nhp"
  },
  {
   "series": "vanity",
@@ -58,11 +63,6 @@
   "series": "vanity",
   "serial": "INF1-LL",
   "file": "new-york-vanity-inf1ll"
- },
- {
-  "series": "vanity",
-  "serial": "NASC-4R",
-  "file": "new-york-vanity-nasc4r"
  },
  {
   "series": "vanity",
@@ -91,13 +91,13 @@
  },
  {
   "series": "vanity",
-  "serial": "INF1-00",
-  "file": "new-york-vanity-inf100"
+  "serial": "HHRN-3T",
+  "file": "new-york-vanity-hhrn3t"
  },
  {
   "series": "vanity",
-  "serial": "HHRN-3T",
-  "file": "new-york-vanity-hhrn3t"
+  "serial": "INF1-00",
+  "file": "new-york-vanity-inf100"
  },
  {
   "series": "vanity",
@@ -138,16 +138,6 @@
   "series": "vanity",
   "serial": "EL1M-8R",
   "file": "new-york-vanity-el1m8r"
- },
- {
-  "series": "vanity",
-  "serial": "N4SC-4R",
-  "file": "new-york-vanity-n4sc4r"
- },
- {
-  "series": "vanity",
-  "serial": "NA5C-4R",
-  "file": "new-york-vanity-na5c4r"
  },
  {
   "series": "vanity",

@@ -25,9 +25,15 @@
  },
  {
   "series": "vanity",
+  "serial": "C4R-B8R",
+  "file": "kentucky-vanity-c4rb8r",
+  "county": "PIKE"
+ },
+ {
+  "series": "vanity",
   "serial": "H0R-N3T",
   "file": "kentucky-vanity-h0rn3t",
-  "county": "PIKE"
+  "county": "KENTON"
  },
  {
   "series": "vanity",
@@ -37,15 +43,15 @@
  },
  {
   "series": "vanity",
-  "serial": "N45-C4R",
-  "file": "kentucky-vanity-n45c4r",
-  "county": "KENTON"
- },
- {
-  "series": "vanity",
   "serial": "R4C-1NG",
   "file": "kentucky-vanity-r4c1ng",
   "county": "WARREN"
+ },
+ {
+  "series": "vanity",
+  "serial": "TW1-NHP",
+  "file": "kentucky-vanity-tw1nhp",
+  "county": "MADISON"
  },
  {
   "series": "vanity",
@@ -57,24 +63,18 @@
   "series": "vanity",
   "serial": "ELI-M8R",
   "file": "kentucky-vanity-elim8r",
-  "county": "MADISON"
+  "county": "CHRISTIAN"
  },
  {
   "series": "vanity",
   "serial": "HUD-S0N",
   "file": "kentucky-vanity-huds0n",
-  "county": "CHRISTIAN"
+  "county": "MCCRACKEN"
  },
  {
   "series": "vanity",
   "serial": "INF-1LL",
   "file": "kentucky-vanity-inf1ll",
-  "county": "MCCRACKEN"
- },
- {
-  "series": "vanity",
-  "serial": "NAS-C4R",
-  "file": "kentucky-vanity-nasc4r",
   "county": "CHRISTIAN"
  },
  {
@@ -109,14 +109,14 @@
  },
  {
   "series": "vanity",
-  "serial": "INF-100",
-  "file": "kentucky-vanity-inf100",
+  "serial": "HHR-N3T",
+  "file": "kentucky-vanity-hhrn3t",
   "county": "MADISON"
  },
  {
   "series": "vanity",
-  "serial": "HHR-N3T",
-  "file": "kentucky-vanity-hhrn3t",
+  "serial": "INF-100",
+  "file": "kentucky-vanity-inf100",
   "county": "MADISON"
  },
  {
@@ -169,45 +169,33 @@
  },
  {
   "series": "vanity",
-  "serial": "N4S-C4R",
-  "file": "kentucky-vanity-n4sc4r",
-  "county": "DAVIESS"
- },
- {
-  "series": "vanity",
-  "serial": "NA5-C4R",
-  "file": "kentucky-vanity-na5c4r",
-  "county": "KENTON"
- },
- {
-  "series": "vanity",
   "serial": "RAC-1N6",
   "file": "kentucky-vanity-rac1n6",
-  "county": "CAMPBELL"
+  "county": "DAVIESS"
  },
  {
   "series": "vanity",
   "serial": "100-1NF",
   "file": "kentucky-vanity-1001nf",
-  "county": "CAMPBELL"
+  "county": "KENTON"
  },
  {
   "series": "vanity",
   "serial": "3L1-M8R",
   "file": "kentucky-vanity-3l1m8r",
-  "county": "FAYETTE"
+  "county": "CAMPBELL"
  },
  {
   "series": "vanity",
   "serial": "1NF-100",
   "file": "kentucky-vanity-1nf100",
-  "county": "MADISON"
+  "county": "CAMPBELL"
  },
  {
   "series": "vanity",
   "serial": "HHR-N37",
   "file": "kentucky-vanity-hhrn37",
-  "county": "WARREN"
+  "county": "FAYETTE"
  },
  {
   "series": "vanity",
@@ -219,19 +207,19 @@
   "series": "vanity",
   "serial": "3LM-N8R",
   "file": "kentucky-vanity-3lmn8r",
-  "county": "PIKE"
+  "county": "WARREN"
  },
  {
   "series": "vanity",
   "serial": "D0P-LER",
   "file": "kentucky-vanity-d0pler",
-  "county": "BOYD"
+  "county": "MADISON"
  },
  {
   "series": "vanity",
   "serial": "DOP-L3R",
   "file": "kentucky-vanity-dopl3r",
-  "county": "JEFFERSON"
+  "county": "PIKE"
  },
  {
   "series": "vanity",
@@ -243,13 +231,13 @@
   "series": "vanity",
   "serial": "HOR-N3T",
   "file": "kentucky-vanity-horn3t",
-  "county": "CHRISTIAN"
+  "county": "JEFFERSON"
  },
  {
   "series": "vanity",
   "serial": "HOR-NE7",
   "file": "kentucky-vanity-horne7",
-  "county": "PIKE"
+  "county": "BOYD"
  },
  {
   "series": "vanity",
@@ -261,127 +249,127 @@
   "series": "vanity",
   "serial": "H0R-NE7",
   "file": "kentucky-vanity-h0rne7",
-  "county": "MADISON"
+  "county": "PIKE"
  },
  {
   "series": "vanity",
   "serial": "HOR-N37",
   "file": "kentucky-vanity-horn37",
-  "county": "MCCRACKEN"
+  "county": "CHRISTIAN"
  },
  {
   "series": "random",
   "serial": "882-779",
   "file": "kentucky-random-882779",
-  "county": "KENTON"
+  "county": "MADISON"
  },
  {
   "series": "random",
   "serial": "029-972",
   "file": "kentucky-random-029972",
-  "county": "JEFFERSON"
+  "county": "MCCRACKEN"
  },
  {
   "series": "random",
   "serial": "026-090",
   "file": "kentucky-random-026090",
-  "county": "PIKE"
+  "county": "KENTON"
  },
  {
   "series": "random",
   "serial": "977-752",
   "file": "kentucky-random-977752",
-  "county": "DAVIESS"
+  "county": "JEFFERSON"
  },
  {
   "series": "random",
   "serial": "422-733",
   "file": "kentucky-random-422733",
-  "county": "MADISON"
+  "county": "PIKE"
  },
  {
   "series": "random",
   "serial": "999-670",
   "file": "kentucky-random-999670",
-  "county": "KENTON"
+  "county": "DAVIESS"
  },
  {
   "series": "random",
   "serial": "748-916",
   "file": "kentucky-random-748916",
-  "county": "CHRISTIAN"
+  "county": "MADISON"
  },
  {
   "series": "random",
   "serial": "030-809",
   "file": "kentucky-random-030809",
-  "county": "JEFFERSON"
+  "county": "KENTON"
  },
  {
   "series": "random",
   "serial": "633-867",
   "file": "kentucky-random-633867",
-  "county": "CAMPBELL"
+  "county": "CHRISTIAN"
  },
  {
   "series": "random",
   "serial": "243-446",
   "file": "kentucky-random-243446",
-  "county": "PIKE"
+  "county": "JEFFERSON"
  },
  {
   "series": "random",
   "serial": "175-674",
   "file": "kentucky-random-175674",
-  "county": "JEFFERSON"
+  "county": "CAMPBELL"
  },
  {
   "series": "random",
   "serial": "915-590",
   "file": "kentucky-random-915590",
-  "county": "JEFFERSON"
+  "county": "PIKE"
  },
  {
   "series": "random",
   "serial": "144-084",
   "file": "kentucky-random-144084",
-  "county": "PIKE"
+  "county": "JEFFERSON"
  },
  {
   "series": "random",
   "serial": "021-763",
   "file": "kentucky-random-021763",
-  "county": "MADISON"
+  "county": "JEFFERSON"
  },
  {
   "series": "random",
   "serial": "743-298",
   "file": "kentucky-random-743298",
-  "county": "DAVIESS"
+  "county": "PIKE"
  },
  {
   "series": "random",
   "serial": "665-503",
   "file": "kentucky-random-665503",
-  "county": "BOYD"
+  "county": "MADISON"
  },
  {
   "series": "random",
   "serial": "149-394",
   "file": "kentucky-random-149394",
-  "county": "BOYD"
+  "county": "DAVIESS"
  },
  {
   "series": "random",
   "serial": "167-945",
   "file": "kentucky-random-167945",
-  "county": "KENTON"
+  "county": "BOYD"
  },
  {
   "series": "random",
   "serial": "827-582",
   "file": "kentucky-random-827582",
-  "county": "FAYETTE"
+  "county": "BOYD"
  },
  {
   "series": "random",
@@ -393,37 +381,37 @@
   "series": "random",
   "serial": "694-881",
   "file": "kentucky-random-694881",
-  "county": "MCCRACKEN"
+  "county": "FAYETTE"
  },
  {
   "series": "random",
   "serial": "902-726",
   "file": "kentucky-random-902726",
-  "county": "PIKE"
+  "county": "KENTON"
  },
  {
   "series": "random",
   "serial": "381-123",
   "file": "kentucky-random-381123",
-  "county": "CAMPBELL"
+  "county": "MCCRACKEN"
  },
  {
   "series": "random",
   "serial": "567-755",
   "file": "kentucky-random-567755",
-  "county": "CHRISTIAN"
+  "county": "PIKE"
  },
  {
   "series": "random",
   "serial": "066-196",
   "file": "kentucky-random-066196",
-  "county": "CHRISTIAN"
+  "county": "CAMPBELL"
  },
  {
   "series": "random",
   "serial": "424-020",
   "file": "kentucky-random-424020",
-  "county": "BOYD"
+  "county": "CHRISTIAN"
  },
  {
   "series": "random",
@@ -435,61 +423,61 @@
   "series": "random",
   "serial": "028-178",
   "file": "kentucky-random-028178",
-  "county": "CHRISTIAN"
+  "county": "BOYD"
  },
  {
   "series": "random",
   "serial": "644-935",
   "file": "kentucky-random-644935",
-  "county": "PIKE"
+  "county": "CHRISTIAN"
  },
  {
   "series": "random",
   "serial": "057-300",
   "file": "kentucky-random-057300",
-  "county": "WARREN"
+  "county": "CHRISTIAN"
  },
  {
   "series": "random",
   "serial": "588-143",
   "file": "kentucky-random-588143",
-  "county": "CAMPBELL"
+  "county": "PIKE"
  },
  {
   "series": "random",
   "serial": "337-329",
   "file": "kentucky-random-337329",
-  "county": "FAYETTE"
+  "county": "WARREN"
  },
  {
   "series": "random",
   "serial": "946-217",
   "file": "kentucky-random-946217",
-  "county": "MADISON"
+  "county": "CAMPBELL"
  },
  {
   "series": "random",
   "serial": "282-580",
   "file": "kentucky-random-282580",
-  "county": "HARDIN"
+  "county": "FAYETTE"
  },
  {
   "series": "random",
   "serial": "197-350",
   "file": "kentucky-random-197350",
-  "county": "WARREN"
+  "county": "MADISON"
  },
  {
   "series": "random",
   "serial": "692-312",
   "file": "kentucky-random-692312",
-  "county": "PIKE"
+  "county": "HARDIN"
  },
  {
   "series": "random",
   "serial": "123-703",
   "file": "kentucky-random-123703",
-  "county": "KENTON"
+  "county": "WARREN"
  },
  {
   "series": "random",
@@ -501,72 +489,72 @@
   "series": "random",
   "serial": "963-948",
   "file": "kentucky-random-963948",
-  "county": "MCCRACKEN"
+  "county": "KENTON"
  },
  {
   "series": "random",
   "serial": "228-370",
   "file": "kentucky-random-228370",
-  "county": "KENTON"
+  "county": "PIKE"
  },
  {
   "series": "random",
   "serial": "133-003",
   "file": "kentucky-random-133003",
-  "county": "JEFFERSON"
+  "county": "MCCRACKEN"
  },
  {
   "series": "random",
   "serial": "149-003",
   "file": "kentucky-random-149003",
-  "county": "MCCRACKEN"
+  "county": "KENTON"
  },
  {
   "series": "random",
   "serial": "002-002",
   "file": "kentucky-random-002002",
-  "county": "CHRISTIAN"
+  "county": "JEFFERSON"
  },
  {
   "series": "random",
   "serial": "987-429",
   "file": "kentucky-random-987429",
-  "county": "PIKE"
+  "county": "MCCRACKEN"
  },
  {
   "series": "random",
   "serial": "739-447",
   "file": "kentucky-random-739447",
-  "county": "JEFFERSON"
+  "county": "CHRISTIAN"
  },
  {
   "series": "random",
   "serial": "653-564",
   "file": "kentucky-random-653564",
-  "county": "FAYETTE"
+  "county": "PIKE"
  },
  {
   "series": "random",
   "serial": "914-368",
   "file": "kentucky-random-914368",
-  "county": "PIKE"
+  "county": "JEFFERSON"
  },
  {
   "series": "random",
   "serial": "179-261",
   "file": "kentucky-random-179261",
-  "county": "MADISON"
+  "county": "FAYETTE"
  },
  {
   "series": "random",
   "serial": "314-252",
   "file": "kentucky-random-314252",
-  "county": "DAVIESS"
+  "county": "PIKE"
  },
  {
   "series": "random",
   "serial": "516-454",
   "file": "kentucky-random-516454",
-  "county": "BOYD"
+  "county": "MADISON"
  }
 ]

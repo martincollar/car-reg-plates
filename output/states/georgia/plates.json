@@ -21,6 +21,11 @@
  },
  {
   "series": "vanity",
+  "serial": "C-4RB8R",
+  "file": "georgia-vanity-c4rb8r"
+ },
+ {
+  "series": "vanity",
   "serial": "H-0RN3T",
   "file": "georgia-vanity-h0rn3t"
  },
@@ -31,13 +36,13 @@
  },
  {
   "series": "vanity",
-  "serial": "N-45C4R",
-  "file": "georgia-vanity-n45c4r"
+  "serial": "R-4C1NG",
+  "file": "georgia-vanity-r4c1ng"
  },
  {
   "series": "vanity",
-  "serial": "R-4C1NG",
-  "file": "georgia-vanity-r4c1ng"
+  "serial": "T-W1NHP",
+  "file": "georgia-vanity-tw1nhp"
  },
  {
   "series": "vanity",
@@ -58,11 +63,6 @@
   "series": "vanity",
   "serial": "I-NF1LL",
   "file": "georgia-vanity-inf1ll"
- },
- {
-  "series": "vanity",
-  "serial": "N-ASC4R",
-  "file": "georgia-vanity-nasc4r"
  },
  {
   "series": "vanity",
@@ -91,13 +91,13 @@
  },
  {
   "series": "vanity",
-  "serial": "I-NF100",
-  "file": "georgia-vanity-inf100"
+  "serial": "H-HRN3T",
+  "file": "georgia-vanity-hhrn3t"
  },
  {
   "series": "vanity",
-  "serial": "H-HRN3T",
-  "file": "georgia-vanity-hhrn3t"
+  "serial": "I-NF100",
+  "file": "georgia-vanity-inf100"
  },
  {
   "series": "vanity",
@@ -138,16 +138,6 @@
   "series": "vanity",
   "serial": "E-L1M8R",
   "file": "georgia-vanity-el1m8r"
- },
- {
-  "series": "vanity",
-  "serial": "N-4SC4R",
-  "file": "georgia-vanity-n4sc4r"
- },
- {
-  "series": "vanity",
-  "serial": "N-A5C4R",
-  "file": "georgia-vanity-na5c4r"
  },
  {
   "series": "vanity",

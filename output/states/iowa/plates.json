@@ -21,13 +21,23 @@
  },
  {
   "series": "vanity",
+  "serial": "HU-DHRN7",
+  "file": "iowa-vanity-hudhrn7"
+ },
+ {
+  "series": "vanity",
   "serial": "SH-1FT3D",
   "file": "iowa-vanity-sh1ft3d"
  },
  {
   "series": "vanity",
-  "serial": "HU-DHRN7",
-  "file": "iowa-vanity-hudhrn7"
+  "serial": "2H-P0W3R",
+  "file": "iowa-vanity-2hp0w3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "C4-RBUR8",
+  "file": "iowa-vanity-c4rbur8"
  },
  {
   "series": "vanity",
@@ -51,6 +61,11 @@
  },
  {
   "series": "vanity",
+  "serial": "HU-DH0RN",
+  "file": "iowa-vanity-hudh0rn"
+ },
+ {
+  "series": "vanity",
   "serial": "3L-1MN8R",
   "file": "iowa-vanity-3l1mn8r"
  },
@@ -58,11 +73,6 @@
   "series": "vanity",
   "serial": "HR-N3T54",
   "file": "iowa-vanity-hrn3t54"
- },
- {
-  "series": "vanity",
-  "serial": "HU-DH0RN",
-  "file": "iowa-vanity-hudh0rn"
  },
  {
   "series": "vanity",

@@ -5,6 +5,11 @@
   "file": "illinois-sample-2236213"
  },
  {
+  "series": "custom",
+  "serial": "51HHMD",
+  "file": "illinois-custom-51hhmd"
+ },
+ {
   "series": "vanity",
   "serial": "D0PP L3R",
   "file": "illinois-vanity-d0ppl3r"
@@ -16,13 +21,23 @@
  },
  {
   "series": "vanity",
+  "serial": "HUDH RN7",
+  "file": "illinois-vanity-hudhrn7"
+ },
+ {
+  "series": "vanity",
   "serial": "SH1F T3D",
   "file": "illinois-vanity-sh1ft3d"
  },
  {
   "series": "vanity",
-  "serial": "HUDH RN7",
-  "file": "illinois-vanity-hudhrn7"
+  "serial": "2HP0 W3R",
+  "file": "illinois-vanity-2hp0w3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "C4RB UR8",
+  "file": "illinois-vanity-c4rbur8"
  },
  {
   "series": "vanity",
@@ -46,6 +61,11 @@
  },
  {
   "series": "vanity",
+  "serial": "HUDH 0RN",
+  "file": "illinois-vanity-hudh0rn"
+ },
+ {
+  "series": "vanity",
   "serial": "3L1M N8R",
   "file": "illinois-vanity-3l1mn8r"
  },
@@ -53,11 +73,6 @@
   "series": "vanity",
   "serial": "HRN3 T54",
   "file": "illinois-vanity-hrn3t54"
- },
- {
-  "series": "vanity",
-  "serial": "HUDH 0RN",
-  "file": "illinois-vanity-hudh0rn"
  },
  {
   "series": "vanity",

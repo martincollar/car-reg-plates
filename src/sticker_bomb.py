@@ -5,6 +5,7 @@
 
 Plates are taken from output/states/<state>/plates.json (build those first with src/build_states.py):
 mostly vanity serials, plus the real 1954 examples and a few random ones, every state mixed.
+The HEROES are drawn last, a bit larger and barely rotated, so each one is fully visible on top.
 """
 import json
 import random
@@ -19,6 +20,9 @@ from vanity import preview  # noqa: E402
 
 BLANK = json.loads((ROOT / "blanks" / "Licence_Plate.json").read_text())
 CANVASES = {"sticker-bomb-facebook.jpg": (3600, 1885), "sticker-bomb-printables-3x4.jpg": (2400, 3200)}
+# (state, serial) always on top, fully visible: Martin's H0R-N3T, 3D Sets, Doppler and Doc Hudson's plate
+HEROES = [("iowa", "H0R-N3T"), ("nebraska", "3D-S3TS"), ("florida", "D0PPL3R"), ("illinois", "51HHMD")]
+HERO_SCALE, BACKGROUND_SCALE = 1.3, 0.85
 
 
 def sticker(name, tpl, p, width):
@@ -45,10 +49,17 @@ def sticker(name, tpl, p, width):
     return shadow
 
 
+def find_plate(name, serial):
+    tpl = json.loads((ROOT / "templates" / f"{name}.json").read_text())
+    plates = json.loads((ROOT / "output" / "states" / name / "plates.json").read_text())
+    p = next((p for p in plates if p["serial"] == serial), {"serial": serial})
+    return name, tpl, p
+
+
 def collage(size, pool, rng, out_path):
     Wc, Hc = size
     canvas = Image.new("RGB", size, (34, 34, 36))
-    base_w = int(min(Wc, Hc) * 0.30)
+    base_w = int(min(Wc, Hc) * 0.30 * BACKGROUND_SCALE)
     cell_w, cell_h = int(base_w * 0.78), int(base_w * 0.42)
     cells = [(x, y) for y in range(-cell_h // 2, Hc + cell_h, cell_h) for x in range(-cell_w // 2, Wc + cell_w, cell_w)]
     rng.shuffle(cells)
@@ -59,8 +70,17 @@ def collage(size, pool, rng, out_path):
         x = cx + rng.randint(-cell_w // 3, cell_w // 3) - s.width // 2
         y = cy + rng.randint(-cell_h // 3, cell_h // 3) - s.height // 2
         canvas.paste(s, (x, y), s)
+    # heroes on top in a 2 x 2 arrangement, apart from each other
+    hero_w = int(min(Wc, Hc) * 0.30 * HERO_SCALE)
+    spots = [(0.29, 0.30), (0.71, 0.32), (0.31, 0.70), (0.69, 0.68)]
+    if Hc > Wc:  # portrait: narrower and staggered so neighbours don't overlap
+        hero_w = int(Wc * 0.37)
+        spots = [(0.28, 0.22), (0.72, 0.36), (0.28, 0.58), (0.72, 0.74)]
+    for (name, serial), (fx, fy) in zip(HEROES, spots):
+        s = sticker(*find_plate(name, serial), hero_w).rotate(rng.uniform(-6, 6), resample=Image.BICUBIC, expand=True)
+        canvas.paste(s, (int(fx * Wc - s.width / 2), int(fy * Hc - s.height / 2)), s)
     canvas.save(out_path, quality=90)
-    print(f"wrote {out_path} ({len(cells)} stickers)")
+    print(f"wrote {out_path} ({len(cells)} stickers + {len(HEROES)} on top)")
 
 
 def main():

@@ -21,6 +21,11 @@
  },
  {
   "series": "vanity",
+  "serial": "C4-RB-8R",
+  "file": "michigan-vanity-c4rb8r"
+ },
+ {
+  "series": "vanity",
   "serial": "H0-RN-3T",
   "file": "michigan-vanity-h0rn3t"
  },
@@ -31,13 +36,13 @@
  },
  {
   "series": "vanity",
-  "serial": "N4-5C-4R",
-  "file": "michigan-vanity-n45c4r"
+  "serial": "R4-C1-NG",
+  "file": "michigan-vanity-r4c1ng"
  },
  {
   "series": "vanity",
-  "serial": "R4-C1-NG",
-  "file": "michigan-vanity-r4c1ng"
+  "serial": "TW-1N-HP",
+  "file": "michigan-vanity-tw1nhp"
  },
  {
   "series": "vanity",
@@ -58,11 +63,6 @@
   "series": "vanity",
   "serial": "IN-F1-LL",
   "file": "michigan-vanity-inf1ll"
- },
- {
-  "series": "vanity",
-  "serial": "NA-SC-4R",
-  "file": "michigan-vanity-nasc4r"
  },
  {
   "series": "vanity",
@@ -91,13 +91,13 @@
  },
  {
   "series": "vanity",
-  "serial": "IN-F1-00",
-  "file": "michigan-vanity-inf100"
+  "serial": "HH-RN-3T",
+  "file": "michigan-vanity-hhrn3t"
  },
  {
   "series": "vanity",
-  "serial": "HH-RN-3T",
-  "file": "michigan-vanity-hhrn3t"
+  "serial": "IN-F1-00",
+  "file": "michigan-vanity-inf100"
  },
  {
   "series": "vanity",
@@ -138,16 +138,6 @@
   "series": "vanity",
   "serial": "EL-1M-8R",
   "file": "michigan-vanity-el1m8r"
- },
- {
-  "series": "vanity",
-  "serial": "N4-SC-4R",
-  "file": "michigan-vanity-n4sc4r"
- },
- {
-  "series": "vanity",
-  "serial": "NA-5C-4R",
-  "file": "michigan-vanity-na5c4r"
  },
  {
   "series": "vanity",

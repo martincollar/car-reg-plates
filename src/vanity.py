@@ -115,9 +115,10 @@ def main():
     pool = {}
     for spellings in kw.values():
         for level, c in enumerate(spellings):
-            c = c.upper()
+            exact = c.startswith("=")  # "=C4RB8R": use exactly as written, no extra swaps
+            c = c.lstrip("=").upper()
             styled = any(ch.isdigit() for ch in c)
-            for v, n_swaps in leet_variants(c):
+            for v, n_swaps in ([(c, 0)] if exact else leet_variants(c)):
                 if not any(ch.isdigit() for ch in v):
                     continue  # a plate can't be all letters
                 # styled spellings as written come first, then by number of extra swaps

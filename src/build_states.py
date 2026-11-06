@@ -3,8 +3,8 @@
   output/states/<state>/<state>-vanity.jpg          preview: the real 1954 example, your own plates and the vanity serials
   output/states/<state>/<state>-random.jpg          preview: random serials in the state's format
   output/states/<state>/stl/<state>-<series>-<serial>.stl     every plate (blank + raised text)
-  output/states/<state>/3mf/<state>-BambuOrca.3mf             every plate for Bambu Studio / OrcaSlicer (P1S, AMS), several plates
-  output/states/<state>/3mf/<state>-PrusaSlicer.3mf           the same for PrusaSlicer 2.9 (MK4S MMU3), several beds
+  output/OrcaSlicer/<State>-OrcaSlicer.3mf                    every plate for Bambu Studio / OrcaSlicer (P1S, AMS), several plates
+  output/PrusaPrinter/<State>-PrusaSlicer.3mf                 the same for PrusaSlicer 2.9 (MK4S MMU3), several beds
   output/states/<state>/plates.json                          what is in the folder
 
 Serials come from vanity_plates.json and random_plates.json (make them with src/vanity.py),
@@ -368,20 +368,37 @@ def build_state(name, args, pool):
     meshes = list(pool.map(work_plate, jobs, chunksize=4))
 
     if not args.skip_3mf:
-        d3 = out / "3mf"
-        d3.mkdir(exist_ok=True)
+        d_orca, d_prusa = ROOT / "output" / "OrcaSlicer", ROOT / "output" / "PrusaPrinter"
+        d_orca.mkdir(parents=True, exist_ok=True)
+        d_prusa.mkdir(parents=True, exist_ok=True)
         w = float(max(m[1][:, 0].max() - m[1][:, 0].min() for m in meshes))
         h = float(max(m[1][:, 1].max() - m[1][:, 1].min() for m in meshes))
         pos, per_bed = grid(len(meshes), PRUSA_AREA, w, h)
         beds = pos[-1][0] + 1
-        write_prusa(d3 / f"{name}-PrusaSlicer.3mf", f"{tpl['state']} {tpl['year']} plates", tpl,
+        write_prusa(d_prusa / f"{name.title()}-PrusaSlicer.3mf", f"{tpl['state']} {tpl['year']} plates", tpl,
                     [(m[0], m[1], m[2], bed, x, y) for m, (bed, x, y) in zip(meshes, pos)], beds)
         pos, per_plate = grid(len(meshes), ORCA_AREA, w, h)
         n_plates = pos[-1][0] + 1
-        write_orca(d3 / f"{name}-BambuOrca.3mf", f"{tpl['state']} {tpl['year']} plates", tpl,
+        write_orca(d_orca / f"{name.title()}-OrcaSlicer.3mf", f"{tpl['state']} {tpl['year']} plates", tpl,
                    [(m[0], m[1], m[2], plate, x, y) for m, (plate, x, y) in zip(meshes, pos)], n_plates)
         return f"{name}: {len(plates)} plates, Prusa {beds} beds x {per_bed}, Bambu/Orca {n_plates} plates x {per_plate}"
     return f"{name}: {len(plates)} plates"
+
+
+def zip_state(name):
+    """Pack output/states/<name>/ into output/states/<Name>.zip (entries under <name>/).
+
+    new-york -> New-York.zip
+    """
+    src = ROOT / "output" / "states" / name
+    dst = src.parent / f"{'-'.join(w.capitalize() for w in name.split('-'))}.zip"
+    tmp = dst.with_suffix(".zip.tmp")
+    files = sorted(p for p in src.rglob("*") if p.is_file() and p.name != ".DS_Store")
+    with zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as zf:
+        for p in files:
+            zf.write(p, Path(name) / p.relative_to(src))
+    tmp.replace(dst)
+    return f"{name}: zipped {len(files)} files -> {dst.relative_to(ROOT)} ({dst.stat().st_size / 1e6:.1f} MB)"
 
 
 def main():
@@ -390,12 +407,21 @@ def main():
     ap.add_argument("--skip-stl", action="store_true")
     ap.add_argument("--skip-3mf", action="store_true")
     ap.add_argument("--skip-previews", action="store_true")
+    ap.add_argument("--skip-zip", action="store_true", help="don't pack output/states/<state>.zip")
+    ap.add_argument("--zip-only", action="store_true", help="only re-zip existing state folders")
     ap.add_argument("--jobs", type=int, default=None)
     args = ap.parse_args()
     names = args.states or sorted(p.stem for p in (ROOT / "templates").glob("*.json"))
+    if args.zip_only:
+        for name in names:
+            if (ROOT / "output" / "states" / name).is_dir():
+                print(zip_state(name), flush=True)
+        return
     with ProcessPoolExecutor(args.jobs) as pool:
         for name in names:
             print(build_state(name, args, pool), flush=True)
+            if not args.skip_zip:
+                print(zip_state(name), flush=True)
 
 
 if __name__ == "__main__":
