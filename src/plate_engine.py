@@ -66,7 +66,11 @@ class Font:
 
     def stem(self):
         b = self.bounds("I")
-        return (b[2] - b[0]) / self.cap
+        w = b[2] - b[0]
+        if ord("l") in self.cmap:  # a serifed I (Advent Pro) is much wider than its stem: use l instead
+            bl = self.bounds("l")
+            w = min(w, bl[2] - bl[0]) if w > 1.3 * (bl[2] - bl[0]) else w
+        return w / self.cap
 
 
 def run_layout(font, text, track_units):

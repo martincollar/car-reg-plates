@@ -51,15 +51,15 @@
     {
       "type": "serial",
       "id": "serial",
-      "font": "HighwayGothic-C.ttf",
-      "cap": 0.59,
-      "baseline": 0.9,
-      "x0": 0.28,
+      "font": "AdventPro-SemiBold.ttf",
+      "cap": 0.57,
+      "baseline": 0.89,
+      "x0": 0.26,
       "x1": 0.965,
       "sep": "none",
-      "stem": 0.21,
-      "skew": 8,
-      "max_sx": 1.05
+      "stem": 0.19,
+      "skew": 2,
+      "max_sx": 1.35
     }
   ]
 }

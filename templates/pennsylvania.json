@@ -39,26 +39,26 @@
       "type": "text",
       "id": "top",
       "text": "1954 PENNA",
-      "font": "HighwayGothic-E.ttf",
+      "font": "AdventPro-SemiBold.ttf",
       "cap": 0.15,
       "baseline": 0.33,
       "x": 0.47,
       "anchor": "middle",
       "width": 0.6,
-      "stem": 0.18
+      "stem": 0.17
     },
     {
       "type": "serial",
       "id": "serial",
-      "font": "HighwayGothic-E.ttf",
-      "cap": 0.52,
-      "baseline": 0.89,
+      "font": "AdventPro-SemiBold.ttf",
+      "cap": 0.5,
+      "baseline": 0.875,
       "x0": 0.06,
       "x1": 0.88,
       "sep": "none",
-      "stem": 0.22,
-      "max_sx": 1.1,
-      "gap": 0.25
+      "stem": 0.18,
+      "max_sx": 1.35,
+      "gap": 0.15
     }
   ]
 }
