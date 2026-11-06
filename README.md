@@ -55,6 +55,7 @@ python src/vanity.py --random 50 --no-sheets   # 1. serial lists from vanity_key
 python src/build_states.py                    # 2. previews, STLs and 3MFs for every state (a few minutes)
 python src/sticker_bomb.py                    # 3. output/previews/sticker-bomb-*.jpg
 python src/lineup.py                          # 4. output/previews/all-states.jpg
+python src/build_site.py                      # 5. html/: the plate picker web page
 ```
 
 `build_states.py --states iowa utah` rebuilds only some states; `--skip-stl` / `--skip-3mf` / `--skip-previews` skip parts. Personal plates are listed under `"personal"` in `custom_plates.json` (H0R-N3T on Iowa, Idaho and Utah, and Doc Hudson's 51HHMD on Illinois).
@@ -73,6 +74,12 @@ Both projects have two filaments: 1 is the state's background colour, 2 its ink 
 `src/sticker_bomb.py` mixes plates from every state into two collages in `output/previews/`: `sticker-bomb-facebook.jpg` (3600 × 1885, 1.91:1) and `sticker-bomb-printables-3x4.jpg` (2400 × 3200, 3:4). Four favourites are always on top, larger and fully visible: H0R-N3T (Iowa), 3D-S3TS (Nebraska), D0PPL3R (Florida) and Doc Hudson's 51HHMD (Illinois). The rest is random and slightly smaller underneath. Change them in `HEROES` at the top of the script.
 
 `src/lineup.py` draws `output/previews/all-states.png` (transparent background) and `all-states.jpg` (white background): one plate per state with its name and year. The pick for each state is in `PICKS` at the top of the script.
+
+### Web page
+
+The plate picker is online at <https://martincollar.github.io/car-reg-plates/>: dropdowns for state, type (original example, personal, vanity, random) and plate, a large preview, and a grid of all matching plates. Every plate has its own link (`#iowa/iowa-custom-h0rn3t`) and shows the name of its STL.
+
+`src/build_site.py` writes it to `html/`: one SVG per plate in `html/plates/<state>/`, the list in `html/data.js`, and the lineup and sticker-bomb pictures in `html/img/`. `html/index.html` is written by hand and is not overwritten. Commit `html/` and push to `main`; `.github/workflows/pages.yml` publishes it.
 
 ## Build
 
