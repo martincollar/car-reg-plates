@@ -10,7 +10,7 @@
 
 ## States
 
-Most templates are from 1954 plates; Idaho is the 1951 plate and Utah the 1953 one, both still within the Hudson Hornet's 1951–57 run. Photo links are in each template's `photo` field (Wikimedia Commons).
+Most templates are from 1954 plates; Idaho is the 1951 plate, Utah the 1953 one and Montana the 1955 one, all still within the Hudson Hornet's 1951–57 run. Photo links are in each template's `photo` field (Wikimedia Commons, except Montana's, which is an Etsy listing photo).
 
 | Template | Layout | Serial format | Colours |
 |---|---|---|---|
@@ -29,6 +29,7 @@ Most templates are from 1954 plates; Idaho is the 1951 plate and Utah the 1953 o
 | `alaska` | flag, ALASKA, 54 tab / slanted serial | `45357` | blue on yellow |
 | `idaho` | IDAHO 51 / stacked county code + serial (1951–52 plate) | `1/A 28 588` | white on maroon |
 | `utah` | UTAH 1953 / stacked letters + serial (1953 plate) | `B/H 980` | yellow on black |
+| `montana` | THE TREASURE STATE / serial / MONTANA - 55, state-shaped border (1955 plate) | `5-11088` | white on red |
 
 In a serial, `-` is the state's own separator (dot, dash, round dot or Michigan's cross) and a space is a gap. A prefix like `1/A ` is stacked, 1 over A, in small characters left of the serial (Idaho's county code, Utah's letters); a serial without one starts at the left edge instead.
 
@@ -94,7 +95,7 @@ python src/build_all.py hornet           # just one
 python src/build_all.py --series custom  # one series: sample, custom or random
 ```
 
-Overview sheets: `output/overview.png` (the 15 state samples) and `output/overview-<series>.png` for each series.
+Overview sheets: `output/overview.png` (the 16 state samples) and `output/overview-<series>.png` for each series.
 
 Each plate gets `output/<name>/` with `face.svg` (exact size, text as outlines), `plate.stl`, `text_only.stl` and `topview.png` (a render of the STL).
 

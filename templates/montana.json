@@ -1,0 +1,57 @@
+{
+  "state": "Montana",
+  "year": 1955,
+  "photo": "https://i.etsystatic.com/46147151/r/il/c0a00a/8218773858/il_fullxfull.8218773858_fnah.jpg",
+  "colors": {
+    "background": "#7A1624",
+    "ink": "#ECE8DE"
+  },
+  "serial_format": "9-99999",
+  "serial_example": "5-11088",
+  "elements": [
+    {
+      "type": "shape",
+      "shape": "mt_border",
+      "stroke": 0.4
+    },
+    {
+      "type": "text",
+      "id": "top",
+      "text": "THE TREASURE STATE",
+      "font": "Orbitron-Medium.ttf",
+      "cap": 0.09,
+      "baseline": 0.198,
+      "x": 0.5,
+      "anchor": "middle",
+      "width": 0.88,
+      "stem": 0.2
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "ArchivoNarrow-SemiBold.ttf",
+      "cap": 0.455,
+      "baseline": 0.694,
+      "x0": 0.097,
+      "x1": 0.891,
+      "sep": "dash",
+      "sep_pad": 0.24,
+      "gap": 0.3,
+      "track": 0.05,
+      "stem": 0.19,
+      "max_sx": 1.3
+    },
+    {
+      "type": "text",
+      "id": "bottom",
+      "text": "MONTANA - 55",
+      "font": "Orbitron-Medium.ttf",
+      "cap": 0.108,
+      "baseline": 0.847,
+      "x": 0.543,
+      "anchor": "middle",
+      "width": 0.675,
+      "stem": 0.2
+    }
+  ]
+}

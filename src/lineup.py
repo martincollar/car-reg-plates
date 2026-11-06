@@ -22,10 +22,10 @@ PICKS = {
     "alaska": "PLA3D", "florida": "D0PPL3R", "georgia": "E-LIM8R", "idaho": "S/H 1F T3D",
     "illinois": "51HHMD", "iowa": "H0R-N3T", "kentucky": "1NF-1LL", "michigan": "HU-D5-0N",
     "minnesota": "R4C-1NG", "nebraska": "3D-S3TS", "new-york": "TW1N-HP", "ohio": "HRN-3T",
-    "pennsylvania": "HUD51", "utah": "H/R N3T", "wisconsin": "C4R-B8R",
+    "montana": "H-0RN3T", "pennsylvania": "HUD51", "utah": "H/R N3T", "wisconsin": "C4R-B8R",
 }
-COLS, PLATE_W = 5, 560
-SIZE = (3200, 1560)
+COLS, PLATE_W = 4, 560
+WIDTH, TOP, ROW_H = 3200, 150, 463
 
 
 def main():
@@ -37,16 +37,17 @@ def main():
         stem = "all-states-" + re.sub(r"[^A-Za-z0-9]+", "", args.serial).lower()
         title = f'"{args.serial}" - {len(picks)} states'
     else:
-        picks, stem, title = PICKS, "all-states", "1950s US license plates - 15 states"
+        picks, stem, title = PICKS, "all-states", f"1950s US license plates - {len(PICKS)} states"
     names = sorted(picks)
     rows = (len(names) + COLS - 1) // COLS
+    SIZE = (WIDTH, TOP + 20 + rows * ROW_H)
     canvas = Image.new("RGBA", SIZE, (0, 0, 0, 0))
     d = ImageDraw.Draw(canvas)
     f_title = ImageFont.truetype(str(ROOT / "fonts" / "Saira-SemiBold.ttf"), 64)
     f_label = ImageFont.truetype(str(ROOT / "fonts" / "Saira-SemiBold.ttf"), 30)
     tw = d.textlength(title, font=f_title)
     d.text(((SIZE[0] - tw) / 2, 40), title, fill=(34, 34, 36), font=f_title)
-    top = 150
+    top = TOP
     cell_w, cell_h = SIZE[0] / COLS, (SIZE[1] - top - 20) / rows
     for i, name in enumerate(names):
         state, tpl, p = find_plate(name, picks[name])

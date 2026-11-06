@@ -19,7 +19,7 @@ Element types
           Idaho and Utah plates; place it with "stack": {"x", "cap", "baselines": [top, bottom],
           "font", "sx", "stem"} and give "x0_plain" for where the serial starts without one.
   box     {"x0", "y0", "x1", "y1", "stroke" (mm), "radius" (mm)}   raised outline (year tabs)
-  shape   {"shape": "alaska_flag" | "pa_border", ...}               simplified state artwork
+  shape   {"shape": "alaska_flag" | "pa_border" | "mt_border", ...} simplified state artwork
 
 Every raised element is written as an SVG path with class="relief"; make_stl.py extrudes them.
 """
@@ -32,6 +32,7 @@ from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import TTFont
+from shapely.geometry import Polygon
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -333,7 +334,26 @@ def render_shape(el, W, H):
             return pts
 
         return poly(outline(0)) + poly(outline(t))
+    if kind == "mt_border":
+        # Raised outline of Montana: straight north, east and south edges, the Idaho border
+        # (Bitterroot Range) wiggling down the left side, traced from the 1955 plate
+        t = el.get("stroke", 0.4)
+        outer = Polygon([(x * W, y * H) for x, y in MT_OUTLINE]).buffer(-0.3).buffer(0.3)
+        inner = outer.buffer(-t, join_style="mitre")
+        return poly(outer.exterior.coords[:-1]) + poly(inner.exterior.coords[:-1])
     raise ValueError(f"unknown shape {kind}")
+
+
+# Montana outline in face fractions, clockwise from the top-left corner
+MT_OUTLINE = [
+    (0.024, 0.0), (1.0, 0.0), (1.0, 0.900), (0.330, 0.900), (0.322, 0.915), (0.322, 0.964),
+    (0.301, 0.968), (0.265, 0.964), (0.230, 0.956), (0.202, 0.940), (0.184, 0.916),
+    (0.170, 0.884), (0.156, 0.851), (0.141, 0.827), (0.124, 0.819), (0.103, 0.827),
+    (0.081, 0.819), (0.069, 0.787), (0.064, 0.747), (0.065, 0.707), (0.072, 0.675),
+    (0.078, 0.643), (0.071, 0.610), (0.057, 0.586), (0.039, 0.554), (0.025, 0.506),
+    (0.014, 0.466), (0.004, 0.426), (0.003, 0.378), (0.004, 0.305), (0.004, 0.217),
+    (0.009, 0.153), (0.016, 0.080),
+]
 
 
 # ---------------------------------------------------------------- plate
