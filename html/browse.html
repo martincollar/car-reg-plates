@@ -73,6 +73,15 @@
   .card .t { font-size: 13px; color: var(--muted); }
   .empty { color: var(--muted); padding: 40px 0; }
 
+  .like { width: min(420px, calc(100vw - 32px)); padding: 24px; color: var(--text); background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 24px 60px rgba(0,0,0,.55); }
+  .like[open] { animation: pop .18s ease-out; }
+  .like::backdrop { background: rgba(10,10,12,.6); backdrop-filter: blur(3px); }
+  .like h2 { font: 600 24px/1.2 "Saira", system-ui, sans-serif; margin: 0 0 8px; }
+  .like p { margin: 0 0 20px; color: var(--muted); text-wrap: pretty; }
+  .like .heart { color: #e5534b; }
+  .like form { display: flex; flex-wrap: wrap; gap: 10px; }
+  @keyframes pop { from { opacity: 0; scale: .96; } }
+
 
   @media (max-width: 820px) {
     .stage { grid-template-columns: 1fr; padding: 20px 0; }
@@ -125,6 +134,15 @@
   <div class="grid" id="grid"></div>
 </main>
 <div class="band bottom" aria-hidden="true"></div>
+
+<dialog class="like" id="like" aria-labelledby="like-title">
+  <h2 id="like-title">Your STL is downloading</h2>
+  <p>If the plates are useful, a <span class="heart" aria-hidden="true">♥</span> like on Printables helps other modellers find them.</p>
+  <form method="dialog">
+    <a class="btn" id="like-go" href="https://www.printables.com/model/1903176" target="_blank" rel="noopener">Like on Printables ↗</a>
+    <button class="btn ghost" value="later">Maybe later</button>
+  </form>
+</dialog>
 
 
 <script src="data.js"></script>
@@ -234,6 +252,19 @@
     a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 10000);
   };
+  // After a download, ask for a like on Printables until the visitor has clicked through once.
+  const LIKED = "liked-on-printables";
+  const likeDialog = $("like");
+  const askForLike = () => {
+    try { if (localStorage.getItem(LIKED)) return; } catch {}
+    if (!likeDialog.open) likeDialog.showModal();
+  };
+  $("like-go").addEventListener("click", () => {
+    try { localStorage.setItem(LIKED, "1"); } catch {}
+    likeDialog.close();
+  });
+  likeDialog.addEventListener("click", (e) => { if (e.target === likeDialog) likeDialog.close(); });
+
   $("stl").addEventListener("click", async (e) => {
     const p = current;
     if (!p?.stl) return;
@@ -243,6 +274,7 @@
     try {
       save(await plateStl(p), `${p.file}.stl`);
       btn.textContent = "Downloaded";
+      askForLike();
     } catch (err) {
       console.error(err);
       btn.textContent = "Download failed";
