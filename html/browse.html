@@ -258,13 +258,16 @@
     a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 10000);
   };
-  // After a download, ask for a like on Printables until the visitor has clicked through once.
+  // After an STL or SVG download, ask for a like on Printables until the visitor has clicked through once.
   const LIKED = "liked-on-printables";
   const likeDialog = $("like");
-  const askForLike = () => {
+  const askForLike = (kind) => {
     try { if (localStorage.getItem(LIKED)) return; } catch {}
+    $("like-title").textContent = `Your ${kind} is downloading`;
     if (!likeDialog.open) likeDialog.showModal();
   };
+  // The SVG link downloads natively; open the dialog once the click has started it.
+  $("svg").addEventListener("click", () => setTimeout(() => askForLike("SVG"), 0));
   $("like-go").addEventListener("click", () => {
     try { localStorage.setItem(LIKED, "1"); } catch {}
     likeDialog.close();
@@ -280,7 +283,7 @@
     try {
       save(await plateStl(p), `${p.file}.stl`);
       btn.textContent = "Downloaded";
-      askForLike();
+      askForLike("STL");
     } catch (err) {
       console.error(err);
       btn.textContent = "Download failed";
