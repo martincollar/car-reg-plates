@@ -13,8 +13,9 @@ plus the template's own example and personal plates listed in custom_plates.json
 Both 3MF projects use two filaments, the state's background colour (1) and ink colour (2): every
 plate starts on 1 and a filament change to 2 is set at the first layer above the face (z 3.7), so
 the rim and text print in the ink colour (automatic with an AMS / MMU3).
-Settings come from slicer_refs/: Martin's own Bambu Lab P1S project (0.2 nozzle, 0.1 mm layers) and
-the Original Prusa MK4S MMU3 0.10 mm profile (0.2 first layer).
+Settings come from slicer_refs/: Martin's own Bambu Lab P1S project (saved for a 0.2 nozzle, switched
+to a 0.4 nozzle here by orca_04) and the Original Prusa MK4S MMU3 0.4 nozzle 0.10 mm profile. Both use
+0.1 mm layers with a 0.2 mm first layer, and both have thin-wall detection on.
 
   python src/build_states.py                    all states
   python src/build_states.py --states iowa utah
@@ -48,7 +49,7 @@ BLANK = json.loads((ROOT / "blanks" / "Licence_Plate.json").read_text())
 SPACING = 4.0                                                 # mm between plates on the bed
 BED_MARGIN = 6.0
 REFS = ROOT / "slicer_refs"
-ORCA_SETTINGS = REFS / "orca_p1s_0.2_project_settings.json"   # Martin's own P1S project (0.2 nozzle, 0.1 layers, AMS)
+ORCA_SETTINGS = REFS / "orca_p1s_0.2_project_settings.json"   # Martin's own P1S project (0.2 nozzle, made 0.4 by orca_04)
 PRUSA_TEMPLATE = REFS / "prusa_mk4s_mmu3_0.10.ini"            # Original Prusa MK4S MMU3, 0.10 mm, Prusament PLA
 ORCA_BED = (256.0, 256.0)
 ORCA_AREA = (BED_MARGIN, BED_MARGIN, 256.0 - BED_MARGIN, 226.0)     # back kept free for the prime tower
@@ -187,7 +188,8 @@ def prusa_config(tpl):
             line = line.split("=")[0] + "= " + ";".join(cols) + "\n"
         out.append(line)
     txt = "".join(out)
-    for k, v in (("wipe_tower_x", PRUSA_WIPE_TOWER[0]), ("wipe_tower_y", PRUSA_WIPE_TOWER[1]), ("wipe_tower_rotation_angle", 0)):
+    for k, v in (("wipe_tower_x", PRUSA_WIPE_TOWER[0]), ("wipe_tower_y", PRUSA_WIPE_TOWER[1]), ("wipe_tower_rotation_angle", 0),
+                 ("thin_walls", 1)):
         txt, n = re.subn(rf"^; {k} = .*$", f"; {k} = {v:g}", txt, flags=re.M)
         if n == 0:
             txt += f"; {k} = {v:g}\n"
@@ -251,15 +253,45 @@ def write_prusa(path, title, tpl, items, n_beds):
 
 # ---------------------------------------------------------------- Bambu Studio / OrcaSlicer
 
+ORCA_04_WIDTHS = {
+    "line_width": "0.42", "outer_wall_line_width": "0.42", "top_surface_line_width": "0.42",
+    "internal_solid_infill_line_width": "0.42", "support_line_width": "0.42",
+    "inner_wall_line_width": "0.45", "sparse_infill_line_width": "0.45",
+    "skeleton_infill_line_width": "0.45", "skin_infill_line_width": "0.45",
+    "initial_layer_line_width": "0.5",
+}
+
+
+def orca_04(ps):
+    """Turn Martin's P1S 0.2 nozzle project into a 0.4 nozzle one, with thin-wall detection on."""
+    def rename(v):
+        if isinstance(v, list):
+            return [rename(x) for x in v]
+        if isinstance(v, str) and "0.2 nozzle" in v and "\n" not in v:
+            if "Bambu Lab" in v:                                     # printer names keep the suffix
+                return v.replace("0.2 nozzle", "0.4 nozzle")
+            return re.sub(r"\s*@?0\.2 nozzle$", "", v.replace(" 0.2 nozzle", ""))   # 0.4 presets have none
+        return v
+    ps = {k: rename(v) for k, v in ps.items()}
+    ps.update(ORCA_04_WIDTHS)
+    ps["nozzle_diameter"] = ["0.4"]
+    ps["printer_variant"] = "0.4"
+    ps["initial_layer_print_height"] = "0.2"
+    ps["max_layer_height"] = ["0.28"]
+    ps["detect_thin_wall"] = "1"
+    ps["machine_start_gcode"] = ps["machine_start_gcode"].replace("machine: P1S-0.2", "machine: P1S")
+    return ps
+
+
 def orca_settings():
-    ps = json.loads(ORCA_SETTINGS.read_text())
+    ps = orca_04(json.loads(ORCA_SETTINGS.read_text()))
     return ps, float(ps["layer_height"]), float(ps["initial_layer_print_height"])
 
 
 def write_orca(path, title, tpl, items, n_plates):
     """items: [(name, verts, faces, plate, x, y)] with x, y on that plate.
     Laid out like a project saved by Bambu Studio / OrcaSlicer: one 3D/Objects/*.model per plate, the
-    printer, process and filament settings from Martin's own P1S project, two filaments (background,
+    printer, process and filament settings from Martin's own P1S project (as 0.4 nozzle), two filaments (background,
     ink) and a filament change to the ink at the first text layer on every plate (automatic with an AMS)."""
     ps, layer, first = orca_settings()
     z = change_z(layer, first)
