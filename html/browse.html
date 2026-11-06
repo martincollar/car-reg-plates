@@ -308,9 +308,11 @@
     return true;
   };
 
-  // Uniform over every plate, with real randomness; never the plate already on screen.
+  // Uniform over the vanity and random plates (never an original example), with real
+  // randomness; never the plate already on screen.
+  const luckPool = plates.filter((p) => p.series !== "sample");
   const randomPlate = () => {
-    const pool = plates.length > 1 ? plates.filter((p) => p !== current) : plates;
+    const pool = luckPool.length > 1 ? luckPool.filter((p) => p !== current) : luckPool;
     return pool[crypto.getRandomValues(new Uint32Array(1))[0] % pool.length];
   };
 
