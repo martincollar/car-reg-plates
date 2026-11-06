@@ -58,8 +58,11 @@ python src/vanity.py --random 50 --no-sheets   # 1. serial lists from vanity_key
 python src/build_states.py                    # 2. previews, STLs and 3MFs for every state (a few minutes)
 python src/sticker_bomb.py                    # 3. output/previews/sticker-bomb-*.jpg
 python src/lineup.py                          # 4. output/previews/all-states.jpg
-python src/build_site.py                      # 5. html/: the plate picker web page
+python src/link_banner.py                     # 5. output/previews/browse-link-banner.jpg (Printables link banner)
+python src/build_site.py                      # 6. html/: the plate picker web page
 ```
+
+Skip step 1 when rebuilding published plates. The random serials come from one seeded sequence, in state order, and Montana was added later with `--states montana`. A full `vanity.py` run gives new random serials for Montana and every state after it, and their plate links change.
 
 `build_states.py --states iowa utah` rebuilds only some states; `--skip-stl` / `--skip-3mf` / `--skip-previews` skip parts. Personal plates are listed under `"personal"` in `custom_plates.json` (H0R-N3T on Iowa, Idaho and Utah, and 51HHMD on Illinois).
 
@@ -154,7 +157,7 @@ Copy a template in `templates/` and edit its elements. Positions are fractions o
 | `text` | `text`, `font`, `cap`, `baseline`, `x`, `anchor` (start/middle/end), `width` + `fit` (spread / `scale` / `max`), `track`, `sx`, `skew`, `stem` |
 | `serial` | `font`, `cap`, `baseline`, `x0`, `x1`, `sep` (dot/rdot/dash/cross/none), `stem`, `skew`, `min_sx`, `max_sx`, `gap`, `sep_pad`, `x0_plain` (start when there's no stacked prefix), `stack` (`x`, `cap`, `baselines` [top, bottom], `font`, `sx`, `stem`) |
 | `box` | `x0`, `y0`, `x1`, `y1`, `stroke`, `radius` (year tabs) |
-| `shape` | `alaska_flag` or `pa_border` |
+| `shape` | `alaska_flag`, `pa_border` or `mt_border` |
 
 `stem` thickens strokes to that fraction of the letter height, to match heavy stamped dies. `serial_format` uses `9` for a digit and `L` for a letter (I, O and Q are never picked).
 
@@ -164,6 +167,7 @@ The real plates were stamped with each state's own dies; no free fonts copy them
 
 - **Saira** (Condensed, Semi Condensed, SemiBold, Italic): squared-off O and 0. SIL Open Font License.
 - **Oswald**: tall, narrow, straight-sided O. SIL Open Font License.
+- **Advent Pro** SemiBold, **Orbitron** Medium (flat-topped A) and **Archivo Narrow** SemiBold (footed 1). SIL Open Font License.
 - **Highway Gothic** C, D, E, EM (Roadgeek 2014): the 1950s US road-sign lettering, round shapes. MIT licence.
 
 Licence files are in `fonts/`. Variable fonts were turned into static instances with overlapping contours removed, so they extrude cleanly.
