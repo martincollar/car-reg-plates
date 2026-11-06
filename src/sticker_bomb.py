@@ -2,7 +2,7 @@
 
   python src/sticker_bomb.py      -> output/previews/sticker-bomb-facebook.jpg (1.91:1)
                                      output/previews/sticker-bomb-printables-3x4.jpg (3:4)
-                                     output/previews/sticker-bomb-printables-320x240.jpg (small 4:3 thumbnail)
+                                     output/previews/sticker-bomb-printables-4x3.jpg (4:3)
 
 Plates are taken from output/states/<state>/plates.json (build those first with src/build_states.py):
 mostly vanity serials, plus the real 1954 examples and a few random ones, every state mixed.
@@ -21,9 +21,7 @@ from vanity import preview  # noqa: E402
 
 BLANK = json.loads((ROOT / "blanks" / "Licence_Plate.json").read_text())
 CANVASES = {"sticker-bomb-facebook.jpg": (3600, 1885), "sticker-bomb-printables-3x4.jpg": (2400, 3200),
-            "sticker-bomb-printables-320x240.jpg": (1280, 960)}  # keep new canvases last: they share the rng
-# canvases rendered big and downscaled, so the plates stay crisp in a thumbnail
-FINAL_SIZES = {"sticker-bomb-printables-320x240.jpg": (320, 240)}
+            "sticker-bomb-printables-4x3.jpg": (3200, 2400)}  # keep new canvases last: they share the rng
 # (state, serial) always on top, fully visible: Martin's H0R-N3T, 3D Sets, Doppler and 51HHMD
 HEROES = [("iowa", "H0R-N3T"), ("nebraska", "3D-S3TS"), ("florida", "D0PPL3R"), ("illinois", "51HHMD")]
 HERO_SCALE, BACKGROUND_SCALE = 1.3, 0.85
@@ -60,7 +58,7 @@ def find_plate(name, serial):
     return name, tpl, p
 
 
-def collage(size, pool, rng, out_path, final_size=None):
+def collage(size, pool, rng, out_path):
     Wc, Hc = size
     canvas = Image.new("RGB", size, (34, 34, 36))
     base_w = int(min(Wc, Hc) * 0.30 * BACKGROUND_SCALE)
@@ -83,8 +81,6 @@ def collage(size, pool, rng, out_path, final_size=None):
     for (name, serial), (fx, fy) in zip(HEROES, spots):
         s = sticker(*find_plate(name, serial), hero_w).rotate(rng.uniform(-6, 6), resample=Image.BICUBIC, expand=True)
         canvas.paste(s, (int(fx * Wc - s.width / 2), int(fy * Hc - s.height / 2)), s)
-    if final_size:
-        canvas = canvas.resize(final_size, Image.LANCZOS)
     canvas.save(out_path, quality=90)
     print(f"wrote {out_path} ({len(cells)} stickers + {len(HEROES)} on top)")
 
@@ -105,7 +101,7 @@ def main():
     out = ROOT / "output" / "previews"
     out.mkdir(exist_ok=True)
     for fname, size in CANVASES.items():
-        collage(size, pool, rng, out / fname, FINAL_SIZES.get(fname))
+        collage(size, pool, rng, out / fname)
 
 
 if __name__ == "__main__":
