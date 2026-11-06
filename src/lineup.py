@@ -2,7 +2,7 @@
 and all-states.jpg (white background)
 
 Each state shows its best plate. Martin's four favourites go to the states they suit
-(H0R-N3T on Iowa, 3D Sets on Nebraska, Doppler on Florida, Doc Hudson's 51HHMD on Illinois),
+(H0R-N3T on Iowa, 3D Sets on Nebraska, Doppler on Florida, 51HHMD on Illinois),
 and every other state gets a different vanity serial, so all keywords show up somewhere.
 Edit PICKS to change a state's plate.
 """

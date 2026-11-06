@@ -60,7 +60,7 @@ python src/lineup.py                          # 4. output/previews/all-states.jp
 python src/build_site.py                      # 5. html/: the plate picker web page
 ```
 
-`build_states.py --states iowa utah` rebuilds only some states; `--skip-stl` / `--skip-3mf` / `--skip-previews` skip parts. Personal plates are listed under `"personal"` in `custom_plates.json` (H0R-N3T on Iowa, Idaho and Utah, and Doc Hudson's 51HHMD on Illinois).
+`build_states.py --states iowa utah` rebuilds only some states; `--skip-stl` / `--skip-3mf` / `--skip-previews` skip parts. Personal plates are listed under `"personal"` in `custom_plates.json` (H0R-N3T on Iowa, Idaho and Utah, and 51HHMD on Illinois).
 
 ### Colours and the filament change in the 3MFs
 
@@ -73,7 +73,7 @@ Both projects have two filaments: 1 is the state's background colour, 2 its ink 
 
 ### Sticker bomb previews
 
-`src/sticker_bomb.py` mixes plates from every state into two collages in `output/previews/`: `sticker-bomb-facebook.jpg` (3600 × 1885, 1.91:1) and `sticker-bomb-printables-3x4.jpg` (2400 × 3200, 3:4). Four favourites are always on top, larger and fully visible: H0R-N3T (Iowa), 3D-S3TS (Nebraska), D0PPL3R (Florida) and Doc Hudson's 51HHMD (Illinois). The rest is random and slightly smaller underneath. Change them in `HEROES` at the top of the script.
+`src/sticker_bomb.py` mixes plates from every state into two collages in `output/previews/`: `sticker-bomb-facebook.jpg` (3600 × 1885, 1.91:1) and `sticker-bomb-printables-3x4.jpg` (2400 × 3200, 3:4). Four favourites are always on top, larger and fully visible: H0R-N3T (Iowa), 3D-S3TS (Nebraska), D0PPL3R (Florida) and 51HHMD (Illinois). The rest is random and slightly smaller underneath. Change them in `HEROES` at the top of the script.
 
 `src/lineup.py` draws `output/previews/all-states.png` (transparent background) and `all-states.jpg` (white background): one plate per state with its name and year. The pick for each state is in `PICKS` at the top of the script.
 
@@ -130,7 +130,7 @@ Long serials are squeezed first and then shrunk to fit, so custom text always st
 
 ### Vanity and random plates
 
-`src/vanity.py` turns the keywords in `vanity_keywords.json` (Hudson, Hornet, Doc Hudson's 51HHMD, Doppler, 3D Sets, Eliminator, Infill, Shifted, Racing, PLA, Carburetor and Twin H-Power, each with a few shortened spellings) into vanity serials. Every serial has at least one letter-to-number swap (O=0, E=3, A=4, I=1, S=5, T=7, G=6, B=8), because a plate can't be all letters. A serial goes to a state only if it has exactly as many characters as that state's format, and is laid out in that state's grouping; the rest is skipped. A spelling written with a leading `=` (for example `=C4RB8R`) is used exactly as written, with no extra swaps; that keeps 51HHMD, Carburetor (C4RB8R, C4RBUR8) and Twin H-Power (TW1NHP, 2HP0W3R) to just those spellings.
+`src/vanity.py` turns the keywords in `vanity_keywords.json` (Hudson, Hornet, 51HHMD, Doppler, 3D Sets, Eliminator, Infill, Shifted, Racing, PLA, Carburetor and Twin H-Power, each with a few shortened spellings) into vanity serials. Every serial has at least one letter-to-number swap (O=0, E=3, A=4, I=1, S=5, T=7, G=6, B=8), because a plate can't be all letters. A serial goes to a state only if it has exactly as many characters as that state's format, and is laid out in that state's grouping; the rest is skipped. A spelling written with a leading `=` (for example `=C4RB8R`) is used exactly as written, with no extra swaps; that keeps 51HHMD, Carburetor (C4RB8R, C4RBUR8) and Twin H-Power (TW1NHP, 2HP0W3R) to just those spellings.
 
 ```sh
 python src/vanity.py --random 24         # vanity_plates.json + random_plates.json and the sheets

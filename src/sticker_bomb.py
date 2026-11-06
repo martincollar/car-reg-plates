@@ -20,7 +20,7 @@ from vanity import preview  # noqa: E402
 
 BLANK = json.loads((ROOT / "blanks" / "Licence_Plate.json").read_text())
 CANVASES = {"sticker-bomb-facebook.jpg": (3600, 1885), "sticker-bomb-printables-3x4.jpg": (2400, 3200)}
-# (state, serial) always on top, fully visible: Martin's H0R-N3T, 3D Sets, Doppler and Doc Hudson's plate
+# (state, serial) always on top, fully visible: Martin's H0R-N3T, 3D Sets, Doppler and 51HHMD
 HEROES = [("iowa", "H0R-N3T"), ("nebraska", "3D-S3TS"), ("florida", "D0PPL3R"), ("illinois", "51HHMD")]
 HERO_SCALE, BACKGROUND_SCALE = 1.3, 0.85
 

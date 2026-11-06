@@ -1,5 +1,5 @@
 {
-  "_about": "Keywords for src/vanity.py. Each keyword lists spellings: plain ones, shortened ones, and styled ones that already use number swaps (H0RN3T) or number puns (ELIM8R = 'eliminate-r', 8 = 'ate'). Styled spellings with digits are shown first on the sheets. On top of these, every combination of further swaps (O=0, E=3, A=4, I=1, S=5, T=7, G=6, B=8) is tried. Every plate must contain at least one digit. Numbers 51-54 are the Hornet's championship years, HH = Hudson Hornet, 51HHMD is Doc Hudson's plate. A spelling starting with '=' is used exactly as written, with no extra swaps (51HHMD, Carburetor, Twin H-Power).",
+  "_about": "Keywords for src/vanity.py. Each keyword lists spellings: plain ones, shortened ones, and styled ones that already use number swaps (H0RN3T) or number puns (ELIM8R = 'eliminate-r', 8 = 'ate'). Styled spellings with digits are shown first on the sheets. On top of these, every combination of further swaps (O=0, E=3, A=4, I=1, S=5, T=7, G=6, B=8) is tried. Every plate must contain at least one digit. Numbers 51-54 are the Hornet's championship years, HH = Hudson Hornet. A spelling starting with '=' is used exactly as written, with no extra swaps (51HHMD, Carburetor, Twin H-Power).",
   "keywords": {
     "Hudson": [
       "HUD50N",
@@ -32,7 +32,7 @@
       "HHRN3T",
       "HUDH0RN"
     ],
-    "Doc Hudson": [
+    "51HHMD": [
       "=51HHMD"
     ],
     "Doppler": [
