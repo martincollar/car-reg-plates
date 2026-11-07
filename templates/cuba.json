@@ -1,0 +1,41 @@
+{
+  "state": "Cuba",
+  "year": 1955,
+  "photo": "https://commons.wikimedia.org/wiki/File:CUBA_JAN-JUN_1955_license_plate_Flickr_-_woody1778a.jpg",
+  "colors": {
+    "background": "#4F6F8E",
+    "ink": "#EEEADC"
+  },
+  "serial_format": "999-999",
+  "serial_example": "163-285",
+  "elements": [
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "Saira-Italic-Medium.ttf",
+      "cap": 0.6,
+      "baseline": 0.7,
+      "x0": 0.035,
+      "x1": 0.965,
+      "sep": "rdot",
+      "sep_pad": 0.1,
+      "skew": 0,
+      "track": 0.03,
+      "stem": 0.2,
+      "max_sx": 1.3
+    },
+    {
+      "type": "text",
+      "id": "bottom",
+      "text": "PART.3-E.55-CUBA",
+      "font": "Saira-Italic-Medium.ttf",
+      "cap": 0.17,
+      "baseline": 0.93,
+      "x": 0.508,
+      "anchor": "middle",
+      "width": 0.886,
+      "skew": 0,
+      "stem": 0.2
+    }
+  ]
+}

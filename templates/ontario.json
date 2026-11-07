@@ -1,0 +1,61 @@
+{
+  "state": "Ontario",
+  "year": 1954,
+  "photo": "https://commons.wikimedia.org/wiki/File:Ontario_1954_License_Plate.jpg",
+  "colors": {
+    "background": "#E9E4D3",
+    "ink": "#1B2233"
+  },
+  "serial_format": "9999 L",
+  "serial_example": "3602 U",
+  "elements": [
+    {
+      "type": "text",
+      "id": "state",
+      "text": "ONTARIO",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.095,
+      "baseline": 0.212,
+      "x": 0.253,
+      "anchor": "middle",
+      "width": 0.263,
+      "stem": 0.17,
+      "fit": "max"
+    },
+    {
+      "type": "shape",
+      "shape": "crown",
+      "x": 0.438,
+      "y": 0.06,
+      "w": 0.126,
+      "h": 0.16
+    },
+    {
+      "type": "text",
+      "id": "year_right",
+      "text": "1954",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.095,
+      "baseline": 0.212,
+      "x": 0.743,
+      "anchor": "middle",
+      "width": 0.221,
+      "stem": 0.17,
+      "fit": "max"
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "Oswald-Medium.ttf",
+      "cap": 0.62,
+      "baseline": 0.92,
+      "x0": 0.05,
+      "x1": 0.93,
+      "sep": "none",
+      "gap": 0.3,
+      "track": 0.06,
+      "stem": 0.17,
+      "max_sx": 1.35
+    }
+  ]
+}

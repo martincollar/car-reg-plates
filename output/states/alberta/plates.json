@@ -1,0 +1,372 @@
+[
+ {
+  "series": "sample",
+  "serial": "PP 156",
+  "file": "alberta-sample-pp156"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D S3T",
+  "file": "alberta-vanity-3ds3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HR N3T",
+  "file": "alberta-vanity-hrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL A3D",
+  "file": "alberta-vanity-pla3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D PLA",
+  "file": "alberta-vanity-3dpla"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0 PLR",
+  "file": "alberta-vanity-d0plr"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL IM8",
+  "file": "alberta-vanity-elim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU D51",
+  "file": "alberta-vanity-hud51"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL 43D",
+  "file": "alberta-vanity-pl43d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU D54",
+  "file": "alberta-vanity-hud54"
+ },
+ {
+  "series": "vanity",
+  "serial": "LI M8R",
+  "file": "alberta-vanity-lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0 RNT",
+  "file": "alberta-vanity-h0rnt"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D 53T",
+  "file": "alberta-vanity-3d53t"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D S37",
+  "file": "alberta-vanity-3ds37"
+ },
+ {
+  "series": "vanity",
+  "serial": "HR N37",
+  "file": "alberta-vanity-hrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D PL4",
+  "file": "alberta-vanity-3dpl4"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L IM8",
+  "file": "alberta-vanity-3lim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL 1M8",
+  "file": "alberta-vanity-el1m8"
+ },
+ {
+  "series": "vanity",
+  "serial": "L1 M8R",
+  "file": "alberta-vanity-l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0 RN7",
+  "file": "alberta-vanity-h0rn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HR NE7",
+  "file": "alberta-vanity-hrne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HU D5N",
+  "file": "alberta-vanity-hud5n"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D 537",
+  "file": "alberta-vanity-3d537"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L 1M8",
+  "file": "alberta-vanity-3l1m8"
+ },
+ {
+  "series": "random",
+  "serial": "ET 891",
+  "file": "alberta-random-et891"
+ },
+ {
+  "series": "random",
+  "serial": "KX 199",
+  "file": "alberta-random-kx199"
+ },
+ {
+  "series": "random",
+  "serial": "LL 834",
+  "file": "alberta-random-ll834"
+ },
+ {
+  "series": "random",
+  "serial": "KA 268",
+  "file": "alberta-random-ka268"
+ },
+ {
+  "series": "random",
+  "serial": "GN 131",
+  "file": "alberta-random-gn131"
+ },
+ {
+  "series": "random",
+  "serial": "UA 122",
+  "file": "alberta-random-ua122"
+ },
+ {
+  "series": "random",
+  "serial": "EF 921",
+  "file": "alberta-random-ef921"
+ },
+ {
+  "series": "random",
+  "serial": "TB 794",
+  "file": "alberta-random-tb794"
+ },
+ {
+  "series": "random",
+  "serial": "SN 914",
+  "file": "alberta-random-sn914"
+ },
+ {
+  "series": "random",
+  "serial": "UP 771",
+  "file": "alberta-random-up771"
+ },
+ {
+  "series": "random",
+  "serial": "RK 763",
+  "file": "alberta-random-rk763"
+ },
+ {
+  "series": "random",
+  "serial": "CD 049",
+  "file": "alberta-random-cd049"
+ },
+ {
+  "series": "random",
+  "serial": "HF 264",
+  "file": "alberta-random-hf264"
+ },
+ {
+  "series": "random",
+  "serial": "WH 842",
+  "file": "alberta-random-wh842"
+ },
+ {
+  "series": "random",
+  "serial": "HM 024",
+  "file": "alberta-random-hm024"
+ },
+ {
+  "series": "random",
+  "serial": "AX 911",
+  "file": "alberta-random-ax911"
+ },
+ {
+  "series": "random",
+  "serial": "CG 531",
+  "file": "alberta-random-cg531"
+ },
+ {
+  "series": "random",
+  "serial": "WD 499",
+  "file": "alberta-random-wd499"
+ },
+ {
+  "series": "random",
+  "serial": "HS 391",
+  "file": "alberta-random-hs391"
+ },
+ {
+  "series": "random",
+  "serial": "EJ 705",
+  "file": "alberta-random-ej705"
+ },
+ {
+  "series": "random",
+  "serial": "VG 182",
+  "file": "alberta-random-vg182"
+ },
+ {
+  "series": "random",
+  "serial": "FW 200",
+  "file": "alberta-random-fw200"
+ },
+ {
+  "series": "random",
+  "serial": "RK 521",
+  "file": "alberta-random-rk521"
+ },
+ {
+  "series": "random",
+  "serial": "BJ 883",
+  "file": "alberta-random-bj883"
+ },
+ {
+  "series": "random",
+  "serial": "JY 506",
+  "file": "alberta-random-jy506"
+ },
+ {
+  "series": "random",
+  "serial": "LN 767",
+  "file": "alberta-random-ln767"
+ },
+ {
+  "series": "random",
+  "serial": "HX 675",
+  "file": "alberta-random-hx675"
+ },
+ {
+  "series": "random",
+  "serial": "RM 940",
+  "file": "alberta-random-rm940"
+ },
+ {
+  "series": "random",
+  "serial": "UK 760",
+  "file": "alberta-random-uk760"
+ },
+ {
+  "series": "random",
+  "serial": "AB 577",
+  "file": "alberta-random-ab577"
+ },
+ {
+  "series": "random",
+  "serial": "NL 545",
+  "file": "alberta-random-nl545"
+ },
+ {
+  "series": "random",
+  "serial": "VT 960",
+  "file": "alberta-random-vt960"
+ },
+ {
+  "series": "random",
+  "serial": "JN 743",
+  "file": "alberta-random-jn743"
+ },
+ {
+  "series": "random",
+  "serial": "HH 302",
+  "file": "alberta-random-hh302"
+ },
+ {
+  "series": "random",
+  "serial": "UX 961",
+  "file": "alberta-random-ux961"
+ },
+ {
+  "series": "random",
+  "serial": "MB 662",
+  "file": "alberta-random-mb662"
+ },
+ {
+  "series": "random",
+  "serial": "CB 649",
+  "file": "alberta-random-cb649"
+ },
+ {
+  "series": "random",
+  "serial": "HY 860",
+  "file": "alberta-random-hy860"
+ },
+ {
+  "series": "random",
+  "serial": "HX 322",
+  "file": "alberta-random-hx322"
+ },
+ {
+  "series": "random",
+  "serial": "RJ 185",
+  "file": "alberta-random-rj185"
+ },
+ {
+  "series": "random",
+  "serial": "EW 945",
+  "file": "alberta-random-ew945"
+ },
+ {
+  "series": "random",
+  "serial": "HJ 384",
+  "file": "alberta-random-hj384"
+ },
+ {
+  "series": "random",
+  "serial": "JK 212",
+  "file": "alberta-random-jk212"
+ },
+ {
+  "series": "random",
+  "serial": "VP 339",
+  "file": "alberta-random-vp339"
+ },
+ {
+  "series": "random",
+  "serial": "UA 772",
+  "file": "alberta-random-ua772"
+ },
+ {
+  "series": "random",
+  "serial": "KP 141",
+  "file": "alberta-random-kp141"
+ },
+ {
+  "series": "random",
+  "serial": "ST 131",
+  "file": "alberta-random-st131"
+ },
+ {
+  "series": "random",
+  "serial": "MZ 391",
+  "file": "alberta-random-mz391"
+ },
+ {
+  "series": "random",
+  "serial": "ZV 916",
+  "file": "alberta-random-zv916"
+ },
+ {
+  "series": "random",
+  "serial": "PC 532",
+  "file": "alberta-random-pc532"
+ }
+]

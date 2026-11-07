@@ -1,0 +1,372 @@
+[
+ {
+  "series": "sample",
+  "serial": "3602 U",
+  "file": "ontario-sample-3602u"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS3 T",
+  "file": "ontario-vanity-3ds3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3 T",
+  "file": "ontario-vanity-hrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "PLA3 D",
+  "file": "ontario-vanity-pla3d"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DPL A",
+  "file": "ontario-vanity-3dpla"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0PL R",
+  "file": "ontario-vanity-d0plr"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELIM 8",
+  "file": "ontario-vanity-elim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5 1",
+  "file": "ontario-vanity-hud51"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL43 D",
+  "file": "ontario-vanity-pl43d"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5 4",
+  "file": "ontario-vanity-hud54"
+ },
+ {
+  "series": "vanity",
+  "serial": "LIM8 R",
+  "file": "ontario-vanity-lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN T",
+  "file": "ontario-vanity-h0rnt"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D53 T",
+  "file": "ontario-vanity-3d53t"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS3 7",
+  "file": "ontario-vanity-3ds37"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRN3 7",
+  "file": "ontario-vanity-hrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DPL 4",
+  "file": "ontario-vanity-3dpl4"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LIM 8",
+  "file": "ontario-vanity-3lim8"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL1M 8",
+  "file": "ontario-vanity-el1m8"
+ },
+ {
+  "series": "vanity",
+  "serial": "L1M8 R",
+  "file": "ontario-vanity-l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0RN 7",
+  "file": "ontario-vanity-h0rn7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HRNE 7",
+  "file": "ontario-vanity-hrne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD5 N",
+  "file": "ontario-vanity-hud5n"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D53 7",
+  "file": "ontario-vanity-3d537"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L1M 8",
+  "file": "ontario-vanity-3l1m8"
+ },
+ {
+  "series": "random",
+  "serial": "7497 X",
+  "file": "ontario-random-7497x"
+ },
+ {
+  "series": "random",
+  "serial": "7836 H",
+  "file": "ontario-random-7836h"
+ },
+ {
+  "series": "random",
+  "serial": "1293 P",
+  "file": "ontario-random-1293p"
+ },
+ {
+  "series": "random",
+  "serial": "8473 Z",
+  "file": "ontario-random-8473z"
+ },
+ {
+  "series": "random",
+  "serial": "7491 L",
+  "file": "ontario-random-7491l"
+ },
+ {
+  "series": "random",
+  "serial": "0858 X",
+  "file": "ontario-random-0858x"
+ },
+ {
+  "series": "random",
+  "serial": "8962 M",
+  "file": "ontario-random-8962m"
+ },
+ {
+  "series": "random",
+  "serial": "0921 V",
+  "file": "ontario-random-0921v"
+ },
+ {
+  "series": "random",
+  "serial": "2752 M",
+  "file": "ontario-random-2752m"
+ },
+ {
+  "series": "random",
+  "serial": "3403 Z",
+  "file": "ontario-random-3403z"
+ },
+ {
+  "series": "random",
+  "serial": "6167 C",
+  "file": "ontario-random-6167c"
+ },
+ {
+  "series": "random",
+  "serial": "5915 K",
+  "file": "ontario-random-5915k"
+ },
+ {
+  "series": "random",
+  "serial": "7743 G",
+  "file": "ontario-random-7743g"
+ },
+ {
+  "series": "random",
+  "serial": "7913 T",
+  "file": "ontario-random-7913t"
+ },
+ {
+  "series": "random",
+  "serial": "2930 J",
+  "file": "ontario-random-2930j"
+ },
+ {
+  "series": "random",
+  "serial": "6289 K",
+  "file": "ontario-random-6289k"
+ },
+ {
+  "series": "random",
+  "serial": "3871 J",
+  "file": "ontario-random-3871j"
+ },
+ {
+  "series": "random",
+  "serial": "4881 K",
+  "file": "ontario-random-4881k"
+ },
+ {
+  "series": "random",
+  "serial": "1480 L",
+  "file": "ontario-random-1480l"
+ },
+ {
+  "series": "random",
+  "serial": "4167 C",
+  "file": "ontario-random-4167c"
+ },
+ {
+  "series": "random",
+  "serial": "1988 F",
+  "file": "ontario-random-1988f"
+ },
+ {
+  "series": "random",
+  "serial": "9289 R",
+  "file": "ontario-random-9289r"
+ },
+ {
+  "series": "random",
+  "serial": "4330 T",
+  "file": "ontario-random-4330t"
+ },
+ {
+  "series": "random",
+  "serial": "7683 M",
+  "file": "ontario-random-7683m"
+ },
+ {
+  "series": "random",
+  "serial": "7295 Y",
+  "file": "ontario-random-7295y"
+ },
+ {
+  "series": "random",
+  "serial": "3092 Y",
+  "file": "ontario-random-3092y"
+ },
+ {
+  "series": "random",
+  "serial": "9656 M",
+  "file": "ontario-random-9656m"
+ },
+ {
+  "series": "random",
+  "serial": "0648 S",
+  "file": "ontario-random-0648s"
+ },
+ {
+  "series": "random",
+  "serial": "8049 Z",
+  "file": "ontario-random-8049z"
+ },
+ {
+  "series": "random",
+  "serial": "9496 J",
+  "file": "ontario-random-9496j"
+ },
+ {
+  "series": "random",
+  "serial": "5058 F",
+  "file": "ontario-random-5058f"
+ },
+ {
+  "series": "random",
+  "serial": "6581 M",
+  "file": "ontario-random-6581m"
+ },
+ {
+  "series": "random",
+  "serial": "1243 G",
+  "file": "ontario-random-1243g"
+ },
+ {
+  "series": "random",
+  "serial": "0232 C",
+  "file": "ontario-random-0232c"
+ },
+ {
+  "series": "random",
+  "serial": "2440 Y",
+  "file": "ontario-random-2440y"
+ },
+ {
+  "series": "random",
+  "serial": "2705 X",
+  "file": "ontario-random-2705x"
+ },
+ {
+  "series": "random",
+  "serial": "3107 M",
+  "file": "ontario-random-3107m"
+ },
+ {
+  "series": "random",
+  "serial": "3137 F",
+  "file": "ontario-random-3137f"
+ },
+ {
+  "series": "random",
+  "serial": "7179 J",
+  "file": "ontario-random-7179j"
+ },
+ {
+  "series": "random",
+  "serial": "6473 W",
+  "file": "ontario-random-6473w"
+ },
+ {
+  "series": "random",
+  "serial": "3529 X",
+  "file": "ontario-random-3529x"
+ },
+ {
+  "series": "random",
+  "serial": "2898 Y",
+  "file": "ontario-random-2898y"
+ },
+ {
+  "series": "random",
+  "serial": "0238 V",
+  "file": "ontario-random-0238v"
+ },
+ {
+  "series": "random",
+  "serial": "8122 U",
+  "file": "ontario-random-8122u"
+ },
+ {
+  "series": "random",
+  "serial": "2423 Z",
+  "file": "ontario-random-2423z"
+ },
+ {
+  "series": "random",
+  "serial": "3248 K",
+  "file": "ontario-random-3248k"
+ },
+ {
+  "series": "random",
+  "serial": "4980 X",
+  "file": "ontario-random-4980x"
+ },
+ {
+  "series": "random",
+  "serial": "3788 K",
+  "file": "ontario-random-3788k"
+ },
+ {
+  "series": "random",
+  "serial": "5500 X",
+  "file": "ontario-random-5500x"
+ },
+ {
+  "series": "random",
+  "serial": "1055 B",
+  "file": "ontario-random-1055b"
+ }
+]

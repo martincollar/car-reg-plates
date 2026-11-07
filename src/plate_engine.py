@@ -19,7 +19,8 @@ Element types
           Idaho and Utah plates; place it with "stack": {"x", "cap", "baselines": [top, bottom],
           "font", "sx", "stem"} and give "x0_plain" for where the serial starts without one.
   box     {"x0", "y0", "x1", "y1", "stroke" (mm), "radius" (mm)}   raised outline (year tabs)
-  shape   {"shape": "alaska_flag" | "pa_border" | "mt_border", ...} simplified state artwork
+  shape   {"shape": "alaska_flag" | "pa_border" | "mt_border" | "crown", ...} simplified state artwork
+          crown: {"x", "y", "w", "h"} box of Ontario's crown, "line" arch thickness (of h)
 
 Every raised element is written as an SVG path with class="relief"; make_stl.py extrudes them.
 """
@@ -32,7 +33,8 @@ from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import TTFont
-from shapely.geometry import Polygon
+from shapely.geometry import LineString, Point, Polygon
+from shapely.ops import unary_union
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -341,6 +343,25 @@ def render_shape(el, W, H):
         outer = Polygon([(x * W, y * H) for x, y in MT_OUTLINE]).buffer(-0.3).buffer(0.3)
         inner = outer.buffer(-t, join_style="mitre")
         return poly(outer.exterior.coords[:-1]) + poly(inner.exterior.coords[:-1])
+    if kind == "crown":
+        # Ontario's crown: solid band with three points, an open arch over it and an orb on top
+        x0, y0, w, h = el["x"] * W, el["y"] * H, el["w"] * W, el["h"] * H
+
+        def at(points):
+            return [(x0 + px * w, y0 + py * h) for px, py in points]
+
+        line = el.get("line", 0.09) * h
+        body = Polygon(at([(0.06, 0.97), (0.04, 0.58), (0.20, 0.42), (0.31, 0.62), (0.5, 0.40),
+                           (0.69, 0.62), (0.80, 0.42), (0.96, 0.58), (0.94, 0.97)]))
+        arch = LineString(at([(0.06, 0.62), (0.02, 0.42), (0.08, 0.28), (0.24, 0.20), (0.40, 0.22),
+                              (0.5, 0.28), (0.60, 0.22), (0.76, 0.20), (0.92, 0.28), (0.98, 0.42),
+                              (0.94, 0.62)])).buffer(line / 2)
+        stem = LineString(at([(0.5, 0.40), (0.5, 0.12)])).buffer(line / 2)
+        orb = Point(x0 + 0.5 * w, y0 + 0.08 * h).buffer(0.08 * h)
+        crown = unary_union([body, arch, stem, orb])
+        d = "".join(poly(g.exterior.coords[:-1]) + "".join(poly(i.coords[:-1]) for i in g.interiors)
+                    for g in getattr(crown, "geoms", [crown]))
+        return d
     raise ValueError(f"unknown shape {kind}")
 
 

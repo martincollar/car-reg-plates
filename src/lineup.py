@@ -23,8 +23,9 @@ PICKS = {
     "illinois": "51HHMD", "iowa": "H0R-N3T", "kentucky": "1NF-1LL", "michigan": "HU-D5-0N",
     "minnesota": "R4C-1NG", "nebraska": "3D-S3TS", "new-york": "TW1N-HP", "ohio": "HRN-3T",
     "montana": "H-0RN3T", "pennsylvania": "HUD51", "utah": "H/R N3T", "wisconsin": "C4R-B8R",
+    "ontario": "H0RN T", "alberta": "HR N3T", "cuba": "HUD-S0N",
 }
-COLS, PLATE_W = 4, 560
+COLS, PLATE_W = 5, 560
 WIDTH, TOP, ROW_H = 3200, 150, 463
 
 
@@ -37,7 +38,7 @@ def main():
         stem = "all-states-" + re.sub(r"[^A-Za-z0-9]+", "", args.serial).lower()
         title = f'"{args.serial}" - {len(picks)} states'
     else:
-        picks, stem, title = PICKS, "all-states", f"1950s US license plates - {len(PICKS)} states"
+        picks, stem, title = PICKS, "all-states", "1950s license plates - 16 US states, Ontario, Alberta and Cuba"
     names = sorted(picks)
     rows = (len(names) + COLS - 1) // COLS
     SIZE = (WIDTH, TOP + 20 + rows * ROW_H)

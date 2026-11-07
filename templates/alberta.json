@@ -1,0 +1,52 @@
+{
+  "state": "Alberta",
+  "year": 1956,
+  "photo": "https://commons.wikimedia.org/wiki/File:Alberta_1956_license_plate_-_Number_PP_156.jpg",
+  "colors": {
+    "background": "#E4E4DF",
+    "ink": "#D2553F"
+  },
+  "serial_format": "LL 999",
+  "serial_example": "PP 156",
+  "elements": [
+    {
+      "type": "text",
+      "id": "state",
+      "text": "ALBERTA",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.135,
+      "baseline": 0.205,
+      "x": 0.496,
+      "anchor": "middle",
+      "width": 0.458,
+      "stem": 0.17
+    },
+    {
+      "type": "serial",
+      "id": "serial",
+      "font": "HighwayGothic-E.ttf",
+      "cap": 0.49,
+      "baseline": 0.74,
+      "x0": 0.1,
+      "x1": 0.89,
+      "sep": "none",
+      "gap": 0.5,
+      "track": 0.05,
+      "stem": 0.19,
+      "max_sx": 1.35
+    },
+    {
+      "type": "text",
+      "id": "year_bottom",
+      "text": "1956",
+      "font": "HighwayGothic-D.ttf",
+      "cap": 0.132,
+      "baseline": 0.927,
+      "x": 0.491,
+      "anchor": "middle",
+      "width": 0.258,
+      "stem": 0.17,
+      "fit": "max"
+    }
+  ]
+}

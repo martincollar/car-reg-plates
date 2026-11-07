@@ -1,0 +1,467 @@
+[
+ {
+  "series": "sample",
+  "serial": "163-285",
+  "file": "cuba-sample-163285"
+ },
+ {
+  "series": "vanity",
+  "serial": "1NF-1LL",
+  "file": "cuba-vanity-1nf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS-3TS",
+  "file": "cuba-vanity-3ds3ts"
+ },
+ {
+  "series": "vanity",
+  "serial": "51H-HMD",
+  "file": "cuba-vanity-51hhmd"
+ },
+ {
+  "series": "vanity",
+  "serial": "C4R-B8R",
+  "file": "cuba-vanity-c4rb8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-N3T",
+  "file": "cuba-vanity-h0rn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-50N",
+  "file": "cuba-vanity-hud50n"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4C-1NG",
+  "file": "cuba-vanity-r4c1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "TW1-NHP",
+  "file": "cuba-vanity-tw1nhp"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0P-L3R",
+  "file": "cuba-vanity-d0pl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELI-M8R",
+  "file": "cuba-vanity-elim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-S0N",
+  "file": "cuba-vanity-huds0n"
+ },
+ {
+  "series": "vanity",
+  "serial": "INF-1LL",
+  "file": "cuba-vanity-inf1ll"
+ },
+ {
+  "series": "vanity",
+  "serial": "RAC-1NG",
+  "file": "cuba-vanity-rac1ng"
+ },
+ {
+  "series": "vanity",
+  "serial": "100-INF",
+  "file": "cuba-vanity-100inf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LI-M8R",
+  "file": "cuba-vanity-3lim8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HUD-5ON",
+  "file": "cuba-vanity-hud5on"
+ },
+ {
+  "series": "vanity",
+  "serial": "DPP-L3R",
+  "file": "cuba-vanity-dppl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "HHR-N3T",
+  "file": "cuba-vanity-hhrn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "INF-100",
+  "file": "cuba-vanity-inf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "PLA-215",
+  "file": "cuba-vanity-pla215"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL4-210",
+  "file": "cuba-vanity-pl4210"
+ },
+ {
+  "series": "vanity",
+  "serial": "ELM-N8R",
+  "file": "cuba-vanity-elmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D5-3T5",
+  "file": "cuba-vanity-3d53t5"
+ },
+ {
+  "series": "vanity",
+  "serial": "3DS-37S",
+  "file": "cuba-vanity-3ds37s"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-N37",
+  "file": "cuba-vanity-h0rn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "R4C-1N6",
+  "file": "cuba-vanity-r4c1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "EL1-M8R",
+  "file": "cuba-vanity-el1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "RAC-1N6",
+  "file": "cuba-vanity-rac1n6"
+ },
+ {
+  "series": "vanity",
+  "serial": "100-1NF",
+  "file": "cuba-vanity-1001nf"
+ },
+ {
+  "series": "vanity",
+  "serial": "3L1-M8R",
+  "file": "cuba-vanity-3l1m8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "1NF-100",
+  "file": "cuba-vanity-1nf100"
+ },
+ {
+  "series": "vanity",
+  "serial": "HHR-N37",
+  "file": "cuba-vanity-hhrn37"
+ },
+ {
+  "series": "vanity",
+  "serial": "PL4-215",
+  "file": "cuba-vanity-pl4215"
+ },
+ {
+  "series": "vanity",
+  "serial": "3LM-N8R",
+  "file": "cuba-vanity-3lmn8r"
+ },
+ {
+  "series": "vanity",
+  "serial": "D0P-LER",
+  "file": "cuba-vanity-d0pler"
+ },
+ {
+  "series": "vanity",
+  "serial": "DOP-L3R",
+  "file": "cuba-vanity-dopl3r"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-NET",
+  "file": "cuba-vanity-h0rnet"
+ },
+ {
+  "series": "vanity",
+  "serial": "HOR-N3T",
+  "file": "cuba-vanity-horn3t"
+ },
+ {
+  "series": "vanity",
+  "serial": "HOR-NE7",
+  "file": "cuba-vanity-horne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "3D5-375",
+  "file": "cuba-vanity-3d5375"
+ },
+ {
+  "series": "vanity",
+  "serial": "H0R-NE7",
+  "file": "cuba-vanity-h0rne7"
+ },
+ {
+  "series": "vanity",
+  "serial": "HOR-N37",
+  "file": "cuba-vanity-horn37"
+ },
+ {
+  "series": "random",
+  "serial": "906-805",
+  "file": "cuba-random-906805"
+ },
+ {
+  "series": "random",
+  "serial": "555-473",
+  "file": "cuba-random-555473"
+ },
+ {
+  "series": "random",
+  "serial": "296-366",
+  "file": "cuba-random-296366"
+ },
+ {
+  "series": "random",
+  "serial": "102-340",
+  "file": "cuba-random-102340"
+ },
+ {
+  "series": "random",
+  "serial": "623-301",
+  "file": "cuba-random-623301"
+ },
+ {
+  "series": "random",
+  "serial": "114-505",
+  "file": "cuba-random-114505"
+ },
+ {
+  "series": "random",
+  "serial": "837-024",
+  "file": "cuba-random-837024"
+ },
+ {
+  "series": "random",
+  "serial": "983-936",
+  "file": "cuba-random-983936"
+ },
+ {
+  "series": "random",
+  "serial": "383-946",
+  "file": "cuba-random-383946"
+ },
+ {
+  "series": "random",
+  "serial": "688-534",
+  "file": "cuba-random-688534"
+ },
+ {
+  "series": "random",
+  "serial": "412-379",
+  "file": "cuba-random-412379"
+ },
+ {
+  "series": "random",
+  "serial": "126-903",
+  "file": "cuba-random-126903"
+ },
+ {
+  "series": "random",
+  "serial": "802-023",
+  "file": "cuba-random-802023"
+ },
+ {
+  "series": "random",
+  "serial": "373-830",
+  "file": "cuba-random-373830"
+ },
+ {
+  "series": "random",
+  "serial": "160-499",
+  "file": "cuba-random-160499"
+ },
+ {
+  "series": "random",
+  "serial": "819-553",
+  "file": "cuba-random-819553"
+ },
+ {
+  "series": "random",
+  "serial": "037-135",
+  "file": "cuba-random-037135"
+ },
+ {
+  "series": "random",
+  "serial": "028-522",
+  "file": "cuba-random-028522"
+ },
+ {
+  "series": "random",
+  "serial": "399-923",
+  "file": "cuba-random-399923"
+ },
+ {
+  "series": "random",
+  "serial": "158-396",
+  "file": "cuba-random-158396"
+ },
+ {
+  "series": "random",
+  "serial": "211-314",
+  "file": "cuba-random-211314"
+ },
+ {
+  "series": "random",
+  "serial": "573-023",
+  "file": "cuba-random-573023"
+ },
+ {
+  "series": "random",
+  "serial": "987-089",
+  "file": "cuba-random-987089"
+ },
+ {
+  "series": "random",
+  "serial": "308-091",
+  "file": "cuba-random-308091"
+ },
+ {
+  "series": "random",
+  "serial": "972-415",
+  "file": "cuba-random-972415"
+ },
+ {
+  "series": "random",
+  "serial": "033-976",
+  "file": "cuba-random-033976"
+ },
+ {
+  "series": "random",
+  "serial": "074-268",
+  "file": "cuba-random-074268"
+ },
+ {
+  "series": "random",
+  "serial": "520-493",
+  "file": "cuba-random-520493"
+ },
+ {
+  "series": "random",
+  "serial": "607-918",
+  "file": "cuba-random-607918"
+ },
+ {
+  "series": "random",
+  "serial": "044-797",
+  "file": "cuba-random-044797"
+ },
+ {
+  "series": "random",
+  "serial": "198-743",
+  "file": "cuba-random-198743"
+ },
+ {
+  "series": "random",
+  "serial": "594-463",
+  "file": "cuba-random-594463"
+ },
+ {
+  "series": "random",
+  "serial": "829-213",
+  "file": "cuba-random-829213"
+ },
+ {
+  "series": "random",
+  "serial": "287-874",
+  "file": "cuba-random-287874"
+ },
+ {
+  "series": "random",
+  "serial": "013-858",
+  "file": "cuba-random-013858"
+ },
+ {
+  "series": "random",
+  "serial": "729-057",
+  "file": "cuba-random-729057"
+ },
+ {
+  "series": "random",
+  "serial": "941-611",
+  "file": "cuba-random-941611"
+ },
+ {
+  "series": "random",
+  "serial": "074-784",
+  "file": "cuba-random-074784"
+ },
+ {
+  "series": "random",
+  "serial": "721-203",
+  "file": "cuba-random-721203"
+ },
+ {
+  "series": "random",
+  "serial": "234-622",
+  "file": "cuba-random-234622"
+ },
+ {
+  "series": "random",
+  "serial": "237-880",
+  "file": "cuba-random-237880"
+ },
+ {
+  "series": "random",
+  "serial": "293-575",
+  "file": "cuba-random-293575"
+ },
+ {
+  "series": "random",
+  "serial": "676-187",
+  "file": "cuba-random-676187"
+ },
+ {
+  "series": "random",
+  "serial": "896-769",
+  "file": "cuba-random-896769"
+ },
+ {
+  "series": "random",
+  "serial": "227-590",
+  "file": "cuba-random-227590"
+ },
+ {
+  "series": "random",
+  "serial": "509-335",
+  "file": "cuba-random-509335"
+ },
+ {
+  "series": "random",
+  "serial": "984-501",
+  "file": "cuba-random-984501"
+ },
+ {
+  "series": "random",
+  "serial": "622-918",
+  "file": "cuba-random-622918"
+ },
+ {
+  "series": "random",
+  "serial": "618-401",
+  "file": "cuba-random-618401"
+ },
+ {
+  "series": "random",
+  "serial": "611-969",
+  "file": "cuba-random-611969"
+ }
+]

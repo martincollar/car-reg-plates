@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Browse the plates — 1950s US licence plates for the 3D Sets Doppler Model 23</title>
-<meta name="description" content="Previews of every 3D-printable 1950s US licence plate for the 3D Sets Doppler Model 23: 16 states, original examples, vanity and random serials.">
-<meta property="og:title" content="1950s US licence plates for the 3D Sets Doppler Model 23 — pick yours">
-<meta property="og:description" content="16 states, original 1950s examples, vanity and random serials, ready to 3D print.">
+<title>Browse the plates — 1950s licence plates for the 3D Sets Doppler Model 23</title>
+<meta name="description" content="Previews of every 3D-printable 1950s licence plate for the 3D Sets Doppler Model 23: 16 US states, Ontario, Alberta and Cuba, original examples, vanity and random serials.">
+<meta property="og:title" content="1950s licence plates for the 3D Sets Doppler Model 23 — pick yours">
+<meta property="og:description" content="16 US states, Ontario, Alberta and Cuba, original 1950s examples, vanity and random serials, ready to 3D print.">
 <meta property="og:image" content="https://martincollar.github.io/car-reg-plates/img/sticker-bomb.jpg">
 <style>
   @font-face { font-family: "Saira"; src: url("fonts/Saira-SemiBold.ttf") format("truetype"); font-weight: 600; font-display: swap; }
@@ -122,7 +122,7 @@
 <body>
 <div class="band top">
   <div class="wrap bar">
-    <a class="home" href="./"><span aria-hidden="true">←</span> 1950s US licence plates</a>
+    <a class="home" href="./"><span aria-hidden="true">←</span> 1950s licence plates</a>
     <a class="btn slim" href="https://www.printables.com/model/1903176" target="_blank" rel="noopener">Download on Printables ↗</a>
   </div>
 </div>
@@ -194,7 +194,7 @@
   const typeName = (p) => SERIES[p.series] ?? p.series;
   const option = (value, text) => Object.assign(document.createElement("option"), { value, textContent: text });
 
-  ui.state.append(option(ALL, `All states (${STATES.length})`), ...STATES.map((s) => option(s.id, `${s.name} ${s.year}`)));
+  ui.state.append(option(ALL, `All (${STATES.length})`), ...STATES.map((s) => option(s.id, `${s.name} ${s.year}`)));
   ui.series.append(option(ALL, "All types"), ...Object.entries(SERIES).map(([k, v]) => option(k, v)));
 
   // State picker: a listbox showing each state's original example plate. It drives the hidden
@@ -206,7 +206,7 @@
     return s ? src({ ...sampleOf(s), state: s }) : "img/all-states.jpg";
   };
   const stateEntries = [
-    { id: ALL, name: `All states (${STATES.length})` },
+    { id: ALL, name: `All (${STATES.length})` },
     ...STATES.map((s) => ({ id: s.id, name: s.name })),
   ];
   picker.list.replaceChildren(...stateEntries.map((e) => {
@@ -311,7 +311,7 @@
     const allStates = ui.state.value === ALL;
     ui.plate.replaceChildren(...list.map((p) =>
       option(keyOf(p), allStates ? `${p.serial} · ${p.state.name}` : `${p.serial} · ${typeName(p)}`)));
-    const stateName = allStates ? "All states" : STATES.find((s) => s.id === ui.state.value).name;
+    const stateName = allStates ? "All plates" : STATES.find((s) => s.id === ui.state.value).name;
     $("grid-title").textContent = ui.series.value === ALL ? stateName : `${stateName} · ${SERIES[ui.series.value]}`;
     $("count").textContent = `${list.length} plate${list.length === 1 ? "" : "s"}`;
     syncStatePicker();

@@ -1,6 +1,6 @@
 # Printed reg plates
 
-3D-printable 1950s US licence plates for the **3D Sets Doppler Model 23** model car. Each state has a template copied from a real 1954 plate: its own layout, lettering, colours and serial format. You get random serials in the real format, or your own text, raised on a plate blank STL.
+3D-printable 1950s licence plates for the **3D Sets Doppler Model 23** model car: 16 US states, plus Ontario, Alberta and Cuba, where Hudsons were driven too (Hudson built cars in Tilbury, Ontario, until 1954). Each one has a template copied from a real 1950s plate: its own layout, lettering, colours and serial format. You get random serials in the real format, or your own text, raised on a plate blank STL.
 
 **All plates are ready to download on Printables: <https://www.printables.com/model/1903176>.** Browse them first in the plate picker: <https://martincollar.github.io/car-reg-plates/>.
 
@@ -8,9 +8,9 @@
 
 ![One plate per state](output/previews/all-states.jpg)
 
-## States
+## States, provinces and Cuba
 
-Most templates are from 1954 plates; Idaho is the 1951 plate, Utah the 1953 one and Montana the 1955 one, all still within the Hudson Hornet's 1951–57 run. Photo links are in each template's `photo` field (Wikimedia Commons, except Montana's, which is an Etsy listing photo).
+Most templates are from 1954 plates; Idaho is the 1951 plate, Utah the 1953 one, Montana and Cuba the 1955 ones and Alberta the 1956 one, all still within the Hudson Hornet's 1951–57 run. Photo links are in each template's `photo` field (Wikimedia Commons, except Montana's, which is an Etsy listing photo).
 
 | Template | Layout | Serial format | Colours |
 |---|---|---|---|
@@ -30,6 +30,9 @@ Most templates are from 1954 plates; Idaho is the 1951 plate, Utah the 1953 one 
 | `idaho` | IDAHO 51 / stacked county code + serial (1951–52 plate) | `1/A 28 588` | white on maroon |
 | `utah` | UTAH 1953 / stacked letters + serial (1953 plate) | `B/H 980` | yellow on black |
 | `montana` | THE TREASURE STATE / serial / MONTANA - 55, state-shaped border (1955 plate) | `5-11088` | white on red |
+| `ontario` | ONTARIO, crown, 1954 / serial (Canada, 1954 plate) | `3602 U` | dark blue on cream |
+| `alberta` | ALBERTA / serial / 1956 (Canada, 1956 plate) | `PP 156` | red on white |
+| `cuba` | serial / PART.3-E.55-CUBA (private car, Jan–Jun 1955) | `163-285` | cream on blue |
 
 In a serial, `-` is the state's own separator (dot, dash, round dot or Michigan's cross) and a space is a gap. A prefix like `1/A ` is stacked, 1 over A, in small characters left of the serial (Idaho's county code, Utah's letters); a serial without one starts at the left edge instead.
 
@@ -62,7 +65,7 @@ python src/link_banner.py                     # 5. output/previews/browse-link-b
 python src/build_site.py                      # 6. html/: the plate picker web page
 ```
 
-Skip step 1 when rebuilding published plates. The random serials come from one seeded sequence, in state order, and Montana was added later with `--states montana`. A full `vanity.py` run gives new random serials for Montana and every state after it, and their plate links change.
+Skip step 1 when rebuilding published plates. The random serials come from one seeded sequence, in state order, and Montana was added later with `--states montana`, then Ontario, Cuba and Alberta with `--states ontario cuba alberta`. A full `vanity.py` run gives new random serials for those and every state after them, and their plate links change.
 
 `build_states.py --states iowa utah` rebuilds only some states; `--skip-stl` / `--skip-3mf` / `--skip-previews` skip parts. Personal plates are listed under `"personal"` in `custom_plates.json` (H0R-N3T on Iowa, Idaho and Utah, and 51HHMD on Illinois).
 
@@ -98,7 +101,7 @@ python src/build_all.py hornet           # just one
 python src/build_all.py --series custom  # one series: sample, custom or random
 ```
 
-Overview sheets: `output/overview.png` (the 16 state samples) and `output/overview-<series>.png` for each series.
+Overview sheets: `output/overview.png` (the original samples) and `output/overview-<series>.png` for each series.
 
 Each plate gets `output/<name>/` with `face.svg` (exact size, text as outlines), `plate.stl`, `text_only.stl` and `topview.png` (a render of the STL).
 
